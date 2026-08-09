@@ -2220,7 +2220,7 @@ function renderDetailedPageMarkup(hotel) {
                 <div class="detail-dish-number">0${i + 1}</div>
                 <div class="detail-dish-content">
                     <h4 class="detail-dish-name" style="font-size: 1.05rem;">
-                        <a href="https://soflobites.com/#restaurant/${rest.id}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-primary); text-decoration: none; font-weight: 700; display: inline-flex; align-items: center; gap: 0.35rem;">
+                        <a href="https://www.soflobites.com/#restaurant/${rest.id}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-primary); text-decoration: none; font-weight: 700; display: inline-flex; align-items: center; gap: 0.35rem;">
                             ${rest.name}
                             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                         </a>
@@ -2317,7 +2317,7 @@ function renderDetailedPageMarkup(hotel) {
 
                     <h3 class="detail-section-title">🍽️ Recommended Local Dining Nearby</h3>
                     <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.25rem; line-height: 1.5;">
-                        We believe a great stay requires incredible food. We've coordinated with our sister guide, <a href="https://soflobites.com" target="_blank" rel="noopener noreferrer" style="color: var(--accent-primary); text-decoration: none; font-weight: 600;">SoFlo Bites</a>, to recommend the best local dining spots in this immediate area:
+                        We believe a great stay requires incredible food. We've coordinated with our sister guide, <a href="https://www.soflobites.com/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-primary); text-decoration: none; font-weight: 600;">SoFlo Bites</a>, to recommend the best local dining spots in this immediate area:
                     </p>
                     <div class="detail-dishes-list">
                         ${diningHtml}
