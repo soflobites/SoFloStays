@@ -2051,3 +2051,53 @@ footer {
     }
 }
 
+/* Bottom AdSense Banner styles */
+.bottom-ad-container {
+    max-width: 1280px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.bottom-ad-wrapper {
+    background-color: var(--bg-card);
+    border: 1px dashed var(--border-color);
+    border-radius: var(--border-radius-md);
+    padding: 1rem;
+    min-height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--shadow-soft);
+}
+
+.bottom-ad-label {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.bottom-ad-wrapper .adsbygoogle {
+    display: inline-block;
+    width: 728px;
+    height: 90px;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .bottom-ad-container {
+        padding: 0 1rem;
+    }
+    .bottom-ad-wrapper {
+        min-height: 90px;
+        padding: 0.75rem;
+    }
+    .bottom-ad-wrapper .adsbygoogle {
+        width: 320px !important;
+        height: 50px !important;
+    }
+}
+

@@ -2979,9 +2979,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 feedbackTypeSelect.value = "comment";
                 feedbackTypeSelect.dispatchEvent(new Event("change"));
             }
-            const suggestSection = document.getElementById("suggest-section");
-            if (suggestSection) {
-                suggestSection.scrollIntoView({ behavior: "smooth" });
+            if (window.location.hash === "#suggest-section") {
+                const suggestSection = document.getElementById("suggest-section");
+                if (suggestSection) {
+                    suggestSection.scrollIntoView({ behavior: "smooth" });
+                }
+            } else {
+                window.location.hash = "#suggest-section";
             }
         });
     }
@@ -2995,9 +2999,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 feedbackTypeSelect.value = "suggest";
                 feedbackTypeSelect.dispatchEvent(new Event("change"));
             }
-            const suggestSection = document.getElementById("suggest-section");
-            if (suggestSection) {
-                suggestSection.scrollIntoView({ behavior: "smooth" });
+            if (window.location.hash === "#suggest-section") {
+                const suggestSection = document.getElementById("suggest-section");
+                if (suggestSection) {
+                    suggestSection.scrollIntoView({ behavior: "smooth" });
+                }
+            } else {
+                window.location.hash = "#suggest-section";
             }
         });
     }
