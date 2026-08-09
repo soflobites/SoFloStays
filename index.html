@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Primary SEO Optimization -->
+    <title>SoFlo Stays | Premium Hotel & Travel Guide to South Florida</title>
+    <meta name="description" content="Find the perfect places to stay in South Florida. Explore local hotel recommendations in Miami Beach, Key West, Fort Lauderdale, Palm Beach, and Naples. Beachfront luxury, boutique getaways, and hidden gems.">
+    <meta name="keywords" content="South Florida hotels, Miami Beach hotels, Key West resorts, Fort Lauderdale stay, Palm Beach boutique hotels, beachfront hotels, luxury hotels, family-friendly resorts, Florida Keys lodging, local travel guide">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://SoFloStays.com/">
+    <meta property="og:title" content="SoFlo Stays | Premium Hotel & Travel Guide to South Florida">
+    <meta property="og:description" content="Discover South Florida's best stays, from luxury oceanfront resorts to cozy boutique hideaways. Filter by location, budget, and vibes like beachfront, rooftop pools, and family-friendly.">
+    <meta property="og:image" content="https://SoFloStays.com/soflo_stay_hero.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://SoFloStays.com/">
+    <meta property="twitter:title" content="SoFlo Stays | Premium Hotel & Travel Guide to South Florida">
+    <meta property="twitter:description" content="Explore top-recommended hotels and resorts in South Florida, sorted by price, amenities, and unique local perks.">
+    <meta property="twitter:image" content="https://SoFloStays.com/soflo_stay_hero.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌴</text></svg>">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Javascript Core (Deferred for performance) -->
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <!-- Upper Monitization / Sponsor Banner -->
+    <div class="monetization-header-banner">
+        <span>Sponsored: Support our local travel guide by booking your stay and experiences through the affiliate links below.</span>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo" id="header-logo-link">
+                <span class="logo-icon">🌴</span>
+                <span class="logo-text">SoFlo<span>Stays</span></span>
+            </a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li class="nav-link active"><a href="#" id="nav-home">Home</a></li>
+                    <li class="nav-link"><a href="#hotel-grid" id="nav-explore">Explore Stays</a></li>
+                    <li class="nav-link"><a href="#best-of" id="nav-best-of">Best Of</a></li>
+                    <li class="nav-link"><a href="#about" id="nav-about">About</a></li>
+                    <li class="nav-link"><a href="https://soflobites.com" target="_blank" rel="noopener noreferrer" style="color: var(--accent-primary); font-weight: 700;">🍽️ Food Guide</a></li>
+                </ul>
+            </nav>
+            <button class="suggest-btn-nav" id="suggest-cta-btn">
+                Share Feedback
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div id="home-view">
+        
+        <!-- Hero Section -->
+        <section class="hero" aria-label="Welcome banner">
+            <div class="hero-content">
+                <h1 class="hero-title">Experience the Best of <span>South Florida Living</span></h1>
+                <p class="hero-description">
+                    Your local guide to the finest coastal hideaways, luxury beach resorts, and charming historic boutiques. Plan the perfect escape with curated recommendations and insider travel perks.
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="#hotel-grid" class="btn-primary" style="padding: 0.9rem 1.8rem; font-size: 1rem;" id="hero-find-btn">
+                        Find Your Stay
+                    </a>
+                    <a href="#suggest-section" class="btn-secondary" style="padding: 0.9rem 1.8rem; font-size: 1rem; color: #ffffff; border-color: rgba(255, 255, 255, 0.4);" id="hero-submit-btn">
+                        Suggest a Hotel
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Listing and Filters -->
+        <div class="main-layout">
+
+            <!-- Sidebar Filters Column -->
+            <aside class="sidebar" aria-label="Filters">
+                
+                <!-- Search input block -->
+                <section class="filter-section search-section">
+                    <h2 class="filter-section-title">Search <span>Stays</span></h2>
+                    <div class="search-wrapper">
+                        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <input type="text" id="search-input" class="search-input" placeholder="Search hotel name, location, amenity..." aria-label="Search hotel name, description, or amenities">
+                    </div>
+                </section>
+
+                <!-- Location Selector block -->
+                <section class="filter-section">
+                    <h2 class="filter-section-title">Location <span>Area</span></h2>
+                    <div class="filter-list" role="group" aria-label="Filter by location">
+                        <button class="filter-item-btn active" data-location="all">
+                            <span class="filter-name">All Locations</span>
+                        </button>
+                        <button class="filter-item-btn" data-location="Miami Beach">
+                            <span class="filter-name">Miami Beach</span>
+                        </button>
+                        <button class="filter-item-btn" data-location="Brickell">
+                            <span class="filter-name">Brickell</span>
+                        </button>
+                        <button class="filter-item-btn" data-location="Fort Lauderdale">
+                            <span class="filter-name">Fort Lauderdale</span>
+                        </button>
+                        <button class="filter-item-btn" data-location="Palm Beach">
+                            <span class="filter-name">Palm Beach</span>
+                        </button>
+                        <button class="filter-item-btn" data-location="Naples">
+                            <span class="filter-name">Naples</span>
+                        </button>
+                        <button class="filter-item-btn" data-location="Vero Beach">
+                            <span class="filter-name">Vero Beach</span>
+                        </button>
+                        <button class="filter-item-btn" data-location="Marco Island">
+                            <span class="filter-name">Marco Island</span>
+                        </button>
+                        <button class="filter-item-btn" data-location="Aventura">
+                            <span class="filter-name">Aventura</span>
+                        </button>
+                        <button class="filter-item-btn" data-location="Coral Gables">
+                            <span class="filter-name">Coral Gables</span>
+                        </button>
+                        <button class="filter-item-btn" data-location="Sunrise">
+                            <span class="filter-name">Sunrise</span>
+                        </button>
+                    </div>
+                </section>
+
+                <!-- Tags / Vibes block -->
+                <section class="filter-section">
+                    <h2 class="filter-section-title">Vibe &amp; <span>Amenities</span></h2>
+                    <div class="filter-list" role="group" aria-label="Filter by amenities">
+                        <button class="filter-item-btn" data-tag="beachfront">
+                            <span class="filter-name">Beachfront</span>
+                        </button>
+                        <button class="filter-item-btn" data-tag="luxury">
+                            <span class="filter-name">Luxury Resorts</span>
+                        </button>
+                        <button class="filter-item-btn" data-tag="boutique">
+                            <span class="filter-name">Boutique Stays</span>
+                        </button>
+                        <button class="filter-item-btn" data-tag="historic">
+                            <span class="filter-name">Historic Charm</span>
+                        </button>
+                        <button class="filter-item-btn" data-tag="family-friendly">
+                            <span class="filter-name">Family-friendly</span>
+                        </button>
+                        <button class="filter-item-btn" data-tag="spa">
+                            <span class="filter-name">Spa &amp; Wellness</span>
+                        </button>
+                        <button class="filter-item-btn" data-tag="rooftop pool">
+                            <span class="filter-name">Rooftop Pool</span>
+                        </button>
+                        <button class="filter-item-btn" data-tag="pet-friendly">
+                            <span class="filter-name">Pet-friendly</span>
+                        </button>
+                    </div>
+                </section>
+
+                <!-- Price Block -->
+                <section class="filter-section">
+                    <h2 class="filter-section-title">Price <span>Range</span></h2>
+                    <div class="filter-list" role="group" aria-label="Filter by price level">
+                        <button class="filter-item-btn active" data-price="all">
+                            <span class="filter-name">All Budgets</span>
+                        </button>
+                        <button class="filter-item-btn" data-price="$$">
+                            <span class="filter-name">$$ - Affordable Comfort</span>
+                        </button>
+                        <button class="filter-item-btn" data-price="$$$">
+                            <span class="filter-name">$$$ - Premium Stay</span>
+                        </button>
+                        <button class="filter-item-btn" data-price="$$$$">
+                            <span class="filter-name">$$$$ - Luxury / Ultra</span>
+                        </button>
+                    </div>
+                </section>
+
+            </aside>
+
+            <!-- Results Listing Column -->
+            <section class="results-container" aria-label="Hotel listings">
+                
+                <!-- Sorting & Statistics Header -->
+                <div class="results-header">
+                    <button class="reset-filters-btn" id="reset-filters" aria-label="Reset all filters">
+                        Clear All Filters
+                    </button>
+                    
+                    <span class="active-filters-label" id="active-filters-label" style="display: none;">Active Filters:</span>
+                    <div id="active-filters-badges" style="display: inline-flex; flex-wrap: wrap; gap: 0.5rem;"></div>
+
+                    <div class="results-stats">
+                        Found <span id="stats-number">0</span> stays
+                    </div>
+                </div>
+
+                <!-- Hotels Cards Grid -->
+                <div class="hotel-grid" id="hotel-grid">
+                    <!-- Populated dynamically via JS -->
+                </div>
+
+            </section>
+        </div><!-- .main-layout -->
+
+        <!-- Suggest a Hotel Section -->
+        <section id="suggest-section" class="suggest-section" aria-label="Suggest a hotel">
+            <div class="suggest-container">
+                <div class="suggest-header">
+                    <h2 class="suggest-title">Found a <span>Hidden Gem?</span></h2>
+                    <p class="suggest-subtitle">Recommend a fantastic hotel, boutique inn, or resort we missed! We personally verify all submissions to ensure we display only the finest local experiences.</p>
+                </div>
+                
+                <!-- Feedback/Submission form -->
+                <form id="hotel-suggest-form" class="suggest-form" action="https://formspree.io/f/xdenavbz" method="POST">
+                    
+                    <div class="form-field" style="margin-bottom: 1.5rem;">
+                        <label for="feedback-type" class="form-label" style="font-weight: 700; color: var(--text-primary);">I would like to *</label>
+                        <select id="feedback-type" class="form-select" name="type" required style="width: 100%; max-width: 100%; border: 1px solid var(--border-color); border-radius: var(--border-radius-sm); padding: 0.75rem; background-color: var(--bg-card); font-family: var(--font-body); font-size: 0.95rem; color: var(--text-secondary);">
+                            <option value="suggest" selected>Suggest a Hotel / Recommend a stay</option>
+                            <option value="comment">Write a comment / General feedback about the site</option>
+                        </select>
+                    </div>
+
+                    <div id="hotel-only-fields">
+                        <div class="form-group-row">
+                            <div class="form-field">
+                                <label for="suggest-hotel" class="form-label" id="label-suggest-hotel">Hotel Name *</label>
+                                <input type="text" id="suggest-hotel" class="form-input" name="hotel" placeholder="e.g., The Sunset Palms Resort" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="suggest-city" class="form-label" id="label-suggest-city">City *</label>
+                                <input type="text" id="suggest-city" class="form-input" name="city" placeholder="e.g., Naples, Miami Beach" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="suggest-reason" class="form-label" id="label-suggest-reason">Your Review / Why do you love it?</label>
+                        <textarea id="suggest-reason" class="form-textarea" name="reason" placeholder="Tell us about the vibes, views, or special touches that make this stay stand out..." required></textarea>
+                    </div>
+
+                    <div class="form-field" id="photo-field">
+                        <label for="suggest-photo" class="form-label">Photo Link (Optional)</label>
+                        <input type="url" id="suggest-photo" class="form-input" name="photo" placeholder="Optional Photo Link">
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn-primary" id="suggest-submit-btn" style="padding: 0.9rem 2.2rem; font-size: 1rem;">Submit Recommendation</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        </div><!-- #home-view -->
+
+        <!-- Dynamic Hotel Detail View Container -->
+        <div id="hotel-detail-view" class="detail-page-container" style="display: none;"></div>
+
+        <!-- About Page View -->
+        <div id="about-view" class="about-page-container" style="display: none;">
+            <div class="about-wrapper">
+                <!-- Back Navigation -->
+                <div class="about-back-nav">
+                    <a href="#" class="back-link" onclick="goBackToDirectory(event)">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                        Back to Stays Directory
+                    </a>
+                </div>
+
+                <!-- Hero Card -->
+                <div class="about-hero-card">
+                    <div class="about-hero-content">
+                        <span class="about-tagline">Behind SoFlo Stays</span>
+                        <h1 class="about-hero-title">Discovering South Florida's Best Escapes</h1>
+                        <p class="about-hero-subtitle">Curating authentic coastal accommodations that deliver comfort, service, and true tropical character.</p>
+                    </div>
+                </div>
+
+                <!-- Content Grid -->
+                <div class="about-grid">
+                    <!-- Left Panel: Who We Are & Why -->
+                    <div class="about-main-content">
+                        <section class="about-section">
+                            <h2 class="about-section-title">Who We Are</h2>
+                            <p>We’re a small group of local travel writers and hospitality lovers based in South Florida. As the sister site to <strong>SoFlo Bites</strong>, our neighborhood restaurant guide, we’re helping locals and visitors discover the best places to eat.</p>
+                            <p>Now, we’re doing the same for where to stay — creating a curated hotel directory that highlights properties with real character, genuine hospitality, and true South Florida charm.</p>
+                        </section>
+
+                        <section class="about-section">
+                            <h2 class="about-section-title">Why We Created SoFlo Stays</h2>
+                            <p>Most booking platforms are crowded with sponsored listings, generic descriptions, and reviews that don’t always reflect the real guest experience. We wanted to build a guide that cuts through the noise and focuses on hotels that actually deliver a memorable stay — from Art Deco gems in Miami Beach to peaceful coastal retreats in Naples and Key West.</p>
+                            <p>Every hotel we feature is hand‑selected based on its atmosphere, location, amenities, and how well it captures the spirit of South Florida. We also highlight bookable experiences and local dining nearby, so you can plan your stay and your adventures in one place.</p>
+                        </section>
+                        
+                        <section class="about-section">
+                            <h2 class="about-section-title">Our Selection Criteria</h2>
+                            <p>We choose hotels based on three core pillars:</p>
+                            <ul class="about-process-list">
+                                <li>
+                                    <strong>True Local Vibes:</strong> properties with tropical foliage, historic architecture, local art, or unique coastal views.
+                                </li>
+                                <li>
+                                    <strong>High‑Value Perks:</strong> rooftop bars, private beaches, complimentary bikes, spa access, and other standout amenities.
+                                </li>
+                                <li>
+                                    <strong>Local Food Connections:</strong> nearby dining recommendations from SoFlo Bites, focusing on authentic neighborhood favorites over tourist traps.
+                                </li>
+                            </ul>
+                            <p style="margin-top: 2rem; font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">Have a hotel suggestion? Submit it through our <a href="#suggest-section" style="color: var(--accent-primary); text-decoration: none; font-weight: 600;">Suggest a Hotel</a> form.</p>
+                        </section>
+                    </div>
+
+                    <!-- Right Panel: Mission & Coverage -->
+                    <div class="about-sidebar">
+                        <!-- Mission Box -->
+                        <div class="about-sidebar-card mission-card">
+                            <h3 class="sidebar-card-title">Our Mission</h3>
+                            <p class="mission-text">To connect travelers with local, memorable, and high‑quality accommodations across South Florida — supporting the region’s hospitality, dining, and tourism communities.</p>
+                        </div>
+
+                        <!-- Coverage Area Box -->
+                        <div class="about-sidebar-card coverage-card">
+                            <h3 class="sidebar-card-title">Our Coverage Area</h3>
+                            <p>We showcase local hotel recommendations in key vacation hubs across South Florida:</p>
+                            <div class="coverage-cities">
+                                <span class="city-chip">Miami Beach</span>
+                                <span class="city-chip">Brickell</span>
+                                <span class="city-chip">Fort Lauderdale</span>
+                                <span class="city-chip">Palm Beach</span>
+                                <span class="city-chip">Naples</span>
+                                <span class="city-chip">Vero Beach</span>
+                                <span class="city-chip">Marco Island</span>
+                                <span class="city-chip">Aventura</span>
+                                <span class="city-chip">Coral Gables</span>
+                                <span class="city-chip">Sunrise</span>
+                            </div>
+                            <p style="margin-top: 1.25rem; font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">Know a great boutique stay we should cover? Let us know!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Privacy Policy & Terms Page View -->
+        <div id="privacy-terms-view" class="privacy-terms-container" style="display: none;">
+            <div class="privacy-terms-wrapper">
+                <!-- Back Navigation -->
+                <div class="privacy-terms-back-nav">
+                    <a href="#" class="back-link" onclick="goBackToDirectory(event)">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                        Back to Stays Directory
+                    </a>
+                </div>
+
+                <div class="privacy-terms-layout">
+                    <!-- Left TOC Links (Sticky) -->
+                    <aside class="privacy-terms-toc">
+                        <div class="toc-box">
+                            <h3 class="toc-title">Legal &amp; Disclosures</h3>
+                            <ul class="toc-links-list">
+                                <li><a href="#privacy-terms-section-privacy" class="toc-link">1. Privacy Policy</a></li>
+                                <li><a href="#privacy-terms-section-cookies" class="toc-link">2. Cookies &amp; AdSense</a></li>
+                                <li><a href="#privacy-terms-section-terms" class="toc-link">3. Terms of Service</a></li>
+                                <li><a href="#privacy-terms-section-affiliate" class="toc-link">4. Affiliate Disclosure</a></li>
+                            </ul>
+                        </div>
+                    </aside>
+
+                    <!-- Right Legal Docs Content -->
+                    <div class="privacy-terms-content">
+                        <!-- Section 1 -->
+                        <section id="privacy-terms-section-privacy" class="doc-section">
+                            <h2>1. Privacy Policy</h2>
+                            <p>At SoFlo Stays, accessible from our website, one of our main priorities is the privacy of our visitors. This Privacy Policy outlines the types of information collected and how we use it.</p>
+                            <p>We only collect submission details (such as hotel name, feedback, and city choice) when you voluntarily submit them through our forms. We do not collect personal contact information unless you choose to provide it, and we do not sell, trade, or share any submitted information with third‑party marketing companies.</p>
+                            <p>If you have questions or require more information about our Privacy Policy, feel free to contact us.</p>
+                        </section>
+
+                        <!-- Section 2 -->
+                        <section id="privacy-terms-section-cookies" class="doc-section">
+                            <h2>2. Cookies &amp; Google AdSense</h2>
+                            <p>This site uses cookies to optimize user experience, remember selected filter preferences, and support third‑party monetization tools.</p>
+                            <p><strong>Third-Party Cookies:</strong> Third‑party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites.</p>
+                            <p><strong>Google AdSense:</strong> We display advertisements served through Google AdSense. Google uses cookies (such as the DART cookie) to provide personalized ads. You may opt out of personalized advertising by visiting Google’s Ads Settings or <a href="https://www.aboutads.info" target="_blank" rel="noopener noreferrer">www.aboutads.info</a>.</p>
+                        </section>
+
+                        <!-- Section 3 -->
+                        <section id="privacy-terms-section-terms" class="doc-section">
+                            <h2>3. Terms of Service</h2>
+                            <p>By accessing SoFlo Stays, you agree to comply with and be bound by these terms. Our directory listings, travel descriptions, maps, and reviews are compiled for general travel guidance. We make every effort to ensure accuracy, but hotels may change their rates, hours, amenities, or policies at any time. We recommend verifying booking details directly with the lodging provider.</p>
+                            <p>All listings are curated — no sponsored placements or paid listings influence our recommendations.</p>
+                        </section>
+
+                        <!-- Section 4 -->
+                        <section id="privacy-terms-section-affiliate" class="doc-section">
+                            <h2>4. Affiliate &amp; Referral Disclosure</h2>
+                            <p>Some hotel listings may contain booking links from partners such as Booking.com, Hotels.com, VRBO, or TripAdvisor. If these links are active, we may earn a small referral commission at no additional cost to you. This support helps us continue curating South Florida’s best stays and experiences.</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Best Of View -->
+        <div id="best-of-view" class="best-of-container" style="display: none;">
+            <div class="best-of-wrapper">
+                <!-- Back Navigation -->
+                <div class="best-of-back-nav">
+                    <a href="#" class="back-link" onclick="goBackToDirectory(event)">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                        Back to Stays Directory
+                    </a>
+                </div>
+
+                <!-- Header -->
+                <div class="best-of-header">
+                    <span class="best-of-tagline">Curated Travel Lists</span>
+                    <h1 class="best-of-title">SoFlo's Best Stays</h1>
+                    <p class="best-of-subtitle">Hand-picked hotel selections highlighting our top-rated stays in South Florida. Select a category below to explore.</p>
+                </div>
+
+                <!-- Best Of Categories List -->
+                <div class="best-of-list" id="best-of-categories-list">
+                    <!-- Populated dynamically via app.js -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Best Of List Detail View -->
+        <div id="best-of-list-detail-view" class="best-of-list-detail-container" style="display: none;">
+            <!-- Populated dynamically via app.js -->
+        </div>
+    </main>
+
+    <!-- Google AdSense Bottom Horizontal Banner Placeholder -->
+    <section id="bottom-ad-banner" style="max-width: 1280px; margin: 2rem auto; padding: 0 2rem; text-align: center;" aria-label="Sponsored content">
+        <div style="background-color: var(--bg-card); border: 1px dashed var(--border-color); border-radius: var(--border-radius-md); padding: 1rem; min-height: 90px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: var(--shadow-soft);">
+            <span style="font-size: 0.65rem; color: var(--text-muted); letter-spacing: 1px; margin-bottom: 0.5rem; font-weight: 600;">ADVERTISEMENT</span>
+            <!-- AdSense Code -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px"
+                 data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                 data-ad-slot="1234567890"></ins>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <!-- Branding column -->
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-icon">🌴</span>
+                        <span class="logo-text">SoFlo<span>Stays</span></span>
+                    </a>
+                    <p class="footer-tagline">South Florida's premier independent hotel and travel directory.</p>
+                </div>
+                <!-- Links column -->
+                <div class="footer-links">
+                    <h4 class="footer-title">Directory</h4>
+                    <ul>
+                        <li><a href="#" onclick="window.location.hash = '#hotel-grid'; return false;">Explore Stays</a></li>
+                        <li><a href="#best-of">Best Stays Lists</a></li>
+                        <li><a href="#about">About Our Guide</a></li>
+                    </ul>
+                </div>
+                <!-- Sister Project link column -->
+                <div class="footer-links">
+                    <h4 class="footer-title">Our Sister Guides</h4>
+                    <ul>
+                        <li><a href="https://soflobites.com" target="_blank" rel="noopener noreferrer">🍽️ SoFlo Bites (Food Guide)</a></li>
+                    </ul>
+                </div>
+                <!-- Legal Column -->
+                <div class="footer-links">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul>
+                        <li><a href="#privacy-terms">Privacy &amp; Cookies</a></li>
+                        <li><a href="#privacy-terms">AdSense Policies</a></li>
+                        <li><a href="#privacy-terms">Affiliate Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copy">&copy; 2026 SoFlo Stays. All rights reserved. Made with love in Florida.</p>
+                <p class="footer-affiliate-disclaimer">
+                    Disclaimer: SoFlo Stays is a reader-supported travel resource. When you click booking links and complete reservations through our affiliate partners (Booking.com, Hotels.com, TripAdvisor, or VRBO), we may earn a small referral commission at absolutely no extra cost to you. Advertisements are dynamically served via Google AdSense.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+

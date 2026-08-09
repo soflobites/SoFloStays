@@ -1,0 +1,18 @@
+{
+  "name": "soflo-stay",
+  "version": "1.0.0",
+  "description": "South Florida Hotel and Travel Recommendations Guide",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y http-server -p 3001"
+  },
+  "keywords": [
+    "south-florida",
+    "hotels",
+    "travel",
+    "guide",
+    "recommendations"
+  ],
+  "author": "",
+  "license": "ISC"
+}
