@@ -81,7 +81,7 @@ const HOTEL_DATA = [
             {
                 "name": "Naples Sightseeing Boat Tour",
                 "description": "Enjoy a scenic cruise through Naples Bay and Port Royal, spotting dolphins and multi-million dollar coastal mansions.",
-                "bookingUrl": "https://www.viator.com/tours/Naples/Naples-Sightseeing-Tour/d22381-32251P1",
+                "bookingUrl": "https://www.viator.com/tours/Naples/Naples-Sightseeing-Tour/d22381-32251P1?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Naples Sightseeing Boat Tour 2026 - BOOK NOW"
             }
         ]
@@ -157,7 +157,7 @@ const HOTEL_DATA = [
             {
                 "name": "Vero Beach: Guided Clear Kayak Tours",
                 "description": "Paddle through beautiful waterways in a clear kayak to spot local marine life and enjoy scenic views.",
-                "bookingUrl": "https://www.getyourguide.com/vero-beach-l102735/vero-beach-guided-clear-kayak-tours-t1169685/?ranking_uuid=ba53b1e9-e481-4863-9171-0c560c4f0bc6&q=Vero+Beach&date_from=2026-09-14&date_to=2026-09-14",
+                "bookingUrl": "https://gyg.me/qJVO8ton",
                 "bookingButtonText": "Vero Beach: Guided Clear Kayak Tours - 2026 (Verified Reviews)"
             }
         ]
@@ -234,7 +234,7 @@ const HOTEL_DATA = [
             {
                 "name": "Gulf of Mexico Sunset Cruise from Naples",
                 "description": "Sail from Naples on a scenic sunset catamaran tour out across the Gulf of Mexico, watching for wild dolphins.",
-                "bookingUrl": "https://www.viator.com/tours/Naples/Naples-Sunset-Cruise/d22381-32251P2",
+                "bookingUrl": "https://www.viator.com/tours/Naples/Naples-Sunset-Cruise/d22381-32251P2?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Gulf of Mexico Sunset Cruise from Naples 2026 - BOOK NOW"
             }
         ]
@@ -304,7 +304,7 @@ const HOTEL_DATA = [
             {
                 "name": "Dolphin, Manatee and Sea Turtle Adventure Tour of Bonita Springs",
                 "description": "Embark on a guided eco-tour through the shallow coastal mangroves of Bonita Springs to spot native marine life.",
-                "bookingUrl": "https://www.viator.com/tours/Naples/Dolphin-Manatee-and-Sea-Turtle-Adventure-Tour/d22381-39750P20",
+                "bookingUrl": "https://www.viator.com/tours/Naples/Dolphin-Manatee-and-Sea-Turtle-Adventure-Tour/d22381-39750P20?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Dolphin, Manatee and Sea Turtle Adventure Tour of Bonita Springs 2026 - Naples - BOOK NOW"
             }
         ]
@@ -380,7 +380,7 @@ const HOTEL_DATA = [
             {
                 "name": "Private Boat Ride in Miami with Experienced Captain and Champagne",
                 "description": "Embark on a private boat cruise of Miami departing from the marina in historic Coconut Grove.",
-                "bookingUrl": "https://www.viator.com/tours/Miami/Miami-Boat-Rental/d662-288880P1",
+                "bookingUrl": "https://www.viator.com/tours/Miami/Miami-Boat-Rental/d662-288880P1?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Miami Private Boat Cruise 2026 - BOOK NOW"
             }
         ]
@@ -455,7 +455,7 @@ const HOTEL_DATA = [
             {
                 "name": "Private Luxury Yacht | + 2 free Jet Skis | + Sea Pool",
                 "description": "Experience the ultimate Miami lifestyle with a private luxury yacht charter, including jet skis and an inflatable sea pool.",
-                "bookingUrl": "https://www.viator.com/tours/Miami/Private-Yacht-Charters-and-Boat-Rentals/d662-5606753P1",
+                "bookingUrl": "https://www.viator.com/tours/Miami/Private-Yacht-Charters-and-Boat-Rentals/d662-5606753P1?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Miami Private Yacht Rental With Optional Jet Skis 2026 - BOOK NOW"
             }
         ]
@@ -526,7 +526,7 @@ const HOTEL_DATA = [
             {
                 "name": "Private Miami Boat Charter: Sightseeing, Sunset & Sandbar",
                 "description": "Enjoy a customizable private boat rental with an experienced captain, cruising around Miami's beautiful bays and islands.",
-                "bookingUrl": "https://www.viator.com/tours/Miami/Private-Tour-Miami-Boat-Rental/d662-328105P2",
+                "bookingUrl": "https://www.viator.com/tours/Miami/Private-Tour-Miami-Boat-Rental/d662-328105P2?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Miami Private Boat Charter and Customizable Private Tour 2026 - BOOK NOW"
             }
         ]
@@ -603,7 +603,7 @@ const HOTEL_DATA = [
             {
                 "name": "Kickin’ Kayaks Morning Wildlife Tour",
                 "description": "Experience the local wildlife up close on a guided morning kayak tour through the beautiful waterways of Vero Beach.",
-                "bookingUrl": "https://www.viator.com/tours/Vero-Beach/Morning-Kayak-Tour/d50900-5639510P3",
+                "bookingUrl": "https://www.viator.com/tours/Vero-Beach/Morning-Kayak-Tour/d50900-5639510P3?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Kickin’ Kayaks Morning Wildlife Tour 2026 - Vero Beach - BOOK NOW"
             }
         ]
@@ -680,7 +680,7 @@ const HOTEL_DATA = [
             {
                 "name": "Miami Helicopter Tour: Breathtaking Miami Skyline & Ocean Views",
                 "description": "Fly high over Miami's skyscrapers, beaches, and key landmarks on a thrilling guided helicopter tour.",
-                "bookingUrl": "https://www.viator.com/tours/Miami/Taste-of-Miami-Helicopter-Tour/d662-231628P7",
+                "bookingUrl": "https://www.viator.com/tours/Miami/Taste-of-Miami-Helicopter-Tour/d662-231628P7?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Private Helicopter Tour of Miami 2026 - BOOK NOW"
             }
         ]
@@ -751,7 +751,7 @@ const HOTEL_DATA = [
             {
                 "name": "Sunset and Glow Clear Kayak Tour in North Naples",
                 "description": "Paddle through beautiful coastal waterways in a clear, illuminated kayak at sunset and after dark.",
-                "bookingUrl": "https://www.viator.com/tours/Naples/Sunset-and-Glow-Clear-Kayak-Tour/d22381-277731P2",
+                "bookingUrl": "https://www.viator.com/tours/Naples/Sunset-and-Glow-Clear-Kayak-Tour/d22381-277731P2?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "North Naples Sunset and Glow Clear Kayak Tour 2026 - BOOK NOW"
             }
         ]
@@ -819,7 +819,7 @@ const HOTEL_DATA = [
             {
                 "name": "#1 VENICE OF AMERICA TOUR - Cold A/C 115' LARGEST IN LAUDERDALE!",
                 "description": "Experience the best of Fort Lauderdale's waterways on the largest cruise boat in the city.",
-                "bookingUrl": "https://www.viator.com/tours/Fort-Lauderdale/Venice-of-America-Fort-Lauderdale-Cruise/d660-57834P1",
+                "bookingUrl": "https://www.viator.com/tours/Fort-Lauderdale/Venice-of-America-Fort-Lauderdale-Cruise/d660-57834P1?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "#1 VENICE OF AMERICA TOUR - Cold A/C 115' LARGEST IN LAUDERDALE! 2026 - Fort Lauderdale - BOOK NOW"
             }
         ]
@@ -894,7 +894,7 @@ const HOTEL_DATA = [
             {
                 "name": "The Escape Game Sunrise: 60-Minute Adventures at Sawgrass Mills",
                 "description": "Team up to find clues and solve puzzles in highly immersive escape rooms located right inside Sawgrass Mills.",
-                "bookingUrl": "https://www.tripadvisor.com/AttractionProductReview-g34667-d27160270-The_Escape_Game_Sunrise_60_Minute_Adventures_at_Sawgrass_Mills-Sunrise_Broward_Coun.html",
+                "bookingUrl": "https://www.viator.com/tours/Fort-Lauderdale/The-Escape-Game-in-Sawgrass-Mills-60-Minute-Adventures/d660-454008P1?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "The Escape Game Sunrise: 60-Minute Adventures at Sawgrass Mills (with Reviews)"
             }
         ]
@@ -964,7 +964,7 @@ const HOTEL_DATA = [
             {
                 "name": "Miami City Tour: 5 Sites, 4 Stops, One Epic Experience",
                 "description": "Discover Miami's top neighborhoods like Wynwood, Little Havana, and South Beach on a comprehensive guided city tour.",
-                "bookingUrl": "https://www.getyourguide.com/miami-l176/miami-city-tour-5-sites-4-stops-one-epic-experience-t841070/?ranking_uuid=a0ef1270-9d26-49cd-999f-1067b86353e0&q=Brickell%2C+Miami&date_from=2026-09-14&date_to=2026-09-14",
+                "bookingUrl": "https://gyg.me/itBU66Eq",
                 "bookingButtonText": "Miami City Tour: 5 Sites, 4 Stops, One Epic Experience - 2026 (Verified Reviews)"
             }
         ]
@@ -1104,7 +1104,7 @@ const HOTEL_DATA = [
             {
                 "name": "Guided Tour of Naples on a Vintage Trolley (Hop on - Hop off)",
                 "description": "Explore Naples' historic districts, beaches, and shopping hubs on a fully narrated vintage trolley tour with 15 stops.",
-                "bookingUrl": "https://www.viator.com/tours/Naples/Guided-Tour-of-Naples-on-a-Vintage-Trolley-Hop-on-Hop-off/d22381-445330P1",
+                "bookingUrl": "https://www.viator.com/tours/Naples/Guided-Tour-of-Naples-on-a-Vintage-Trolley-Hop-on-Hop-off/d22381-445330P1?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Naples Guided Hop On and Hop Off Tour on A Vintage Trolley 2026 - BOOK NOW"
             }
         ]
@@ -1172,7 +1172,7 @@ const HOTEL_DATA = [
             {
                 "name": "The Escape Game at Brickell City Centre in Miami",
                 "description": "Challenge yourself with immersive, premium 60-minute escape room adventures located in the heart of Brickell.",
-                "bookingUrl": "https://www.viator.com/tours/Miami/The-Escape-Game-in-Miami-60-Minute-Adventures/d662-472529P1",
+                "bookingUrl": "https://www.viator.com/tours/Miami/The-Escape-Game-in-Miami-60-Minute-Adventures/d662-472529P1?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Miami: Small-Group Escape Room Games at Brickell City Center 2026 - BOOK NOW"
             }
         ]
@@ -1240,7 +1240,7 @@ const HOTEL_DATA = [
             {
                 "name": "Miami Beach: Parasailing Boat Tour in South Beach",
                 "description": "Fly high over South Beach on a thrilling parasailing adventure, taking in sweeping views of the shoreline.",
-                "bookingUrl": "https://www.getyourguide.com/miami-l176/miami-parasailing-experience-in-south-beach-t534127/?ranking_uuid=79cd8c16-159f-4d3a-9c8f-2850492c079e&q=Miami+Beach&date_from=2026-09-14&date_to=2026-09-14",
+                "bookingUrl": "https://gyg.me/BpbsaCSX",
                 "bookingButtonText": "Miami Beach: Parasailing Boat Tour in South Beach - 2026 (Verified Reviews)"
             }
         ]
@@ -1311,7 +1311,7 @@ const HOTEL_DATA = [
             {
                 "name": "Sightseeing Hakuna Matata Catamaran Cruise in Palm Beach",
                 "description": "Board the catamaran passenger ferry Hakuna Matata for a scenic sightseeing cruise around Palm Beach.",
-                "bookingUrl": "https://www.viator.com/tours/West-Palm-Beach/Sightseeing-Catamaran-Cruise/d24204-218537P2",
+                "bookingUrl": "https://www.viator.com/tours/West-Palm-Beach/Sightseeing-Catamaran-Cruise/d24204-218537P2?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Palm Beach Catamaran Hakuna Matata Cruise 2026 - West Palm Beach - BOOK NOW"
             }
         ]
@@ -1379,10 +1379,10 @@ const HOTEL_DATA = [
                 "description": "Fly kites on Haulover Beach or book a deep-sea fishing charter at the Haulover Park Marina, just north of the resort."
             },
             {
-                "name": "Jet ski Tour in Miami with Boat Ride",
-                "description": "Experience a high-speed jet ski tour of Miami's waterways combined with a scenic boat ride.",
-                "bookingUrl": "https://www.tripadvisor.com/AttractionProductReview-g34438-d27878568-Jet_ski_Tour_in_Miami_with_Boat_Ride-Miami_Florida.html",
-                "bookingButtonText": "Jet ski Tour in Miami with Boat Ride (with Reviews)"
+                "name": "Miami: Sandbar, Billionare's & Raccoon Island Private Tour",
+                "description": "Embark on a private boat excursion to swim at the Haulover Sandbar, see Raccoon Island, and cruise past Indian Creek celebrity mansions.",
+                "bookingUrl": "https://gyg.me/sIV7fnYj",
+                "bookingButtonText": "Miami: Sandbar, Billionare's & Raccoon Island Private Tour - BOOK NOW"
             }
         ]
     },
@@ -1443,7 +1443,7 @@ const HOTEL_DATA = [
             {
                 "name": "Private Luxury Yacht | + 2 free Jet Skis | + Sea Pool",
                 "description": "Experience the ultimate Miami lifestyle with a private luxury yacht charter, including jet skis and an inflatable sea pool.",
-                "bookingUrl": "https://www.viator.com/tours/Miami/Private-Yacht-Charters-and-Boat-Rentals/d662-5606753P1",
+                "bookingUrl": "https://www.viator.com/tours/Miami/Private-Yacht-Charters-and-Boat-Rentals/d662-5606753P1?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Miami Private Yacht Rental With Optional Jet Skis 2026 - BOOK NOW"
             },
             {
@@ -1510,7 +1510,7 @@ const HOTEL_DATA = [
             {
                 "name": "Speedboat Sightseeing Adventure of Miami",
                 "description": "Feel the thrill of a high-speed speedboat cruise past Star Island, South Beach, and Fisher Island.",
-                "bookingUrl": "https://www.viator.com/tours/Miami/Speedboat-Sightseeing-Tour-in-Miami/d662-35834P1",
+                "bookingUrl": "https://www.viator.com/tours/Miami/Speedboat-Sightseeing-Tour-in-Miami/d662-35834P1?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Miami Speedboat Tour With Star Island, South Beach Views 2026 - BOOK NOW"
             },
             {
@@ -1584,7 +1584,7 @@ const HOTEL_DATA = [
             {
                 "name": "Naples: Sunset Boat Cruise with Charcuterie and Wine",
                 "description": "Set sail on a sunset cruise along Naples' coast, enjoying a selection of wine and premium charcuterie while looking for dolphins.",
-                "bookingUrl": "https://www.getyourguide.com/naples-florida-l104274/naples-sunset-tour-all-included-for-unforgettable-moments-t616237/?ranking_uuid=521923aa-adb8-4aa1-abd7-23eb05ca7530&q=Naples%2C+Florida&date_from=2026-09-14&date_to=2026-09-14",
+                "bookingUrl": "https://gyg.me/3SOc33kR",
                 "bookingButtonText": "Naples: Sunset Boat Cruise with Charcuterie and Wine - 2026 (Verified Reviews)"
             }
         ]
@@ -1655,7 +1655,7 @@ const HOTEL_DATA = [
             {
                 "name": "Sunset and Glow Clear Kayak Tour in North Naples",
                 "description": "Paddle through beautiful coastal waterways in a clear, illuminated kayak at sunset and after dark.",
-                "bookingUrl": "https://www.viator.com/tours/Naples/Sunset-and-Glow-Clear-Kayak-Tour/d22381-277731P2",
+                "bookingUrl": "https://www.viator.com/tours/Naples/Sunset-and-Glow-Clear-Kayak-Tour/d22381-277731P2?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "North Naples Sunset and Glow Clear Kayak Tour 2026 - BOOK NOW"
             }
         ]
@@ -1724,7 +1724,7 @@ const HOTEL_DATA = [
             {
                 "name": "Sunset or Night time helicopter tour in Miami",
                 "description": "Experience a private sunset or nighttime helicopter tour over Miami's iconic skyline and coastline.",
-                "bookingUrl": "https://www.viator.com/tours/Fort-Lauderdale/Private-Sunset-Night-time-helicopter-tour-in-Miami/d660-466236P2",
+                "bookingUrl": "https://www.viator.com/tours/Fort-Lauderdale/Private-Sunset-Night-time-helicopter-tour-in-Miami/d660-466236P2?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Sunset or Night time helicopter tour in Miami 2026 - Fort Lauderdale - BOOK NOW"
             }
         ]
@@ -1794,7 +1794,7 @@ const HOTEL_DATA = [
             {
                 "name": "Easy Ride Pedal Kayak Tour Marco Island & Naples (Pedal or Paddle)",
                 "description": "Explore the beautiful mangrove tunnels and spot local wildlife on a guided pedal or paddle kayak tour.",
-                "bookingUrl": "https://www.viator.com/tours/Naples/Mangrove-Eco-Tour-Half-Day/d22381-263397P1",
+                "bookingUrl": "https://www.viator.com/tours/Naples/Mangrove-Eco-Tour-Half-Day/d22381-263397P1?pid=P00314010&mcid=42383&medium=link",
                 "bookingButtonText": "Florida Mangroves Paddleboard or Kayak Tour From Naples 2026 - BOOK NOW"
             }
         ]
@@ -1834,7 +1834,7 @@ HOTEL_DATA.sort((a, b) => HOTEL_ORDER.indexOf(a.id) - HOTEL_ORDER.indexOf(b.id))
 const BEST_OF_CATEGORIES = [
     {
         id: "best-beachfront-resorts",
-        name: "Best Beachfront Resorts",
+        name: "Best Beachfront Resorts In South Florida",
         tag: "beachfront",
         description: "Direct beach access, pristine coastal views, and dedicated beachfront guest services. Experience true oceanfront living.",
         icon: "🌊",
@@ -1845,7 +1845,7 @@ const BEST_OF_CATEGORIES = [
     },
     {
         id: "best-boutique-escapes",
-        name: "Best Boutique Escapes",
+        name: "Best Boutique Escapes In South Florida",
         tag: "boutique",
         description: "Intimate settings, curated character, historic architecture, and unique hospitality. Escape typical corporate towers.",
         icon: "🔑",
@@ -1856,7 +1856,7 @@ const BEST_OF_CATEGORIES = [
     },
     {
         id: "best-luxury-resorts",
-        name: "Best Luxury & Wellness Resorts",
+        name: "Best Luxury & Wellness Resorts In South Florida",
         tag: "luxury",
         description: "Award-winning spa facilities, five-star guest services, premier dining, and absolute pampering. Indulge in premium relaxation.",
         icon: "✨",
