@@ -32,7 +32,11 @@ const HOTEL_DATA = [
         ],
         "perk": "A scenic open-air tram ride through a protected mangrove estuary to the beach.",
         "description": "A luxury resort featuring three pools, a waterslide, golf course, and a quiet beach accessed via a scenic mangrove ride.",
-        "longDescription": "Naples Grande Beach Resort is a premium coastal oasis offering a perfect mix of relaxation and recreation. Guests enjoy an 18-hole championship golf course, 15 tennis courts, three pools including a family-friendly pool with a 100-foot waterslide, and a full-service spa. The resort's beach access features a scenic boardwalk tram ride through a protected mangrove estuary. Accommodations are spacious and offer private balconies with panoramic Gulf views.",
+        "longDescription": `Naples Grande Beach Resort is one of Southwest Florida’s most versatile coastal escapes, offering a blend of luxury, recreation, and natural beauty. Set on 23 acres of lush tropical landscape, the resort features an 18‑hole championship golf course, 15 Har‑Tru tennis courts, three sparkling pools, and a full‑service spa known for its restorative treatments. Families love the dedicated kid‑friendly pool with its 100‑foot waterslide, while couples gravitate toward the adults‑only pool for a quieter retreat.
+
+One of the resort’s signature experiences is its scenic boardwalk tram ride through a protected mangrove estuary, leading guests to a wide stretch of white‑sand beach with calm Gulf waters. Rooms and suites are spacious and modern, each offering private balconies with sweeping views of the Gulf of Mexico or the resort’s tropical grounds. Dining options range from casual coastal fare to refined evening meals, giving guests plenty of flexibility throughout their stay.
+
+Why We Recommend It: Naples Grande is ideal for travelers who want a resort that truly “has it all” — beach access, recreation, spa relaxation, and family‑friendly amenities. It’s a standout choice for both romantic getaways and active vacations.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -103,7 +107,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Mickey Mouse-shaped pool with a pirate ship waterslide and sea turtle nesting programs.",
         "description": "A charming old-Florida style beachfront resort combining Disney service with beachside relaxation.",
-        "longDescription": "Disney's Vero Beach Resort brings the signature magic of Disney to Florida's Treasure Coast. Designed with the charm of a turn-of-the-century coastal hamlet, this oceanfront property offers spacious villas, campfire sing-alongs, a Mickey Mouse-shaped pool with a water slide, and seasonal sea turtle nesting outings. It is a highly-rated family resort that combines pristine beach relaxation with engaging activities for all ages.",
+        "longDescription": `Disney’s Vero Beach Resort brings the charm and storytelling of Disney to Florida’s quiet Treasure Coast, offering a family‑friendly beachfront escape with a nostalgic coastal‑hamlet design. The resort blends classic Disney hospitality with natural beauty, featuring spacious rooms and villas, a Mickey‑shaped pool with a waterslide, campfire sing‑alongs, and seasonal sea turtle conservation programs that educate guests about local wildlife.
+
+The property sits directly on a pristine stretch of Atlantic shoreline, offering easy beach access and plenty of space for families to relax. Kids enjoy the themed activities and character touches, while adults appreciate the peaceful setting, ocean views, and well‑maintained amenities. Dining options include casual coastal fare and family‑friendly menus, all delivered with Disney’s signature attention to detail.
+
+Why We Recommend It: This resort is perfect for families seeking a quieter, more nature‑focused Disney experience without the crowds of Orlando. It’s one of Florida’s most charming and wholesome beachfront stays.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -180,7 +188,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Direct access to downtown Naples' boutiques, theaters, and fine dining, with a private Club level.",
         "description": "A chic, upscale boutique hotel located directly on Fifth Avenue South in downtown Naples, offering a heated rooftop pool.",
-        "longDescription": "Inn on Fifth is an award-winning boutique hotel that sits in the heart of downtown Naples. It features sophisticated contemporary design, a full-service spa, a heated rooftop pool, and the exclusive Club Level Suites across the street. Step outside the door to explore the city's finest chef-driven dining, art galleries, and upscale shops, all within walking distance of the white-sand beach.",
+        "longDescription": `Inn on Fifth is an award‑winning boutique hotel located directly on Naples’ iconic 5th Avenue South, offering a sophisticated blend of modern luxury and walkable convenience. The hotel features stylish contemporary rooms, a full‑service spa, a heated rooftop pool, and the exclusive Club Level Suites housed in a private building across the street. Guests enjoy immediate access to Naples’ best chef‑driven restaurants, art galleries, boutiques, and nightlife — all just steps from the hotel’s front door.
+
+The atmosphere is refined yet approachable, making it a favorite for couples, business travelers, and visitors seeking a polished downtown experience. The rooftop pool provides a serene escape above the city, while the Club Level offers elevated amenities including private check‑in, gourmet snacks, and personalized service. The beach is a short walk or bike ride away, adding to the hotel’s appeal for travelers who want both city energy and coastal relaxation.
+
+Why We Recommend It: Inn on Fifth is ideal for travelers who want to stay in the heart of Naples’ vibrant downtown while enjoying boutique luxury and walkable access to everything.`,
         "checkInCheckOut": {
             "Check-In Time": "3:00 PM",
             "Check-Out Time": "12:00 PM"
@@ -257,7 +269,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Bespoke beachfront fire pits, ocean-side pool landscape, and private championship golf club.",
         "description": "An exquisite luxury resort located on a quiet Vanderbilt Beach peninsula, offering fine dining directly on the sand.",
-        "longDescription": "LaPlaya Beach & Golf Resort is a luxury haven nestled between the Gulf of Mexico and Vanderbilt Bay. It features custom-designed guestrooms, a private golf course, cascades of oceanfront pools, and tiki-style beach service. Dine directly on the sand at the award-winning BALEEN restaurant, or spend your afternoon at the SpaTerre, experiencing specialized tropical wellness treatments.",
+        "longDescription": `LaPlaya Beach & Golf Resort is a luxury coastal haven nestled between Vanderbilt Bay and the Gulf of Mexico. The resort features custom‑designed guestrooms, a private golf course, cascading oceanfront pools, and tiki‑style beach service that enhances the tropical atmosphere. Guests can dine directly on the sand at the award‑winning BALEEN restaurant, known for its romantic beachfront setting and elevated coastal cuisine.
+
+The resort’s SpaTerre offers specialized tropical wellness treatments, while the beachfront location provides stunning sunset views and easy access to Naples’ calm Gulf waters. The atmosphere is serene, upscale, and perfect for both couples and families seeking a refined beach getaway.
+
+Why We Recommend It: LaPlaya is perfect for travelers who want a luxurious beachfront stay with exceptional dining, beautiful views, and a peaceful atmosphere.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "12:00 PM"
@@ -326,7 +342,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Excellent central location on Brickell Avenue, featuring a stylish pool terrace and top-tier business center.",
         "description": "A sophisticated urban hotel located on Brickell Avenue, providing business and leisure travelers with premium rooms and dining.",
-        "longDescription": "JW Marriott Miami offers a refined city hotel experience in the center of Miami's financial district. The hotel boasts modern guestrooms, a luxury spa, an outdoor pool with dining patio, and excellent access to Brickell City Centre. Perfect for both business executives and vacationers seeking a chic base in Miami.",
+        "longDescription": `JW Marriott Miami offers a refined urban retreat in the center of Brickell, Miami’s bustling financial district. The hotel blends modern luxury with business‑friendly amenities, featuring contemporary guestrooms, a full‑service spa, a sleek outdoor pool deck, and excellent access to Brickell City Centre’s shopping and dining. The atmosphere is polished and cosmopolitan, attracting both executives and leisure travelers seeking a stylish base in the city.
+
+Guests appreciate the hotel’s spacious rooms, upscale finishes, and attentive service. The pool area offers a relaxing escape from the city’s energy, while the on‑site dining options provide convenient meals throughout the day. Its location makes it easy to explore Brickell’s nightlife, waterfront parks, and cultural attractions, all within walking distance.
+
+Why We Recommend It: JW Marriott Miami is perfect for travelers who want a luxurious, centrally located hotel with easy access to Brickell’s restaurants, shops, and business hubs.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -403,7 +423,11 @@ const HOTEL_DATA = [
         ],
         "perk": "A spectacular two-acre rooftop pool deck surrounded by towering palms and sleek cabanas.",
         "description": "An ultra-luxury high-rise oasis in Brickell, boasting premium art collections, massive health clubs, and high-end dining.",
-        "longDescription": "Four Seasons Hotel Miami towers 70 stories above the Brickell skyline, offering elite luxury and service. The hotel features an expansive two-acre pool terrace with palm trees, cabanas, and hammock sanctuaries, alongside a massive Equinox fitness club and spa. Inside, guests are surrounded by millions of dollars of museum-quality Latin American art. It is a serene, high-end sanctuary in Miami's financial hub.",
+        "longDescription": `Four Seasons Hotel Miami rises 70 stories above the Brickell skyline, offering one of the most serene and luxurious urban escapes in South Florida. The hotel blends elite service with resort‑style amenities, including a two‑acre palm‑lined pool terrace featuring cabanas, hammock sanctuaries, and a quiet, tropical atmosphere that feels worlds away from the city below. Guests also enjoy access to the massive Equinox fitness club and spa located within the property, providing state‑of‑the‑art wellness facilities and premium treatments.
+
+Inside, the hotel showcases millions of dollars in museum‑quality Latin American art, creating an elegant and culturally rich environment throughout its public spaces. Rooms and suites are modern, spacious, and designed with understated luxury, offering sweeping views of Biscayne Bay or the city skyline. Its Brickell location places guests steps from world‑class dining, shopping, and nightlife, while still offering a peaceful retreat from the energy of Miami’s financial district.
+
+Why We Recommend It: Four Seasons Miami is ideal for travelers seeking a refined, tranquil sanctuary with exceptional service and resort‑level amenities in the heart of Brickell.`,
         "checkInCheckOut": {
             "Check-In Time": "3:00 PM",
             "Check-Out Time": "12:00 PM"
@@ -480,7 +504,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Massive lagoon-style pools, legendary beachfront location, and iconic nightlife (LIV).",
         "description": "A legendary mid-century architectural masterpiece on Millionaire's Row, combining historic glamour with modern luxury.",
-        "longDescription": "A legendary mid-century architectural masterpiece designed by Morris Lapidus in 1954, Fontainebleau Miami Beach sits on 20 oceanfront acres along Millionaire's Row. It perfectly blends historic golden-era glamour with modern luxury. Guests can indulge in the 40,000-square-foot Lapis Spa, lounge by the spectacular multi-level lagoon pools, and experience the world-famous nightlife at LIV. With 12 on-site restaurants, direct beach access, and gorgeous ocean views, it is a quintessential Miami beach resort experience.",
+        "longDescription": `Fontainebleau Miami Beach is a legendary oceanfront resort that blends mid‑century glamour with modern luxury. Designed by Morris Lapidus in 1954, the property spans 20 acres along Millionaire’s Row and features iconic architecture, sweeping ocean views, and world‑class amenities. Guests can enjoy the 40,000‑square‑foot Lapis Spa, spectacular multi‑level lagoon pools, direct beach access, and Miami’s most famous nightlife venue — LIV.
+
+The resort offers 12 on‑site restaurants ranging from fine dining to casual coastal fare, along with stylish rooms and suites overlooking the Atlantic. Fontainebleau’s atmosphere is energetic and upscale, attracting travelers who want a lively Miami Beach experience with everything at their fingertips.
+
+Why We Recommend It: Fontainebleau is perfect for travelers seeking a glamorous, full‑service Miami Beach resort with luxury amenities, nightlife, and iconic design.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -550,7 +578,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Owned by singer Gloria Estefan, featuring chic Art Deco vibes, beachfront pools, and Cuban-inspired dining.",
         "description": "A stylish beachfront boutique hotel in Vero Beach, owned by Gloria and Emilio Estefan, offering modern chic oceanfront luxury.",
-        "longDescription": "Costa d'Este Beach Resort & Spa brings sleek Miami-style Art Deco design to Vero Beach's pristine shorelines. Owned by music legends Gloria and Emilio Estefan, this upscale resort offers a beachfront infinity pool, a full-service spa, and fresh Cuban-fusion dining at The Wave Kitchen & Bar. Perfect for travelers seeking a trendy boutique coastal escape.",
+        "longDescription": `Costa d’Este Beach Resort & Spa brings sleek Miami‑style Art Deco design to Vero Beach’s quiet coastline. Owned by Gloria and Emilio Estefan, the resort offers a boutique beachfront experience with an infinity pool, a full‑service spa, and Cuban‑fusion dining at The Wave Kitchen & Bar. The atmosphere is modern, stylish, and intimate, making it a favorite for couples and travelers seeking a trendy coastal escape.
+
+Rooms feature contemporary décor, rainfall showers, and private balconies with ocean or pool views. The beachfront location provides easy access to calm Atlantic waters, while the resort’s smaller size ensures a more personalized and peaceful stay compared to larger beach hotels.
+
+Why We Recommend It: Costa d’Este is ideal for travelers who want a chic, boutique beachfront stay with modern design and exceptional dining.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -626,7 +658,11 @@ const HOTEL_DATA = [
         ],
         "perk": "One of the largest hotel swimming pools in the country, a championship golf course, and historic 1920s architecture.",
         "description": "A historic 1926 Mediterranean-style palace in Coral Gables, featuring a world-famous pool, golf, spa, and formal gardens.",
-        "longDescription": "Biltmore Hotel Miami Coral Gables is a national historic landmark built in 1926. Modeled after the Giralda Tower in Seville, this majestic resort features a colossal 23,000-square-foot swimming pool once graced by Johnny Weissmuller, a championship Donald Ross-designed golf course, and high-end dining. It is a stunning estate filled with architectural arches, hand-painted ceilings, and palm-lined courtyards.",
+        "longDescription": `The Biltmore Hotel is one of Florida’s most iconic historic landmarks, built in 1926 and modeled after the Giralda Tower in Seville. This grand estate features Mediterranean architecture, hand‑painted ceilings, marble columns, and palm‑lined courtyards that transport guests to a bygone era of glamour. The resort includes a colossal 23,000‑square‑foot swimming pool, a championship Donald Ross‑designed golf course, a world‑class spa, and several upscale dining venues — including the famed Sunday brunch.
+
+Rooms and suites blend classic elegance with modern comfort, offering views of the golf course, gardens, or historic architecture. The Biltmore’s atmosphere is serene and romantic, making it a favorite for weddings, anniversaries, and luxury getaways. Its Coral Gables location provides easy access to Miracle Mile, the Venetian Pool, and the neighborhood’s charming Mediterranean streets.
+
+Why We Recommend It: The Biltmore is ideal for travelers seeking historic grandeur, refined luxury, and one of the most architecturally stunning hotels in Florida.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "12:00 PM"
@@ -702,7 +738,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Brand new luxury club lounge, oceanfront dining at Gumbo Limbo, and massive newly updated spa.",
         "description": "An exquisite beachfront resort on Vanderbilt Beach, offering legendary five-star luxury, fine dining, and beautiful pool decks.",
-        "longDescription": "The Ritz-Carlton, Naples represents the pinnacle of beachfront luxury in Southwest Florida. Reopened with grand renovations, the resort features the largest Ritz-Carlton Club Lounge in North America, a 51,000-square-foot spa, and oceanfront dining under the palms at Gumbo Limbo. With multiple pools, direct access to white sand beaches, and excellent children's programs, it offers a legendary luxury escape.",
+        "longDescription": `The Ritz‑Carlton, Naples is the pinnacle of beachfront luxury on Florida’s Gulf Coast, recently reopened after a grand renovation that elevated every aspect of the resort. Guests enjoy access to the largest Ritz‑Carlton Club Lounge in North America, a sprawling 51,000‑square‑foot spa, and multiple pools overlooking the Gulf’s calm, turquoise waters. Oceanfront dining at Gumbo Limbo offers fresh coastal cuisine beneath swaying palms, creating a quintessential Naples experience.
+
+The resort’s children’s programs, beachfront activities, and polished service make it a favorite for both families and couples. Rooms and suites are beautifully redesigned with modern coastal elegance, offering stunning sunset views and premium amenities. With direct access to white‑sand beaches and world‑class dining, the Ritz‑Carlton Naples delivers a legendary luxury escape.
+
+Why We Recommend It: This resort is ideal for travelers seeking top‑tier beachfront luxury, exceptional service, and one of the most prestigious stays in Southwest Florida.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -772,7 +812,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Excellent location across from Las Olas Beach, with a great outdoor pool deck overlooking the ocean.",
         "description": "An affordable, modern beachfront hotel in Fort Lauderdale, offering clean rooms, a swimming pool, and direct beach access.",
-        "longDescription": "Courtyard by Marriott Oceanside Fort Lauderdale Beach offers high-value beach lodging in a premier location. Situated on Seabreeze Boulevard, guests are across from Fort Lauderdale beach and a short walk from Las Olas Boulevard. The hotel features an elevated pool deck overlooking the Atlantic, clean modern rooms, and an on-site cafe, making it an excellent choice for budget-conscious families.",
+        "longDescription": `Courtyard by Marriott Oceanside Fort Lauderdale Beach offers high‑value beachfront lodging in one of Broward County’s most walkable coastal districts. Located on Seabreeze Boulevard, the hotel places guests directly across from Fort Lauderdale Beach and within a short stroll of Las Olas Boulevard’s dining, shopping, and nightlife. Its elevated pool deck overlooks the Atlantic, providing a scenic place to relax without resort‑level pricing.
+
+Rooms are clean, modern, and designed with functional comfort in mind, making the hotel a great fit for families, couples, and budget‑conscious travelers. Guests can enjoy an on‑site café, quick beach access, and a location that makes exploring Fort Lauderdale effortless.
+
+Why We Recommend It: This hotel is ideal for travelers seeking an affordable, convenient beachfront stay with modern amenities and excellent walkability.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -841,7 +885,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Located steps from Sawgrass Mills Mall, featuring a stylish rooftop bar and European-inspired design.",
         "description": "A sleek, European-style boutique hotel next to Sawgrass Mills, offering a gorgeous rooftop lounge.",
-        "longDescription": "AC Hotel Fort Lauderdale Sawgrass Mills/Sunrise brings modern European styling and a chic vibe to Sunrise. Located right next to the massive Sawgrass Mills outlet mall, this boutique hotel features the AC Lounge roof terrace, European breakfast offerings, and sleek minimalist guestrooms. It is an excellent, high-value alternative to beachfront towers, perfect for shoppers and business travelers.",
+        "longDescription": `AC Hotel Fort Lauderdale Sawgrass Mills/Sunrise brings modern European styling and a chic, minimalist vibe to Sunrise. Located directly beside the massive Sawgrass Mills outlet mall, the hotel is a perfect high‑value option for shoppers, business travelers, and visitors seeking a sleek alternative to beachfront resorts.
+
+The property features the AC Lounge rooftop terrace, stylish guestrooms with contemporary design, and a European‑inspired breakfast offering fresh pastries, cured meats, and espresso. Its location provides quick access to the BB&T Center, corporate offices, and the region’s largest shopping destination.
+
+Why We Recommend It: This hotel is ideal for travelers seeking a modern, affordable, design‑forward stay with unbeatable proximity to Sawgrass Mills.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -917,7 +965,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Stunning digital arts exterior canvas, massive rooftop pool overlooking Biscayne Bay, and premium bayside location.",
         "description": "A soaring luxury hotel in downtown Miami near Brickell, boasting bayside views and an expansive rooftop terrace.",
-        "longDescription": "InterContinental Miami by IHG is a waterfront high-rise landmark located on Biscayne Bay near Brickell. Known for its 19-story digital canvas facade that lights up the Miami skyline, the hotel offers luxurious rooms, an extensive spa, and a vibrant rooftop pool deck overlooking the cruise ship port. Guests can walk to Bayfront Park and Brickell's financial district, making it a premier downtown choice.",
+        "longDescription": `InterContinental Miami is a waterfront high‑rise landmark overlooking Biscayne Bay, known for its striking 19‑story digital canvas that lights up the Miami skyline. The hotel offers luxurious rooms, an extensive spa, and a vibrant rooftop pool deck with views of the cruise ship port. Its location near Bayfront Park and Brickell makes it ideal for exploring downtown Miami’s cultural attractions, restaurants, and nightlife.
+
+Rooms are modern and spacious, with floor‑to‑ceiling windows that showcase the city or bay. The hotel’s dining options range from upscale Latin cuisine to casual bites, and the lobby’s art installations add a contemporary touch to the overall experience.
+
+Why We Recommend It: InterContinental Miami is ideal for travelers seeking a stylish waterfront stay with easy access to downtown attractions and stunning skyline views.`,
         "checkInCheckOut": {
             "Check-In Time": "3:00 PM",
             "Check-Out Time": "12:00 PM"
@@ -988,7 +1040,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Fort Lauderdale's only lazy river tubing pool and an oceanfront dining veranda.",
         "description": "A lovely oceanfront family resort in Fort Lauderdale, featuring a lazy river, spacious balconies, and a beachfront pool.",
-        "longDescription": "Pelican Grand Beach Resort offers a nostalgic, classic beachfront experience on the northern shores of Fort Lauderdale Beach. The resort stands out with Fort Lauderdale's only lazy river pool, a zero-entry oceanfront swimming pool, and cozy rocking chairs on a wide oceanfront veranda. Dining at Ocean2000 offers spectacular Atlantic views, making it one of Broward County's finest family retreats.",
+        "longDescription": `Pelican Grand Beach Resort offers a nostalgic, classic beachfront experience on Fort Lauderdale’s northern shoreline. The resort stands out with the city’s only lazy river pool, a zero‑entry oceanfront swimming pool, and cozy rocking chairs lining its wide oceanfront veranda. The atmosphere is relaxed and timeless, evoking old‑Florida charm with modern comforts.
+
+Guests enjoy spacious rooms with ocean views, direct beach access, and dining at Ocean2000, which offers spectacular Atlantic vistas. The resort is especially popular with families thanks to its kid‑friendly amenities and calm beachfront location.
+
+Why We Recommend It: Pelican Grand is perfect for travelers seeking a charming, family‑friendly beachfront stay with unique amenities and classic coastal ambiance.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -1057,7 +1113,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Brand new boutique design, walking distance to Naples beach, and a stunning rooftop lounge (Limon).",
         "description": "A sleek, newly opened boutique hotel on Naples' famous Fifth Avenue South, boasting a rooftop kitchen.",
-        "longDescription": "AC Hotel Naples 5th Avenue brings European-style boutique elegance to Naples' historic core. The newly opened property features Limon, a gorgeous rooftop bar and kitchen, minimalist guestrooms, and an outdoor courtyard pool. It provides visitors with a chic downtown location just minutes from local beaches and premier Gulf shopping.",
+        "longDescription": `AC Hotel Naples 5th Avenue brings sleek European‑style boutique elegance to Naples’ historic downtown. The newly opened property features minimalist guestrooms with clean lines, modern finishes, and a calming aesthetic. Guests can enjoy Limon, the hotel’s gorgeous rooftop bar and kitchen offering Mediterranean‑inspired dishes and sunset views over the city.
+
+The hotel also includes an outdoor courtyard pool, a stylish lobby lounge, and easy walkability to Naples’ best restaurants, galleries, and shops. Its location places guests just minutes from the beach and premier Gulf Coast attractions, making it a convenient and chic home base for exploring the city.
+
+Why We Recommend It: AC Hotel Naples 5th Ave is perfect for travelers seeking a modern, design‑forward boutique stay in the heart of downtown Naples.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -1125,7 +1185,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Trendy high-tech aloft design, walk-up W XYZ bar, and convenient Metrorail access.",
         "description": "A high-energy, pet-friendly urban hotel in Brickell, offering loft-style rooms and budget-friendly city pricing.",
-        "longDescription": "Aloft Miami Brickell provides a modern, budget-friendly lifestyle stay in Miami's vibrant Brickell neighborhood. Featuring signature loft-inspired ceilings, the W XYZ bar, and an outdoor splash pool, this pet-friendly hotel is steps from Brickell's financial skyscrapers and fine dining. It's a colorful, tech-forward option that delivers high value in the city center.",
+        "longDescription": `Aloft Miami Brickell offers a modern, budget‑friendly lifestyle stay in the heart of Miami’s Brickell neighborhood. The hotel features loft‑inspired ceilings, colorful contemporary décor, and tech‑forward amenities that appeal to younger travelers and business guests. The W XYZ bar provides a lively social atmosphere, while the outdoor splash pool offers a refreshing break from the city’s energy.
+
+Its central location places guests steps from Brickell’s skyscrapers, fine dining, nightlife, and public transit options. Rooms are functional, stylish, and designed with a youthful, urban aesthetic.
+
+Why We Recommend It: Aloft Miami Brickell is ideal for travelers seeking a fun, affordable, pet‑friendly hotel with modern amenities in a prime city location.`,
         "checkInCheckOut": {
             "Check-In Time": "3:00 PM",
             "Check-Out Time": "12:00 PM"
@@ -1198,7 +1262,11 @@ const HOTEL_DATA = [
         ],
         "perk": "A quiet, literary-focused arts oasis with a stunning rooftop pool deck overlooking Ocean Drive.",
         "description": "A refined boutique gem on northern Ocean Drive, celebrating art, music, and literature, featuring a rooftop pool bridge.",
-        "longDescription": "The Betsy Hotel South Beach is a distinguished historic boutique hotel located on the quieter northern end of Ocean Drive. As a champion of the arts, the hotel features live jazz nightly, poetry books in every room, and rotating art galleries. Architectural highlights include a stunning glass-walled orb bridge that connects two historic buildings, a rooftop pool with 360-degree ocean views, and a breezy colonial-style front porch. It is a refined, pet-friendly coastal retreat that offers a sophisticated alternative to typical South Beach party hotels.",
+        "longDescription": `The Betsy Hotel South Beach is a distinguished historic boutique hotel located on the quieter northern end of Ocean Drive, offering a refined alternative to the typical party‑centric South Beach experience. Known as a champion of the arts, The Betsy features nightly live jazz, rotating art exhibitions, and poetry books in every room — creating a cultural atmosphere unlike any other hotel in Miami Beach.
+
+Architecturally, the hotel is a standout. Its iconic glass‑walled orb bridge connects two historic buildings, while the rooftop pool offers panoramic 360‑degree views of the ocean and city. The breezy colonial‑style front porch provides a charming place to relax, dine, or enjoy a cocktail while watching the world go by. Rooms are elegant, pet‑friendly, and designed with timeless coastal sophistication.
+
+Why We Recommend It: The Betsy is perfect for travelers seeking a quiet, artistic, boutique stay with elevated service and a sophisticated South Beach vibe.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -1264,7 +1332,11 @@ const HOTEL_DATA = [
         ],
         "perk": "A historic Italian Renaissance oceanfront palazzo with four pools and two golf courses.",
         "description": "An iconic Italian Renaissance beachfront landmark founded by Henry Flagler in 1896, representing the pinnacle of historic luxury.",
-        "longDescription": "The Breakers Palm Beach is a legendary luxury hotel founded by tycoon Henry Flagler in 1896. Modeled after the Villa Medici in Rome, this dramatic oceanfront estate features breathtaking hand-painted ceilings, majestic arches, and formal gardens. The property offers 140 oceanfront acres, four heated pools, 10 restaurants, a luxury spa, two championship golf courses, and world-class tennis. The Service is legendary, representing old-world high-society luxury at its absolute finest.",
+        "longDescription": `The Breakers Palm Beach is one of America’s most iconic luxury hotels, founded by railroad tycoon Henry Flagler in 1896. Modeled after the Villa Medici in Rome, the resort features dramatic hand‑painted ceilings, majestic arches, and meticulously landscaped formal gardens. Spanning 140 oceanfront acres, The Breakers offers four heated pools, 10 restaurants, a luxury spa, world‑class tennis facilities, and two championship golf courses.
+
+The resort’s service is legendary, delivering old‑world high‑society luxury with modern comfort. Rooms and suites blend classic elegance with contemporary amenities, offering views of the ocean or the resort’s lush grounds. The Breakers’ beachfront location provides immediate access to Palm Beach’s pristine shoreline, while its dining options range from upscale seafood to casual oceanfront bites.
+
+Why We Recommend It: The Breakers is ideal for travelers seeking timeless grandeur, impeccable service, and one of the most historic and luxurious stays in the United States.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "12:00 PM"
@@ -1334,7 +1406,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Legendary St. Regis butler service, Champagne sabering rituals, and prime Bal Harbour shopping access.",
         "description": "An elite oceanfront resort in Bal Harbour, offering five-star dining, butler service, and multiple pools.",
-        "longDescription": "The St. Regis Bal Harbour Resort is a premier beachfront sanctuary in Miami's exclusive Bal Harbour enclave. The resort features oceanfront villas, two heated pools, the iconic Atlantikos restaurant serving Greek coastal bites, and the opulent St. Regis Spa. Guests experience personalized butler services, daily champagne sabering, and immediate access to Bal Harbour Shops.",
+        "longDescription": `The St. Regis Bal Harbour Resort is a premier beachfront sanctuary located in Miami’s exclusive Bal Harbour enclave. Known for its refined luxury and personalized service, the resort features oceanfront villas, two heated pools, and the opulent St. Regis Spa. Guests enjoy daily champagne sabering, signature butler services, and immediate access to the world‑famous Bal Harbour Shops.
+
+Dining at Atlantikos offers elevated Greek coastal cuisine, while the resort’s beachfront location provides stunning views and a serene atmosphere away from South Beach’s crowds. Rooms and suites are spacious, elegant, and designed with modern coastal sophistication.
+
+Why We Recommend It: St. Regis Bal Harbour is perfect for travelers seeking ultra‑luxury beachfront accommodations with world‑class service and a peaceful, upscale environment.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -1405,7 +1481,11 @@ const HOTEL_DATA = [
         ],
         "perk": "A spectacular adults-only rooftop infinity pool and reclaimed driftwood eco-design system.",
         "description": "An eco-luxury beachfront sanctuary featuring reclaimed wood interiors, 4 pools, and a breathtaking rooftop deck.",
-        "longDescription": "1 Hotel South Beach is a trailblazing luxury resort dedicated to sustainability, wellness, and environmental responsibility. Designed with reclaimed Florida wood, organic materials, and live greenery, the property feels like an organic beachside sanctuary. It boasts 600 feet of pristine beachfront, four swimming poolsâ€”including a breathtaking 18-story adults-only rooftop poolâ€”and wellness programs anchored by Bamford Wellness Spa. It is a stunning, eco-conscious luxury retreat on the edge of the Atlantic.",
+        "longDescription": `1 Hotel South Beach is one of Miami’s most innovative luxury resorts, dedicated to sustainability, wellness, and eco‑conscious design. The property features reclaimed Florida wood, organic materials, and lush greenery throughout, creating a serene, nature‑inspired sanctuary along 600 feet of pristine beachfront. Its four swimming pools include an 18‑story adults‑only rooftop pool with breathtaking panoramic views of the Atlantic.
+
+Wellness is at the heart of the resort, anchored by the Bamford Wellness Spa and a robust lineup of fitness classes, holistic treatments, and mindful programming. Rooms are spacious and calming, designed with natural textures and earth‑tone palettes. Dining options emphasize fresh, local ingredients and coastal flavors.
+
+Why We Recommend It: 1 Hotel South Beach is perfect for travelers seeking a luxurious, eco‑friendly beachfront retreat with world‑class wellness amenities and stunning design.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -1472,7 +1552,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Basement nightclub with an indoor ice skating rink and dynamic neon bowling alley.",
         "description": "A trendy, ultra-luxury lifestyle resort by Ian Schrager, showcasing beachfront pools and Michelin-starred dining.",
-        "longDescription": "The Miami Beach Edition is a luxury lifestyle resort that combines historical mid-century Miami architecture with contemporary elegance. Featuring custom-designed interiors by Ian Schrager, the resort offers two oceanfront pools, direct beach access, and dining concepts curated by Jean-Georges Vongerichten. The property stands out with its 'Basement' entertainment hub, featuring a nightclub, a neon-lit bowling alley, and an indoor ice skating rink.",
+        "longDescription": `The Miami Beach Edition is a luxury lifestyle resort that blends historic mid‑century Miami architecture with modern sophistication. Designed by Ian Schrager, the property features custom interiors, two oceanfront pools, direct beach access, and dining concepts curated by world‑renowned chef Jean‑Georges Vongerichten. The atmosphere is chic, contemporary, and infused with Miami’s signature glamour.
+
+One of the resort’s most unique features is Basement, an entertainment hub that includes a nightclub, a neon‑lit bowling alley, and even an indoor ice‑skating rink — offering playful, unexpected experiences for guests. Rooms and suites are elegant and modern, with soft neutral tones and luxurious finishes.
+
+Why We Recommend It: The Miami Beach Edition is ideal for travelers seeking a stylish, high‑energy beachfront resort with exceptional dining, unique entertainment, and sophisticated design.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -1537,7 +1621,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Naples Beach Club's legendary grounds, redesigned golf course, and elite beach services.",
         "description": "The highly anticipated Four Seasons beachside sanctuary in Naples, offering golf, luxury cabanas, and Gulf views.",
-        "longDescription": "Naples Four Seasons (situated at the historic Naples Beach Club) is Naples' premier upcoming ultra-luxury destination. Spanning beachside acreage, the resort features a golf course, heated pools, custom cabanas, and beachside dining. The property blends Naples' relaxed coastal feel with Four Seasons' elite five-star standards.",
+        "longDescription": `Naples Four Seasons — located at the historic Naples Beach Club — is the city’s premier upcoming ultra‑luxury destination. The resort spans expansive beachside acreage and blends Naples’ relaxed coastal charm with Four Seasons’ world‑renowned five‑star standards. Guests can expect heated pools, custom cabanas, beachfront dining, and a beautifully designed golf course.
+
+Although still emerging as Naples’ newest luxury icon, the property promises elevated service, modern coastal architecture, and a serene beachfront setting that will redefine high‑end hospitality in Southwest Florida.
+
+Why We Recommend It: Naples Four Seasons is ideal for travelers seeking the newest ultra‑luxury beachfront experience in Naples, combining world‑class service with Gulf views.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "12:00 PM"
@@ -1606,7 +1694,11 @@ const HOTEL_DATA = [
         ],
         "perk": "The Reservoir water park with three slides and lazy river, and two championship Greg Norman golf courses.",
         "description": "A luxury golf resort featuring The Reservoir water park, Greg Norman golf courses, and award-winning dining.",
-        "longDescription": "The Ritz-Carlton Naples, Tiburon is a Mediterranean-style luxury sanctuary situated among Naples' natural scenery. The resort features two 18-hole championship golf courses designed by Greg Norman, a golf academy, and a full-service spa. Families love The Reservoir, a custom-designed water park featuring a lazy river, a splash pad, and three water slides.",
+        "longDescription": `The Ritz‑Carlton Naples, Tiburón is a Mediterranean‑style luxury sanctuary surrounded by lush natural scenery and world‑class golf facilities. The resort features two championship 18‑hole golf courses designed by Greg Norman, a premier golf academy, and a full‑service spa offering restorative treatments. Its elegant architecture, warm earth tones, and manicured grounds create a peaceful, upscale environment.
+
+Families especially love The Reservoir, the resort’s custom‑designed water park featuring a lazy river, splash pad, and three thrilling water slides. Guests can also enjoy multiple dining options, spacious rooms with modern coastal décor, and easy access to Naples’ beaches and attractions.
+
+Why We Recommend It: Ritz‑Carlton Naples, Tiburón is perfect for families, golfers, and luxury travelers seeking a refined resort with exceptional recreational amenities and signature Ritz‑Carlton service.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -1677,7 +1769,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Tidal Cove Waterpark, featuring a FlowRider surf simulator, seven waterslides, and a lazy river.",
         "description": "A spectacular luxury golf and wellness resort in Aventura, featuring a massive water park and championship golf.",
-        "longDescription": "JW Marriott Miami Turnberry Resort & Spa is a tropical haven in Aventura. Known for its championship golf courses and the state-of-the-art Tidal Cove Waterpark, this luxury resort offers fun and relaxation. Enjoy the 36-hole golf facilities, the sprawling Ame Spa & Wellness Collective, and award-winning dining at Bourbon Steak by Michael Mina.",
+        "longDescription": `JW Marriott Miami Turnberry Resort & Spa is a tropical luxury haven in Aventura, known for its championship golf courses and the state‑of‑the‑art Tidal Cove Waterpark. The resort offers fun and relaxation for all ages, featuring a 36‑hole golf facility, a sprawling wellness spa, and award‑winning dining at Bourbon Steak by Michael Mina.
+
+Rooms and suites are spacious and elegant, while the resort’s lush landscaping and lagoon‑style pools create a peaceful, upscale environment. Its location near Aventura Mall and major highways makes it convenient for both leisure and business travelers.
+
+Why We Recommend It: JW Marriott Turnberry is perfect for families, couples, and golf enthusiasts seeking a luxury resort with exceptional amenities and one of Florida’s best waterparks.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -1747,7 +1843,11 @@ const HOTEL_DATA = [
         ],
         "perk": "Private white-sand beach, adults-only Paradise by Sirene tower, and Balinese-inspired luxury spa.",
         "description": "A world-class Balinese-inspired beachfront resort on Marco Island, offering multiple pools, golf, and a luxury spa.",
-        "longDescription": "JW Marriott Marco Island Beach Resort brings a unique Balinese-inspired luxury style to Marco Island's white beaches. The resort features two golf courses, three pools, a spa, and the adults-only 'Paradise by Sirene' tower offering exclusive pool access. With beachfront dining under palm trees and sea excursions, it is a premier Gulf Coast retreat.",
+        "longDescription": `JW Marriott Marco Island Beach Resort blends Balinese‑inspired luxury with the natural beauty of Marco Island’s white‑sand beaches, creating one of the most distinctive Gulf Coast escapes. The resort features three sparkling pools, two championship golf courses, a full‑service spa, and a wide range of beachfront dining options set beneath swaying palm trees. Its design incorporates warm wood tones, tropical accents, and open‑air spaces that evoke a serene island atmosphere.
+
+One of the resort’s most exclusive offerings is Paradise by Sirene, an adults‑only tower with private check‑in, elevated amenities, and access to a secluded pool area. Guests can enjoy sea excursions, sunset cruises, and easy access to Marco Island’s calm Gulf waters. Rooms and suites are modern, spacious, and designed with coastal elegance, many offering panoramic ocean views.
+
+Why We Recommend It: JW Marriott Marco Island is ideal for travelers seeking a luxurious beachfront resort with a tropical, Balinese‑inspired vibe and exceptional amenities for both adults and families.`,
         "checkInCheckOut": {
             "Check-In Time": "4:00 PM",
             "Check-Out Time": "11:00 AM"
@@ -1840,7 +1940,40 @@ const BEST_OF_CATEGORIES = [
         icon: "🌊",
         introParagraphs: [
             "There's nothing quite like walking out of your hotel lobby directly onto the warm sands of South Florida. A true beachfront stay provides instant escape, soothing ocean sounds, and quick access to coastal swimming. However, many beach resorts claim beachfront status when they are actually across a busy street or block views with parking garages. We believe beachfront should mean direct sand access and ocean sights right from the resort lawns.",
-            "To select these top beachfront resorts, we evaluated them on pool-to-beach transitions, beach chair inclusions, and the quality of coastal dining. From the iconic red umbrellas of Acqualina to the lively boardwalk of 1 Hotel, these spots deliver unmatched Atlantic and Gulf coast luxury."
+            "To select these top beachfront resorts, we evaluated them on pool-to-beach transitions, beach chair inclusions, and the quality of coastal dining. From the Balinese-inspired beachfront at JW Marriott Marco Island to the classic oceanfront veranda at Pelican Grand Beach Resort, these spots deliver unmatched Atlantic and Gulf coast luxury.",
+            "These resorts are ideal for travelers seeking direct sand access, ocean views, and elevated coastal amenities. Whether you're planning a romantic escape or a family beach vacation, these properties offer the best of South Florida’s shoreline. For nearby dining recommendations during your stay, explore <a href=\"https://www.soflobites.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\">SoFlo Bites</a>, our curated guide to South Florida’s best local restaurants."
+        ],
+        experiences: [
+            {
+                title: "Miami Beach: Parasailing Boat Tour in South Beach",
+                location: "Miami Beach",
+                description: "Fly high over South Beach on a thrilling parasailing adventure.",
+                link: "https://gyg.me/BpbsaCSX"
+            },
+            {
+                title: "Jet ski Tour in Miami with Boat Ride",
+                location: "Miami",
+                description: "Experience a high-speed jet ski tour of Miami's waterways combined with a scenic boat ride.",
+                link: "https://www.viator.com/tours/Miami/Speed-and-Sun-Ultimate-Jetski-in-Miami/d662-118441P7?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Dolphin and Shelling Cruise for up to 12 people",
+                location: "Naples",
+                description: "Search for dolphins and collect pristine shells in the Ten Thousand Islands.",
+                link: "https://www.viator.com/tours/Naples/Ten-Thousand-Islands-Adventure-Boat-Tour/d22381-64741P1?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Marco Island Wildlife Sightseeing and Shelling Tour",
+                location: "Marco Island",
+                description: "Cruise through the mangrove forests of Marco Island to see wildlife and historic dome homes.",
+                link: "https://www.viator.com/tours/Naples/Cape-Romano-Shelling-and-Sightseeing-Tour/d22381-30481P3?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Key West Schooner Sunset Sail with Bar & Hors d'oeuvres",
+                location: "Key West",
+                description: "Sail aboard a stunning classic schooner to experience Key West's world-famous sunset.",
+                link: "https://www.viator.com/tours/Key-West/Key-West-Sunset-Sail-Aboard-Schooner-America-20/d661-5395SUNSET?pid=P00314010&mcid=42383&medium=link"
+            }
         ]
     },
     {
@@ -1851,7 +1984,40 @@ const BEST_OF_CATEGORIES = [
         icon: "🔑",
         introParagraphs: [
             "While large high-rise resorts offer abundant amenities, they can sometimes feel impersonal and crowded. Boutique stays offer curated character, historic details, and intimate, personal service. They celebrate local culture, art, and architecture, offering a deeper connection to the neighborhood.",
-            "Our favorite boutique hotels in South Florida represent historic preservation at its best. From the literary arts salon at The Betsy in South Beach to the peaceful botanical garden pathways at The Gardens Hotel in Key West, these gems prioritize guest comfort, unique vibes, and classic Floridian character."
+            "Our favorite boutique hotels in South Florida represent historic preservation at its best. From the literary arts salon at The Betsy South Beach to the sleek Art Deco coastal design at Costa d’Este Beach Resort & Spa, these gems prioritize guest comfort, unique vibes, and classic Floridian character.",
+            "These boutique escapes are perfect for travelers who appreciate thoughtful design, artistic environments, and personalized hospitality. Whether you're seeking a quiet retreat or a culturally rich stay, these hotels deliver memorable experiences. For curated dining options near each boutique property, explore <a href=\"https://www.soflobites.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\">SoFlo Bites</a>, our sister site dedicated to South Florida’s best local restaurants."
+        ],
+        experiences: [
+            {
+                title: "Miami: Wynwood Walls Street Art and Food Walking Tour",
+                location: "Miami",
+                description: "Explore the vibrant murals of Wynwood and sample diverse culinary favorites on a guided walking tour.",
+                link: "https://gyg.me/SQm4zcAP"
+            },
+            {
+                title: "Little Havana Food and Walking Tour in Miami",
+                location: "Miami",
+                description: "Discover authentic Cuban cuisine, history, and culture in Miami's historic heart.",
+                link: "https://www.viator.com/tours/Miami/Little-Havana-Food-and-Walking-Tour-in-Miami/d662-5304HAVANA?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Award-winning Art Deco & History Walking Tour in Miami Beach",
+                location: "Miami Beach",
+                description: "Tour the world-famous Art Deco Historic District and learn the history of Versace Mansion.",
+                link: "https://www.viator.com/tours/Miami/Historic-Miami-Beach-and-Versace-Murder-Tour/d662-250325P1?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "4 Hour Private Ecotour and Snorkeling Boat Tour",
+                location: "Islamorada",
+                description: "Charter a private boat for an eco-tour and snorkeling adventure around the Florida Keys.",
+                link: "https://www.viator.com/tours/Islamorada/Private-4-hour-Ecotour-and-Snorkeling-Boat-Tour/d23474-118084P3?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Manatees and Mangrove Tunnels Small Group Kayak Tour",
+                location: "Naples",
+                description: "Paddle through quiet mangrove forest tunnels and watch for wild Florida manatees.",
+                link: "https://www.viator.com/tours/Naples/Mangrove-Tunnels-and-Manatees-Tour/d22381-54503P1?pid=P00314010&mcid=42383&medium=link"
+            }
         ]
     },
     {
@@ -1862,7 +2028,40 @@ const BEST_OF_CATEGORIES = [
         icon: "✨",
         introParagraphs: [
             "Sometimes, a getaway calls for absolute indulgence. A true luxury stay goes beyond high-end sheets; it's about anticipation of needs, historic grandeur, and elite wellness spas. Whether you want to play championship golf courses or spend your afternoon inside a thermal therapeutic suite, these properties represent the pinnacle of South Florida luxury.",
-            "We reviewed properties based on design quality, guest-to-staff ratios, on-site dining standards, and spa facility depth. Legacy properties like The Breakers in Palm Beach and five-star sanctuaries like Acqualina represent the absolute best of coastal luxury."
+            "We reviewed properties based on design quality, guest-to-staff ratios, on-site dining standards, and spa facility depth. Legacy properties like The Breakers Palm Beach and five-star sanctuaries like The Ritz-Carlton Naples, Tiburón represent the absolute best of coastal luxury.",
+            "These resorts are ideal for travelers seeking restorative spa days, elevated dining, and refined coastal living. Whether you’re planning a romantic escape or a wellness-focused retreat, these properties offer unmatched comfort and sophistication. For nearby dining recommendations, visit <a href=\"https://www.soflobites.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\">SoFlo Bites</a> to explore curated restaurant guides across South Florida."
+        ],
+        experiences: [
+            {
+                title: "Private Miami Boat Charter: Sightseeing, Sunset & Sandbar",
+                location: "Miami",
+                description: "Enjoy a romantic private yacht tour with sunset views and sandbar stops.",
+                link: "https://www.viator.com/tours/Miami/Private-Tour-Miami-Boat-Rental/d662-328105P2?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Miami Beach: South Beach Private Airplane Tour with Drinks",
+                location: "Miami Beach",
+                description: "Soar over South Beach with champagne on an intimate scenic flight.",
+                link: "https://gyg.me/kNNnLAxp"
+            },
+            {
+                title: "Miami: Miami Private Helicopter Tour",
+                location: "Miami",
+                description: "Take a thrilling private helicopter flight over Miami's iconic skyline and coastline.",
+                link: "https://gyg.me/70gNB2VH"
+            },
+            {
+                title: "Sightseeing and Sunset Catamaran Sailing Excursion",
+                location: "Naples",
+                description: "A peaceful sailing cruise along the Naples coast to watch the sunset.",
+                link: "https://www.viator.com/tours/Naples/Sunset-and-Sightseeing-Day-Sail/d22381-188339P2?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Key West Sunset Sail with Open Bar, Live Music and Hors D'oeuvres",
+                location: "Key West",
+                description: "Enjoy a luxury catamaran sunset sail with live music, tropical drinks, and appetizers.",
+                link: "https://www.viator.com/tours/Key-West/Key-West-Sunset-Champagne-and-Appetizers-Cruise/d661-3800CAPSUNSAIL?pid=P00314010&mcid=42383&medium=link"
+            }
         ]
     }
 ];
@@ -2176,20 +2375,40 @@ function renderDetailedPageMarkup(hotel) {
     if (hotel.images && hotel.images.length > 1) {
         // Set up global slider variables for the current view
         window.sliderImages = hotel.images;
-        window.currentSliderIndex = 0;
+        window.currentBottomSliderIndex = 1;
 
-        imageBoxHtml = `
-            <div class="detail-image-box" id="detail-slider-container">
-                <img src="${hotel.images[0]}" alt="${hotel.imageAlt || hotel.name}" class="detail-main-img" id="slider-img">
-                <button class="slider-arrow prev" onclick="changeSliderImage(-1)">&#10094;</button>
-                <button class="slider-arrow next" onclick="changeSliderImage(1)">&#10095;</button>
-                <div class="slider-dots" id="slider-dots-container">
-                    ${hotel.images.map((img, idx) => `<span class="slider-dot ${idx === 0 ? 'active' : ''}" onclick="setSliderImage(${idx})"></span>`).join("")}
+        if (hotel.images.length === 2) {
+            imageBoxHtml = `
+                <div class="detail-image-stack">
+                    <div class="detail-image-box">
+                        <img src="${hotel.images[0]}" alt="${hotel.imageAlt || hotel.name}" class="detail-main-img">
+                        <span class="detail-location-badge">${hotel.location}</span>
+                        <span class="detail-price-badge" title="Price Range: ${hotel.priceRange}">${hotel.priceRange}</span>
+                    </div>
+                    <div class="detail-image-box">
+                        <img src="${hotel.images[1]}" alt="${hotel.imageAlt || hotel.name}" class="detail-main-img">
+                    </div>
                 </div>
-                <span class="detail-location-badge">${hotel.location}</span>
-                <span class="detail-price-badge" title="Price Range: ${hotel.priceRange}">${hotel.priceRange}</span>
-            </div>
-        `;
+            `;
+        } else {
+            imageBoxHtml = `
+                <div class="detail-image-stack">
+                    <div class="detail-image-box">
+                        <img src="${hotel.images[0]}" alt="${hotel.imageAlt || hotel.name}" class="detail-main-img">
+                        <span class="detail-location-badge">${hotel.location}</span>
+                        <span class="detail-price-badge" title="Price Range: ${hotel.priceRange}">${hotel.priceRange}</span>
+                    </div>
+                    <div class="detail-image-box bottom-stack-slider">
+                        <img src="${hotel.images[1]}" alt="${hotel.imageAlt || hotel.name}" class="detail-main-img" id="bottom-slider-img">
+                        <button class="slider-arrow prev" onclick="changeBottomImage(-1)">&#10094;</button>
+                        <button class="slider-arrow next" onclick="changeBottomImage(1)">&#10095;</button>
+                        <div class="slider-dots" id="bottom-slider-dots-container">
+                            ${hotel.images.slice(1).map((img, idx) => `<span class="slider-dot bottom-slider-dot ${idx === 0 ? 'active' : ''}" onclick="setBottomImage(${idx + 1})"></span>`).join("")}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
     } else {
         imageBoxHtml = `
             <div class="detail-image-box">
@@ -2408,6 +2627,33 @@ window.setSliderImage = function(index) {
     });
 };
 
+// Bottom Stack Image Slider Functions (for stacked detail views with > 2 images)
+window.changeBottomImage = function(dir) {
+    if (!window.sliderImages || window.sliderImages.length <= 2) return;
+    let newIndex = window.currentBottomSliderIndex + dir;
+    if (newIndex < 1) newIndex = window.sliderImages.length - 1;
+    if (newIndex >= window.sliderImages.length) newIndex = 1;
+    window.setBottomImage(newIndex);
+};
+
+window.setBottomImage = function(index) {
+    if (!window.sliderImages || index < 1 || index >= window.sliderImages.length) return;
+    window.currentBottomSliderIndex = index;
+    const imgEl = document.getElementById("bottom-slider-img");
+    if (imgEl) {
+        imgEl.src = window.sliderImages[index];
+    }
+    // Update dots active class
+    const dots = document.querySelectorAll(".bottom-slider-dot");
+    dots.forEach((dot, idx) => {
+        if (idx === (index - 1)) {
+            dot.classList.add("active");
+        } else {
+            dot.classList.remove("active");
+        }
+    });
+};
+
 // 9. Best Of View Renderers
 function renderBestOfCategories() {
     const container = document.getElementById("best-of-categories-list");
@@ -2488,14 +2734,56 @@ function renderBestOfListDetailView(categoryId) {
         <div class="best-of-detail-header">
             <h1 class="best-of-detail-title">${cat.name}</h1>
             <div class="best-of-detail-description" style="margin-bottom: 2rem;">
-                ${cat.introParagraphs.map(p => `<p class="best-of-detail-desc">${p}</p>`).join("")}
+                ${cat.introParagraphs.map((p, idx) => {
+                    let html = '';
+                    if (idx === 1) {
+                        html += `<h3 class="best-of-intro-subheader" style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700; color: var(--text-primary); margin-top: 1.5rem; margin-bottom: 0.75rem;">Our Selection Process</h3>`;
+                    }
+                    html += `<p class="best-of-detail-desc" style="margin-bottom: 1rem;">${p}</p>`;
+                    return html;
+                }).join("")}
             </div>
         </div>
         
         <!-- Matching Stays Grid/List -->
-        <div class="best-of-items-list">
+        <div class="best-of-items-list" style="margin-bottom: 2.5rem;">
             ${hotelsListHtml}
         </div>
+
+        <!-- Experiences Section -->
+        ${cat.experiences && cat.experiences.length > 0 ? `
+            <div class="best-of-experiences-section" style="margin-top: 2.5rem; border-top: 1px solid var(--border-color); padding-top: 2.5rem; margin-bottom: 2.5rem;">
+                <div class="best-of-header" style="margin-bottom: 2rem; text-align: left; display: flex; align-items: flex-start; gap: 1.25rem;">
+                    <div style="font-size: 2.2rem; line-height: 1; padding: 0.6rem; background: rgba(13, 148, 136, 0.08); border-radius: var(--border-radius-md); color: #0d9488; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(13, 148, 136, 0.18);">
+                        🧭
+                    </div>
+                    <div style="flex: 1;">
+                        <span class="best-of-tagline" style="color: #0d9488; font-size: 1.05rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px;">Complete Your Outing</span>
+                        <h2 class="best-of-section-title" style="font-family: var(--font-heading); font-size: 2.4rem; font-weight: 800; color: var(--text-primary); margin-top: 0.25rem; margin-bottom: 0.5rem; letter-spacing: -0.5px;">Great Experiences in South Florida</h2>
+                        <p style="color: var(--text-secondary); font-size: 1.1rem; margin: 0; line-height: 1.4;">Pair your stay with one of these highly rated local activities and tours.</p>
+                    </div>
+                </div>
+                <div class="experiences-list" style="display: flex; flex-direction: column; gap: 1.25rem;">
+                    ${cat.experiences.map(exp => `
+                        <a href="${exp.link}" target="_blank" rel="noopener noreferrer" class="experience-card horizontal">
+                            <div class="experience-content" style="flex: 1; display: flex; flex-direction: column; gap: 0.5rem; text-align: left;">
+                                <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;">
+                                    <div class="experience-badge" style="display: inline-block; background: rgba(13, 148, 136, 0.1); color: #0d9488; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 50px; text-transform: uppercase; letter-spacing: 0.5px;">
+                                        ${exp.location}
+                                    </div>
+                                    <h3 class="experience-title" style="font-family: var(--font-heading); font-size: 1.2rem; font-weight: 750; color: var(--text-primary); margin: 0; line-height: 1.3;">${exp.title}</h3>
+                                </div>
+                                <p class="experience-desc" style="color: var(--text-secondary); font-size: 0.95rem; margin: 0; line-height: 1.4;">${exp.description || ''}</p>
+                            </div>
+                            <div class="experience-footer">
+                                <span>Book Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </div>
+                        </a>
+                    `).join("")}
+                </div>
+            </div>
+        ` : ""}
     `;
 }
 

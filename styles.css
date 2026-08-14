@@ -1044,6 +1044,7 @@ header {
     font-size: 1.05rem;
     color: var(--text-secondary);
     line-height: 1.6;
+    white-space: pre-line;
 }
 
 .detail-features-row {
@@ -1675,8 +1676,8 @@ header {
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius-lg);
     overflow: hidden;
-    display: grid;
-    grid-template-columns: 320px 1fr;
+    display: block;
+    padding: 2rem;
     margin-bottom: 2rem;
     box-shadow: var(--shadow-soft);
     transition: var(--transition-smooth);
@@ -1688,9 +1689,14 @@ header {
 }
 
 .best-of-item-img-container {
+    float: left;
+    width: 360px;
+    height: 270px;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
     position: relative;
-    height: 100%;
-    min-height: 240px;
 }
 
 .best-of-item-img {
@@ -1700,9 +1706,8 @@ header {
 }
 
 .best-of-item-body {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
+    padding: 0;
+    display: block;
 }
 
 .best-of-item-title-row {
@@ -1733,12 +1738,14 @@ header {
     color: var(--text-secondary);
     line-height: 1.5;
     margin-bottom: 1.5rem;
+    white-space: pre-line;
 }
 
 .best-of-item-actions {
-    margin-top: auto;
     display: flex;
     gap: 1rem;
+    margin-top: 1.5rem;
+    clear: both;
 }
 
 /* Dynamic Option Selector Popup / Modal */
@@ -1973,12 +1980,15 @@ footer {
     }
     
     .best-of-item-row {
-        grid-template-columns: 1fr;
+        padding: 1.5rem;
     }
     
     .best-of-item-img-container {
-        height: 200px;
-        min-height: auto;
+        float: none;
+        width: 100%;
+        height: 240px;
+        margin-right: 0;
+        margin-bottom: 1.5rem;
     }
     
     .footer-grid {
@@ -2100,4 +2110,67 @@ footer {
         height: 50px !important;
     }
 }
+
+/* Great Experiences in South Florida Section */
+.experience-card:hover {
+    border-color: #0d9488 !important;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(13, 148, 136, 0.15);
+}
+/* Horizontal Stacked Experience Cards */
+.experience-card.horizontal {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    text-decoration: none;
+    transition: var(--transition-smooth);
+    margin-bottom: 1.25rem;
+}
+.experience-card.horizontal:hover {
+    border-color: #0d9488 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(13, 148, 136, 0.12);
+}
+.experience-card.horizontal .experience-footer {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+    color: #0d9488;
+    font-weight: 700;
+    white-space: nowrap;
+    border: 1.5px solid #0d9488;
+    padding: 0.55rem 1.1rem;
+    border-radius: var(--border-radius-sm);
+    transition: var(--transition-smooth);
+    background: transparent;
+}
+.experience-card.horizontal:hover .experience-footer {
+    background: #0d9488;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .experience-card.horizontal {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+    }
+    .experience-card.horizontal .experience-footer {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+.detail-image-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
 
