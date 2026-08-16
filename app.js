@@ -2342,7 +2342,7 @@ function renderHotelCardMarkup(hotel) {
                 <button class="btn-secondary" onclick="openDetailsPage('${hotel.id}')" style="width: 100%;">
                     Details &amp; Perks
                 </button>
-                <button class="btn-primary" onclick="openOptionSelector('${hotel.id}', 'book')" style="width: 100%;">
+                <button class="btn-primary" onclick="event.stopPropagation(); window.open('${hotel.bookingUrls.booking}', '_blank')" style="width: 100%;">
                     Book Stay
                 </button>
             </div>
@@ -2504,6 +2504,10 @@ function renderDetailedPageMarkup(hotel) {
                     
                     <p class="detail-long-desc">${hotel.longDescription}</p>
                     
+                    <button class="mobile-book-anchor-btn" onclick="document.getElementById('booking-actions-box').scrollIntoView({ behavior: 'smooth' })">
+                        Book Room
+                    </button>
+                    
                     <div class="detail-features-row">
                         ${featuresHtml}
                     </div>
@@ -2546,7 +2550,7 @@ function renderDetailedPageMarkup(hotel) {
                 <!-- Right Side: Booking, Contacts & Hours -->
                 <div class="detail-right-column">
                     <!-- Actions Booking Box -->
-                    <div class="detail-actions-box">
+                    <div class="detail-actions-box" id="booking-actions-box">
                         <h3 class="detail-box-title">Secure Your Reservation</h3>
                         <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.4;">
                             Choose your preferred booking channel to compare rates and reserve your room:
@@ -3295,6 +3299,21 @@ document.addEventListener("DOMContentLoaded", () => {
             } else {
                 window.location.hash = "#suggest-section";
             }
+        });
+    }
+
+    // Back to Top button listener
+    const backToTopBtn = document.getElementById("back-to-top-btn");
+    if (backToTopBtn) {
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 400) {
+                backToTopBtn.classList.add("visible");
+            } else {
+                backToTopBtn.classList.remove("visible");
+            }
+        });
+        backToTopBtn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
         });
     }
 });
