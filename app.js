@@ -2553,7 +2553,7 @@ function renderDetailedPageMarkup(hotel) {
                     <div class="detail-actions-box" id="booking-actions-box">
                         <h3 class="detail-box-title">Secure Your Reservation</h3>
                         <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.4;">
-                            Choose your preferred booking channel to compare rates and reserve your room:
+                            Click below to check availability and secure your room on our partner site:
                         </p>
                         <div class="detail-action-buttons">
                             <a href="${hotel.bookingUrls.booking}" target="_blank" rel="noopener noreferrer" class="detail-action-btn active-btn">
@@ -2716,7 +2716,7 @@ function renderBestOfListDetailView(categoryId) {
                         <button class="btn-secondary" onclick="openDetailsPage('${hotel.id}')">
                             View Full Details
                         </button>
-                        <button class="btn-primary" onclick="openOptionSelector('${hotel.id}', 'book')">
+                        <button class="btn-primary" onclick="event.stopPropagation(); window.open('${hotel.bookingUrls.booking}', '_blank')">
                             Book Now
                         </button>
                     </div>
