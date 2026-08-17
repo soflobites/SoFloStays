@@ -2447,21 +2447,24 @@ function filterAndRender() {
             hotel.perk.toLowerCase().includes(query) ||
             hotel.tags.some(t => normalizeTag(t).includes(query));
             
-        // Location check
-        const matchesLoc = STATE.selectedLocations.length === 0 || 
-            STATE.selectedLocations.includes(hotel.location.toLowerCase());
-            
-        // Price check
-        const matchesPrice = STATE.selectedPrice === "all" || 
-            hotel.priceRange === STATE.selectedPrice;
-            
-        // Amenities tags check (matches all selected tags - AND condition)
-        const matchesTags = STATE.selectedTags.length === 0 || 
-            STATE.selectedTags.every(t => 
+        // Check active sidebar filters
+        const hasLocs = STATE.selectedLocations.length > 0;
+        const hasPrice = STATE.selectedPrice !== "all";
+        const hasTags = STATE.selectedTags.length > 0;
+        const hasAnyFilter = hasLocs || hasPrice || hasTags;
+        
+        let matchesFilters = true;
+        if (hasAnyFilter) {
+            const matchesLoc = hasLocs && STATE.selectedLocations.includes(hotel.location.toLowerCase());
+            const matchesPrice = hasPrice && hotel.priceRange === STATE.selectedPrice;
+            const matchesTags = hasTags && STATE.selectedTags.some(t => 
                 hotel.tags.some(ht => normalizeTag(ht) === normalizeTag(t))
             );
             
-        return matchesSearch && matchesLoc && matchesPrice && matchesTags;
+            matchesFilters = matchesLoc || matchesPrice || matchesTags;
+        }
+        
+        return matchesSearch && matchesFilters;
     });
     
     // Display matches count
