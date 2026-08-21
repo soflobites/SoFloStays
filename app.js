@@ -58,7 +58,7 @@ Why We Recommend It: Naples Grande is ideal for travelers who want a resort that
         "offersBeachAccess": true,
         "phone": "(239) 597-3232",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/naples-grande.html?aid=356980&label=gog235jc-10CAso7AFCDW5hcGxlcy1ncmFuZGVIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALUudjTBsACAdICJDNmNjUyMGU0LTA2YTEtNDYyYy04YTI2LWEwYjUzYTE4M2IzMNgCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023293&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125531&srpvid=04197e6b7b6f01cc&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/naples-grande.html?aid=356980&label=gog235jc-10CAso7AFCDW5hcGxlcy1ncmFuZGVIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEBAEBiAIBqAIBuALUudjTBsACAdICJDNmNjUyMGU0LTA2YTEtNDYyYy04YTI2LWEwYjUzYTE4M2IzMNgCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023293&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125531&srpvid=04197e6b7b6f01cc&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -226,7 +226,7 @@ Why We Recommend It: Inn on Fifth is ideal for travelers who want to stay in the
         "offersBeachAccess": false,
         "phone": "(239) 403-8777",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/the-inn-on-fifth.html?aid=356980&label=gog235jc-10CAso7AFCEHRoZS1pbm4tb24tZmlmdGhIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAL9utjTBsACAdICJGFjNTViNmY0LTQ4ZjctNGU1Ny04NTk1LWJmMDBjMTIwZmExONgCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023293&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125700&srpvid=d8cd7ebfa4690063&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/the-inn-on-fifth.html?aid=356980&label=gog235jc-10CAso7AFCEHRoZS1pbm4tb24tZmlmdGhIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEBAEBiAIBqAIBuAL9utjTBsACAdICJGFjNTViNmY0LTQ4ZjctNGU1Ny04NTk1LWJmMDBjMTIwZmExONgCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023293&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125700&srpvid=d8cd7ebfa4690063&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -311,7 +311,7 @@ Why We Recommend It: LaPlaya is perfect for travelers who want a luxurious beach
         "offersBeachAccess": true,
         "phone": "(239) 597-3123",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/la-playa-beach-and-golf-resort.html?aid=356980&label=gog235jc-10CAso7AFCHmxhLXBsYXlhLWJlYWNoLWFuZC1nb2xmLXJlc29ydEgzWANojgKIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ApG72NMGwAIB0gIkZjg5ZDc2NjAtYTUxNi00ZjljLTliM2QtYTUxM2RjYWQxOTc52AIB4AIB&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023293&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125719&srpvid=ed217ec939640057&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/la-playa-beach-and-golf-resort.html?aid=356980&label=gog235jc-10CAso7AFCHmxhLXBsYXlhLWJlYWNoLWFuZC1nb2xmLXJlc29ydEgzWANojgKIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ApG72NMGwAIB0gIkZjg5ZDc2NjAtYTUxNi00ZjljLTliM2QtYTUxM2RjYWQxOTc52AIB4AIB&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023293&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125719&srpvid=ed217ec939640057&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -393,7 +393,7 @@ Why We Recommend It: JW Marriott Miami is perfect for travelers who want a luxur
         "offersBeachAccess": false,
         "phone": "(305) 329-3500",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/jw-marriott-miami.html?aid=356980&label=gog235jc-10CAso7AFCEWp3LW1hcnJpb3R0LW1pYW1pSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCrbvY0wbAAgHSAiQ4YTllNDQxNS01NmMzLTQ0ZDUtYWFlZS02Yzc4YWUwZDVmZWTYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023181&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125747&srpvid=190c7ed7926f01ed&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/jw-marriott-miami.html?aid=356980&label=gog235jc-10CAso7AFCEWp3LW1hcnJpb3R0LW1pYW1pSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCrbvY0wbAAgHSAiQ4YTllNDQxNS01NmMzLTQ0ZDUtYWFlZS02Yzc4YWUwZDVmZWTYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023181&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125747&srpvid=190c7ed7926f01ed&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -476,7 +476,7 @@ Why We Recommend It: Four Seasons Miami is ideal for travelers seeking a refined
         "offersBeachAccess": false,
         "phone": "(305) 358-3535",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/four-seasons-miami.html?aid=356980&label=gog235jc-10CAso7AFCEmZvdXItc2Vhc29ucy1taWFtaUgzWANojgKIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AtG72NMGwAIB0gIkZDUzN2VhMTgtYWE2Yi00NjZkLWJmNzMtNTU3M2M0OTQzMjNm2AIB4AIB&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023181&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125783&srpvid=d7577ee9a26300b1&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/four-seasons-miami.html?aid=356980&label=gog235jc-10CAso7AFCEmZvdXItc2Vhc29ucy1taWFtaUgzWANojgKIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AtG72NMGwAIB0gIkZDUzN2VhMTgtYWE2Yi00NjZkLWJmNzMtNTU3M2M0OTQzMjNm2AIB4AIB&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023181&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125783&srpvid=d7577ee9a26300b1&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -562,7 +562,7 @@ Why We Recommend It: Fontainebleau is perfect for travelers seeking a glamorous,
         "offersBeachAccess": true,
         "phone": "(305) 538-2000",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/fontainebleau-resort.html?aid=356980&label=gog235jc-10CAso7AFCFGZvbnRhaW5lYmxlYXUtcmVzb3J0SDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC6bvY0wbAAgHSAiRiZGVhZTg2OC1kYjBkLTRmMGItOTk1Yy1mNTZmYjZhNTJkNDfYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023182&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125806&srpvid=706e7ef5af7a0143&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/fontainebleau-resort.html?aid=356980&label=gog235jc-10CAso7AFCFGZvbnRhaW5lYmxlYXUtcmVzb3J0SDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC6bvY0wbAAgHSAiRiZGVhZTg2OC1kYjBkLTRmMGItOTk1Yy1mNTZmYjZhNTJkNDfYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023182&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125806&srpvid=706e7ef5af7a0143&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -643,7 +643,7 @@ Why We Recommend It: Costa d’Este is ideal for travelers who want a chic, bout
         "offersBeachAccess": true,
         "phone": "(772) 562-9919",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/costa-d-este-beach-resort.html?aid=356980&label=gog235jc-10CAso7AFCGWNvc3RhLWQtZXN0ZS1iZWFjaC1yZXNvcnRIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKhvNjTBsACAdICJGRjNTM2YWNkLTI4MzctNDY4Mi1iM2U4LTIxODc1M2Y5ZTIzYdgCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20024388&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125862&srpvid=21417f1127e70088&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/costa-d-este-beach-resort.html?aid=356980&label=gog235jc-10CAso7AFCGWNvc3RhLWQtZXN0ZS1iZWFjaC1yZXNvcnRIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKhvNjTBsACAdICJGRjNTM2YWNkLTI4MzctNDY4Mi1iM2U4LTIxODc1M2Y5ZTIzYdgCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20024388&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125862&srpvid=21417f1127e70088&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -728,7 +728,7 @@ Why We Recommend It: The Biltmore is ideal for travelers seeking historic grande
         "offersBeachAccess": false,
         "phone": "(305) 445-1926",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/biltmore.html?aid=356980&label=gog235jc-10CAso7AFCCGJpbHRtb3JlSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCvLzY0wbAAgHSAiQ3NjgzMjdiNi03MTZhLTRhMmMtOTQ5ZS0yNWIxMjJiMDU0NTfYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023181&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125889&srpvid=557a7f1eb2c800f1&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/biltmore.html?aid=356980&label=gog235jc-10CAso7AFCCGJpbHRtb3JlSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCvLzY0wbAAgHSAiQ3NjgzMjdiNi03MTZhLTRhMmMtOTQ5ZS0yNWIxMjJiMDU0NTfYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023181&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786125889&srpvid=557a7f1eb2c800f1&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -812,7 +812,7 @@ Why We Recommend It: This resort is ideal for travelers seeking top‑tier beach
         "offersBeachAccess": true,
         "phone": "(239) 598-3300",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/ritz-carlton-naples.html?aid=356980&label=gog235jc-10CAso7AFCE3JpdHotY2FybHRvbi1uYXBsZXNIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKjwNjTBsACAdICJDQxZjllN2M3LTU0NTUtNDRhZi04Y2U3LWYxOTQyMzczMzg1ZdgCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023293&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126376&srpvid=e982801223ef00d1&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/ritz-carlton-naples.html?aid=356980&label=gog235jc-10CAso7AFCEzJpdHotY2FybHRvbi1uYXBsZXNIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEBAEBiAIBqAIBuAKjwNjTBsACAdICJDQxZjllNy1kYzA4LTQxNDgtYjllOC03YmZkM2VhYTdkNTDYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023293&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126376&srpvid=e982801223ef00d1&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -895,7 +895,7 @@ Why We Recommend It: This hotel is ideal for travelers seeking an affordable, co
         "offersBeachAccess": true,
         "phone": "(954) 524-8733",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/courtyard-fort-lauderdale-beach.html?aid=356980&label=gog235jc-10CAso7AFCH2NvdXJ0eWFyZC1mb3J0LWxhdWRlcmRhbGUtYmVhY2hIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALVwNjTBsACAdICJDJlOTdiYWZjLTVkNjctNDdlNS1hOGZmLTEyODRlNmVlMmU5N9gCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20022339&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126426&srpvid=af82802bd6760077&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/courtyard-fort-lauderdale-beach.html?aid=356980&label=gog235jc-10CAso7AFCH2NvdXJ0eWFyZC1mb3J0LWxhdWRlcmRhbGUtYmVhY2guaHRtbD9haWQ9MzU2OTgwJmxhYmVsPWdvZzIzNWpjLTEwQ0FzbzdBRkkyNmdvWjBld0ZFYkZDM1BiM0J0LWlXWWhkWRlcmRhbGUtZmVhY2hIM1gDaI4CiAEBmAExuAEVyAEM2AED6AEB6AEBfgGIAgGoAgG4AlVwNjTBsACAdICJDJlOTdiYjdiLWZlNTYtNGFkNS1hOGZkLW1lZTEyODRlMmVlMVM5gCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20022339&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126426&srpvid=af82802bd6760077&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -976,7 +976,7 @@ Why We Recommend It: This hotel is ideal for travelers seeking a modern, afforda
         "offersBeachAccess": false,
         "phone": "(954) 846-0400",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/ac-by-marriott-fort-lauderdale-sawgrass-mills-sunrise.html?aid=356980&label=gog235jc-10CAso7AFCNWFjLWJ5LW1hcnJpb3R0LWZvcnQtbGF1ZGVyZGFsZS1zYXdncmFzcy1taWxscy1zdW5yaXNlSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC8sDY0wbAAgHSAiQ3NGM4OWVlNy1kYzA4LTQxNDgtYjllOC03YmZkM2VhYTdkNTDYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20024205&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126455&srpvid=47ef8039f517003c&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/ac-by-marriott-fort-lauderdale-sawgrass-mills-sunrise.html?aid=356980&label=gog235jc-10CAso7AFCNWFjLWJ5LW1hcnJpb3R0LWZvcnQtbGF1ZGVyZGFsZS1zYXdncmFzcy1taWxscy1zdW5yaXNlSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC8sDY0wbAAgHSAiQ3NGM4OWVlNy1kYzA4LTQxNDgtYjllOC03YmZkM2VhYTdkNTDYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20024205&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126455&srpvid=47ef8039f517003c&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -1061,7 +1061,7 @@ Why We Recommend It: InterContinental Miami is ideal for travelers seeking a sty
         "offersBeachAccess": false,
         "phone": "(305) 577-1000",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/inter-continental-miami.html?aid=356980&label=gog235jc-10CAso7AFCF2ludGVyLWNvbnRpbmVudGFsLW1pYW1pSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCi8HY0wbAAgHSAiRjMzU1ZDk5Ny00YmVmLTQ1ZWQtOGJiZS04YTlhZjkwZWM1ZmTYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023181&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126481&srpvid=80628046883f0066&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/inter-continental-miami.html?aid=356980&label=gog235jc-10CAso7AFCF2ludGVyLWNvbnRpbmVudGFsLW1pYW1pSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCi8HY0wbAAgHSAiRjMzU1ZDk5Ny00YmVmLTQ1ZWQtOGJiZS0wJiZS04YTlhZjkwZWM1Yg2AIB4AIB&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023181&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126481&srpvid=80628046883f0066&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -1147,7 +1147,7 @@ Why We Recommend It: Pelican Grand is perfect for travelers seeking a charming, 
         "offersBeachAccess": true,
         "phone": "(954) 568-9431",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/pelican-grand-beach-resort.html?aid=356980&label=gog235jc-10CAso7AFCGnBlbGljYW4tZ3JhbmQtYmVhY2gtcmVzb3J0SDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCh8PY0wbAAgHSAiQ1OGMwNGRlYS1kMDQzLTRkMTYtODIzZS02ODU0ODY1YjUzNzDYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20022339&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126732&srpvid=2bf180c45fe801f6&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/pelican-grand-beach-resort.html?aid=356980&label=gog235jc-10CAso7AFCGnBlbGljYW4tZ3JhbmQtYmVhY2gtcmVzb3J0SDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCh8PY0wbAAgHSAiQ1OGMwNGRlYS1kMDQzLTRkMTYtODIzZS02ODU0ODY1YjUzNzDYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20022339&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126732&srpvid=2bf180c45fe801f6&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -1228,7 +1228,7 @@ Why We Recommend It: AC Hotel Naples 5th Ave is perfect for travelers seeking a 
         "offersBeachAccess": false,
         "phone": "(239) 316-4850",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/ac-by-marriott-naples-5th-avenue.html?aid=356980&label=gog235jc-10CAso7AFCIGFjLWJ5LW1hcnJpb3R0LW5hcGxlcy01dGgtYXZlbnVlSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCm8PY0wbAAgHSAiRkMGE3ZDRkZi1iMWQ5LTQ4MzctOTAxZi0wOGNmZjNlMDBhYzfYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023293&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126752&srpvid=947b80cec857016a&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/ac-by-marriott-naples-5th-avenue.html?aid=356980&label=gog235jc-10CAso7AFCIGZsdWJ5LW1hcnJpb3R0LW5hcGxlcy01dGgtYXZlbnVlSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCm8DY0wbAAgHSAiRkMGE3OTY2Mi1hZTRkLTQ1NWUtODkyOS1iMGE3MmQ0ZTlhMzDYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023293&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126752&srpvid=947b80cec857016a&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -1309,7 +1309,7 @@ Why We Recommend It: Aloft Miami Brickell is ideal for travelers seeking a fun, 
         "offersBeachAccess": false,
         "phone": "(305) 854-6300",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/aloft-miami-brickell.html?aid=356980&label=gog235jc-10CAso7AFCFGFsb2Z0LW1pYW1pLWJyaWNrZWxsSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCs8PY0wbAAgHSAiRhMmNlNTAzZi05YTQzLTRmNTYtOWRmMy1jM2Y2ODVjNjVlNDnYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023181&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126776&srpvid=f08180da1655019c&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/aloft-miami-brickell.html?aid=356980&label=gog235jc-10CAso7AFCFGFsb2Z0LW1pYW1pLWJyaWNrZWxsSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCs8PY0wbAAgHSAiRhMmNlNTAzZi05YTQzLTRmNTYtOWRmMy1jM2Y2ODVjNjVlNDnYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023181&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126776&srpvid=f08180da1655019c&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -1397,7 +1397,7 @@ Why We Recommend It: The Betsy is perfect for travelers seeking a quiet, artisti
         "offersBeachAccess": true,
         "phone": "(305) 531-6100",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/the-betsy.html?aid=356980&label=gog235jc-10CAso7AFCCXRoZS1iZXRzeUgzWANojgKIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsbD2NMGwAIB0gIkMjBjMzExMWYtOGZkOS00NmI2LWE0MzEtZTkxZGRhMzQzYzY12AIB4AIB&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023182&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126796&srpvid=c7cf80e3453b00ea&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/the-betsy.html?aid=356980&label=gog235jc-10CAso7AFCCXRoZS1iZXRzeUgzWANojgKIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsbD2NMGwAIB0gIkMjBjMzExMWYtOGZkOS00NmI2LWEwMzEtZTkxZGRhMzQzYzY12AIB4AIB&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023182&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786126796&srpvid=c7cf80e3453b00ea&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -1479,7 +1479,7 @@ Why We Recommend It: The Breakers is ideal for travelers seeking timeless grande
         "offersBeachAccess": true,
         "phone": "(561) 655-6611",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/the-breakers-palm-beach.html?aid=356980&label=gog235jc-10CAso7AFCF3RoZS1icmVha2Vycy1wYWxtLWJlYWNoSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC58bY0wbAAgHSAiQ1MWVmNjg2NS05Mjc5LTQ2OTEtYThjZi1jNmZiOGQ5MGExY2HYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023524&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127211&srpvid=3ce381b43dbf0294&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/the-breakers-palm-beach.html?aid=356980&label=gog235jc-10CAso7AFCF3RoZS1icmVha2Vycy1wYWxtLWJlYWNoSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC58bY0wbAAgHSAiQ1MWVmNjg2NS05Mjc5LTQ2OTEtYThjZi1jNmZiOGQ5MGExY2HYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023524&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127211&srpvid=3ce381b43dbf0294&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -1564,7 +1564,7 @@ Why We Recommend It: St. Regis Bal Harbour is perfect for travelers seeking ultr
         "offersBeachAccess": true,
         "phone": "(305) 993-3300",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/st-regis-bal-harbour-resort.html?aid=356980&label=gog235jc-10CAso7AFCG3N0LXJlZ2lzLWJhbC1oYXJib3VyLXJlc29ydEgzWANojgKIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AoPH2NMGwAIB0gIkZDMwYTY3OTEtYTUzOC00YzRiLTllODUtYzA1NTg2NzhmYWFl2AIB4AIB&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023182&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127240&srpvid=ce3f81c2b9ca0206&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/st-regis-bal-harbour-resort.html?aid=356980&label=gog235jc-10CAso7AFCG3N0LXJlZ2lzLWJhbC1oYXJib3VyLXJlc29ydED3V0XYbC1OYXJib3VyLUtleXNib3JkSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC8cfY0wbAAgHSAiRkYmRlYXRkOC1kYjBkLTRmMGItOTk1Yy1mNTZmYjZhNTJkNDfYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023182&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127240&srpvid=ce3f81c2b9ca0206&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -1651,7 +1651,7 @@ Why We Recommend It: 1 Hotel South Beach is perfect for travelers seeking a luxu
         "offersBeachAccess": true,
         "phone": "(305) 604-1000",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/1-south-beach.html?aid=356980&label=gog235jc-10CAso7AFCDTEtc291dGgtYmVhY2hIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKjx9jTBsACAdICJGM3YWY5Y2ZiLWY3YWMtNGNhNy1hNjQ3LTU3NWM3MDc1NDFkZNgCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023182&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127272&srpvid=3f0281d2b17f0295&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/1-south-beach.html?aid=356980&label=gog235jc-10CAso7AFCDTEtc291dGgtYmVhY2hIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEBAEBiAIBqAIBuAKjx9jTBsACAdICJGM3YWY5Y2ZiLWY2Zi1yYWNtTGNhNy1hNjQ3LTU3NWM3MDQzLTU3NWM3MDQzNDFkFKZNgCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023182&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127272&srpvid=3f0281d2b17f0295&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -1731,7 +1731,7 @@ Why We Recommend It: The Miami Beach Edition is ideal for travelers seeking a st
         "offersBeachAccess": true,
         "phone": "(305) 534-5555",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/twoninezeroone-collinsave.html?aid=356980&label=gog235jc-10CAso7AFCGXR3b25pbmV6ZXJvb25lLWNvbGxpbnNhdmVIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK0x9jTBsACAdICJDViNDY2YjAzLTZlZmEtNDk1ZC1iNDg5LTE1N2Y2ZTBiMmI0YdgCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023182&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127287&srpvid=1f8e81da3251029f&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/twoninezeroone-collinsave.html?aid=356980&label=gog235jc-10CAso7AFCGXR3b25pbmV6ZXJvb25lLWNvbGxpbnNhdmVIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK0x9jTBsACAdICJDViNDY2ZTc1LTk2Y2ItNDI1ZTEzNDg5LTE1N2Y2ZT1iNDI1Mm1l0YdgCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023182&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127287&srpvid=1f8e81da3251029f&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -1811,7 +1811,7 @@ Why We Recommend It: Naples Four Seasons is ideal for travelers seeking the newe
         "offersBeachAccess": true,
         "phone": "(239) 261-2222",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/naples-beach-club-a-four-seasons-resort.html?aid=356980&label=gog235jc-10CAso7AFCJ25hcGxlcy1iZWFjaC1jbHViLWEtZm91ci1zZWFzb25zLXJlc29ydEgzWANojgKIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsnH2NMGwAIB0gIkYzI3YWEwZGYtZjU1ZC00Nzg3LThjOGYtY2M3M2NhM2Q4NzYw2AIB4AIB&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023293&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127310&srpvid=5aba81e56afe011f&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/naples-beach-club-a-four-seasons-resort.html?aid=356980&label=gog235jc-10CAso7AFCJ25hcGxlcy1iZWFjaC1jbHViLWEtZm91ci1zZWFzb25zLXJlc29ydEgzWANojgKIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsnH2NMGwAIB0gIkYzI3YWEwZGYtZjU1ZC00Nzg3LThjOGYtY2M3M2NhM2Q4NzYw2AIB4AIB&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023293&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127310&srpvid=5aba81e56afe011f&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -1893,7 +1893,7 @@ Why We Recommend It: Ritz‑Carlton Naples, Tiburón is perfect for families, go
         "offersBeachAccess": false,
         "phone": "(239) 593-2000",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/ritz-carlton-golf-resort-naples.html?aid=356980&label=gog235jc-10CAso7AFCH3JpdHotY2FybHRvbi1nb2xmLXJlc29ydC1uYXBsZXNIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALex9jTBsACAdICJDdiOTVjNWU2LTkxMzQtNDFmMy1iZmVmLTZiMTFlMTY1ZjkyMNgCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023293&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127331&srpvid=941b81ef87dc0082&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/ritz-carlton-golf-resort-naples.html?aid=356980&label=gog235jc-10CAso7AFCH3JpdHotY2FybHRvbi1nb2xmLXJlc29ydC1uYXBsZXNIM1gDaI4CiAEBmAEzuAEXyAEM2AED6AEBAEBiAIBqAIBuALex9jTBsACAdICJDdiOTVjMWYyLWVlM2QtNDFmMy1iZmVjLTk0MWI4MWVmODdkYdgCAeACAQ&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20023293&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127331&srpvid=941b81ef87dc0082&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -1978,7 +1978,7 @@ Why We Recommend It: JW Marriott Turnberry is perfect for families, couples, and
         "offersBeachAccess": false,
         "phone": "(305) 932-6200",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/fairmont-turnberry-isle.html?aid=356980&label=gog235jc-10CAso7AFCF2ZhaXJtb250LXR1cm5iZXJyeS1pc2xlSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC8MfY0wbAAgHSAiRmYjMwNmMzNS00M2MyLTRmMWYtYTU3Ny1iNWU4NzA5ZGJiYjDYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20021407&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127347&srpvid=773d81f8768d0162&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/fairmont-turnberry-isle.html?aid=356980&label=gog235jc-10CAso7AFCF2ZhaXJtb250LXR1cm5iZXJyeS1pc2xlSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC8MfY0wbAAgHSAiRmYjMwNmMzNS00M2MyLTRmMWYtYTU3Ny1iNWU4NzA5ZGJiYjDYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=20021407&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127347&srpvid=773d81f8768d0162&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -2065,7 +2065,7 @@ Why We Recommend It: JW Marriott Marco Island is ideal for travelers seeking a l
         "offersBeachAccess": true,
         "phone": "(239) 394-2511",
         "bookingUrls": {
-            "booking": "https://www.booking.com/hotel/us/marco-island-marriott-beach-resort-golf-club.html?aid=356980&label=gog235jc-10CAso7AFCLG1hcmNvLWlzbGFuZC1tYXJyaW90dC1iZWFjaC1yZXNvcnQtZ29sZi1jbHViSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCgMjY0wbAAgHSAiRkYmZlODhmOS00MzExLTQyMmItODhkNi0wMmQ0MzAyMGY4NGPYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=900040416&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127365&srpvid=c65082006a330229&type=total&ucfs=1&",
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/marco-island-marriott-beach-resort-golf-club.html?aid=356980&label=gog235jc-10CAso7AFCLG1hcmNvLWlzbGFuZC1tYXJyaW90dC1iZWFjaC1yZXNvcnQtZ29sZi1jbHViSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCgMjY0wbAAgHSAiRkYmZlODhmOS00MzExLTQyMmItODhkNi0wMmQ0MzAyMGY4NGPYAgHgAgE&sid=15b3ca973786aedfe8940e60f0b48b87&dest_id=900040416&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1786127365&srpvid=c65082006a330229&type=total&ucfs=1&",
             "hotels": "https://www.hotels.com",
             "expedia": "https://www.expedia.com",
             "agoda": "https://www.agoda.com",
@@ -2105,6 +2105,172 @@ Why We Recommend It: JW Marriott Marco Island is ideal for travelers seeking a l
                 "bookingButtonText": "Florida Mangroves Paddleboard or Kayak Tour From Naples 2026 - BOOK NOW"
             }
         ]
+    },
+    {
+        "id": "hyatt-centric-las-olas",
+        "name": "Hyatt Centric Las Olas Fort Lauderdale",
+        "location": "Fort Lauderdale",
+        "address": "100 E Las Olas Blvd, Fort Lauderdale, FL 33301",
+        "priceRange": "$$$",
+        "priceLevel": 3,
+        "stars": 4,
+        "tripadvisorScore": 4.5,
+        "tags": [
+            "Rooftop Pool",
+            "Pet-friendly",
+            "Family-friendly"
+        ],
+        "perk": "A vibrant rooftop pool deck (Elev8) with views of the downtown skyline and walkability to Las Olas dining.",
+        "description": "A modern, stylish downtown hotel offering a chic rooftop pool, craft dining, and direct access to Las Olas Boulevard.",
+        "longDescription": `Hyatt Centric Las Olas Fort Lauderdale places guests in the heart of downtown Fort Lauderdale’s bustling dining and entertainment district. Located directly on Las Olas Boulevard, this chic lifestyle hotel features modern guest rooms with floor‑to‑ceiling windows overlooking the riverfront and city skyline. The highlight of the property is the Elev8 rooftop pool deck, offering a stylish social hub with a bar, cabanas, and panoramic views.
+
+Guests can enjoy fresh, locally inspired dining at Harborwood Urban Kitchen & Bar or grab a cocktail at the lobby lounge. With its pet‑friendly policy and central location, it is the perfect base for exploring the historic Riverwalk district, local art galleries, and upscale boutiques.
+
+Why We Recommend It: This hotel is perfect for travelers who want to be in the center of Fort Lauderdale’s urban culture and dining scene, offering a lively rooftop atmosphere and excellent walkability.`,
+        "checkInCheckOut": {
+            "Check-In Time": "4:00 PM",
+            "Check-Out Time": "11:00 AM"
+        },
+        "image": "hyatt_las_olas_1.jpg",
+        "images": [
+            "hyatt_las_olas_1.jpg",
+            "hyatt_las_olas_2.jpg",
+            "hyatt_las_olas_3.jpg",
+            "hyatt_las_olas_4.jpg",
+            "hyatt_las_olas_5.jpg"
+        ],
+        "imageAlt": "Daytime view of the modern tall glass tower building facade of Hyatt Centric Las Olas Fort Lauderdale overlooking the city park and river in downtown under a soft sky",
+        "imageTitle": "Hyatt Centric Las Olas Fort Lauderdale Exterior",
+        "imageDescription": "Daytime view of the modern tall glass tower building facade of Hyatt Centric Las Olas Fort Lauderdale overlooking the city park and river in downtown under a soft sky",
+        "offersSpa": false,
+        "offersBeachAccess": false,
+        "phone": "(954) 353-1234",
+        "bookingUrls": {
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/hyatt-centric-las-olas-fort-lauderdale.html?aid=356980&label=gog235jc-10CAso7AFCJmh5YXR0LWNlbnRyaWMtbGFzLW9sYXMtZm9ydC1sYXVkZXJkYWxlSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCq5Gf1AbAAgHSAiRhNDM2YjTY2E11dd15091aa3ac30db&dest_id=20022339&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1787283633&srpvid=f45e19d6a953061b&type=total&ucfs=1&",
+            "hotels": "https://www.hotels.com",
+            "expedia": "https://www.expedia.com",
+            "agoda": "https://www.agoda.com",
+            "website": "https://www.hyatt.com/hyatt-centric/en-US/fllhc-hyatt-centric-las-olas-fort-lauderdale"
+        },
+        "mapsUrl": "https://maps.google.com/?q=Hyatt+Centric+Las+Olas+Fort+Lauderdale+100+E+Las+Olas+Blvd+Fort+Lauderdale+FL+33301",
+        "nearbyDining": [
+            {
+                "name": "Mister O1 Extraordinary Pizza",
+                "id": "mister-o1",
+                "description": "An extraordinary pizzeria famous for its iconic star-shaped pizzas with creamy ricotta stuffed inside the folded points. Originating in Miami Beach and expanding to Pembroke Pines, it serves crisp, thin crusts in a chic modern setting."
+            },
+            {
+                "name": "Ethos Greek Bistro",
+                "id": "ethos-greek-bistro",
+                "description": "A trendy, light-filled bistro blending authentic Greek culinary traditions with a vibrant, modern atmosphere. Their outdoor patio features a lovely setting with plants, umbrellas, and fans to beat the heat, plus beautiful lights at night."
+            },
+            {
+                "name": "Little Hen",
+                "id": "little-hen-weston",
+                "description": "An incredibly beautiful, flower-draped English-style breakfast and brunch boutique eatery. Serves creative egg dishes, fluffy pancakes, and luxury afternoon tea service."
+            }
+        ],
+        "thingsToDo": [
+            {
+                "name": "Las Olas Boulevard Shopping",
+                "description": "Take a pleasant stroll down Fort Lauderdale's signature fashion boulevard, packed with galleries, boutiques, and open cafes."
+            },
+            {
+                "name": "Riverwalk Fort Lauderdale",
+                "description": "Explore the scenic waterfront park along the New River, connecting downtown's cultural attractions, dining, and historic sites."
+            },
+            {
+                "name": "Fort Lauderdale: Millionaire's Row Cruise with Drinks",
+                "description": "Glide past spectacular mansions and yachts along Millionaire's Row on a guided cruise with drinks included.",
+                "bookingUrl": "https://www.getyourguide.com/fort-lauderdale-l1392/fort-lauderdale-millionaire-s-row-cruise-with-drinks-t624460/?ranking_uuid=0f5612d9-9500-4a21-88b6-56646c7ff814&q=Fort+Lauderdale&date_from=2026-09-14&date_to=2026-09-14",
+                "bookingButtonText": "Fort Lauderdale: Millionaire's Row Cruise with Drinks - 2026 (Verified Reviews)"
+            }
+        ]
+    },
+    {
+        "id": "the-westin-fort-lauderdale-beach",
+        "name": "The Westin Fort Lauderdale Beach Resort",
+        "location": "Fort Lauderdale",
+        "address": "321 N Fort Lauderdale Beach Blvd, Fort Lauderdale, FL 33304",
+        "priceRange": "$$$",
+        "priceLevel": 3,
+        "stars": 4,
+        "tripadvisorScore": 4,
+        "tags": [
+            "Beachfront",
+            "Family-friendly",
+            "Spa",
+            "Luxury",
+            "Pet-friendly"
+        ],
+        "perk": "A scenic skywalk connecting the hotel pool deck directly to Fort Lauderdale Beach.",
+        "description": "A premium oceanfront resort featuring a scenic beach skywalk, heated pool, Heavenly Spa, and coastal dining.",
+        "longDescription": `The Westin Fort Lauderdale Beach Resort offers a premium oceanfront escape overlooking the clear waters of the Atlantic. The resort is famous for its overhead skywalk that connects the elevated pool deck directly to the sandy beach, allowing guests to bypass street traffic entirely. It features signature Westin Heavenly Beds, a full‑service Heavenly Spa, and oceanfront dining options like Lona Cocina Tequileria.
+
+Guests can lounge by the outdoor pool, work out in the state‑of‑the‑art fitness center, or enjoy a variety of beach and water sports. The resort's family‑friendly programs, proximity to the marina, and scenic ocean‑view rooms make it a popular destination for families and couples looking to experience the best of Fort Lauderdale's beach lifestyle.
+
+Why We Recommend It: This resort is ideal for travelers seeking a comfortable beachfront stay with convenient beach access, excellent spa facilities, and a central location near Fort Lauderdale's waterfront dining.`,
+        "checkInCheckOut": {
+            "Check-In Time": "4:00 PM",
+            "Check-Out Time": "11:00 AM"
+        },
+        "image": "westin_fll_beach_1.jpg",
+        "images": [
+            "westin_fll_beach_1.jpg",
+            "westin_fll_beach_2.jpg",
+            "westin_fll_beach_3.jpg",
+            "westin_fll_beach_4.jpg",
+            "westin_fll_beach_5.jpg",
+            "westin_fll_beach_6.jpg",
+            "westin_fll_beach_7.jpg"
+        ],
+        "imageAlt": "Daytime view looking across the calm ocean at the modern high-rise building towers of The Westin Fort Lauderdale Beach Resort overlooking the wide sandy beach under a clear sky",
+        "imageTitle": "The Westin Fort Lauderdale Beach Resort Aerial View",
+        "imageDescription": "Daytime view looking across the calm ocean at the modern high-rise building towers of The Westin Fort Lauderdale Beach Resort overlooking the wide sandy beach under a clear sky",
+        "offersSpa": true,
+        "offersBeachAccess": true,
+        "phone": "(954) 467-1111",
+        "bookingUrls": {
+            "booking": "https://www.anrdoezrs.net/click-101857157-17293132?url=https://www.booking.com/hotel/us/westin-beach-resort-fort-lauderdale.html?aid=356980&label=gog235jc-10CAso7AFCI3dlc3Rpbi1iZWFjaC1yZXNvcnQtZm9ydC1sYXVkZXJkYWxlSDNYA2iOAogBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCypGf1AbAAgHSAiRiZDA1YTc0MC1mN2ZlLTRlMGMtYTNkMy1jZILTRlMGMtYTNkMy1jMmQ2MWE1M2FkNTg&dest_id=20022339&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1787283663&srpvid=925d19e52ac905cf&type=total&ucfs=1&",
+            "hotels": "https://www.hotels.com",
+            "expedia": "https://www.expedia.com",
+            "agoda": "https://www.agoda.com",
+            "website": "https://www.marriott.com/en-us/hotels/fllsb-the-westin-fort-lauderdale-beach-resort/overview/"
+        },
+        "mapsUrl": "https://maps.google.com/?q=The+Westin+Fort+Lauderdale+Beach+Resort+321+N+Fort+Lauderdale+Beach+Blvd+Fort+Lauderdale+FL+33304",
+        "nearbyDining": [
+            {
+                "name": "Mister O1 Extraordinary Pizza",
+                "id": "mister-o1",
+                "description": "An extraordinary pizzeria famous for its iconic star-shaped pizzas with creamy ricotta stuffed inside the folded points. Originating in Miami Beach and expanding to Pembroke Pines, it serves crisp, thin crusts in a chic modern setting."
+            },
+            {
+                "name": "Ethos Greek Bistro",
+                "id": "ethos-greek-bistro",
+                "description": "A trendy, light-filled bistro blending authentic Greek culinary traditions with a vibrant, modern atmosphere. Their outdoor patio features a lovely setting with plants, umbrellas, and fans to beat the heat, plus beautiful lights at night."
+            },
+            {
+                "name": "Little Hen",
+                "id": "little-hen-weston",
+                "description": "An incredibly beautiful, flower-draped English-style breakfast and brunch boutique eatery. Serves creative egg dishes, fluffy pancakes, and luxury afternoon tea service."
+            }
+        ],
+        "thingsToDo": [
+            {
+                "name": "Fort Lauderdale Beach Boardwalk",
+                "description": "Stroll along the picturesque beachside boardwalk, lined with palm trees, shops, and casual cafes."
+            },
+            {
+                "name": "Las Olas Marina",
+                "description": "Rent boats or charter yachts for a day of sailing along the Intracoastal Waterway from the nearby marina."
+            },
+            {
+                "name": "Fort Lauderdale: Millionaire's Row Cruise with Drinks",
+                "description": "Glide past spectacular mansions and yachts along Millionaire's Row on a guided cruise with drinks included.",
+                "bookingUrl": "https://www.getyourguide.com/fort-lauderdale-l1392/fort-lauderdale-millionaire-s-row-cruise-with-drinks-t624460/?ranking_uuid=0f5612d9-9500-4a21-88b6-56646c7ff814&q=Fort+Lauderdale&date_from=2026-09-14&date_to=2026-09-14",
+                "bookingButtonText": "Fort Lauderdale: Millionaire's Row Cruise with Drinks - 2026 (Verified Reviews)"
+            }
+        ]
     }
 ];
 
@@ -2134,7 +2300,9 @@ const HOTEL_ORDER = [
     "the-ritz-naples",
     "courtyard-by-marriott",
     "1-hotel-south-beach",
-    "the-miami-beach-edition"
+    "the-miami-beach-edition",
+    "hyatt-centric-las-olas",
+    "the-westin-fort-lauderdale-beach"
 ];
 HOTEL_DATA.sort((a, b) => HOTEL_ORDER.indexOf(a.id) - HOTEL_ORDER.indexOf(b.id));
 
@@ -2270,6 +2438,312 @@ const BEST_OF_CATEGORIES = [
                 link: "https://www.viator.com/tours/Key-West/Key-West-Sunset-Champagne-and-Appetizers-Cruise/d661-3800CAPSUNSAIL?pid=P00314010&mcid=42383&medium=link"
             }
         ]
+    },
+    {
+        id: "best-miami-hotels",
+        name: "Best Hotels in Miami & Miami Beach",
+        tag: "miami",
+        description: "A curated collection of the finest hotels and resorts in Miami, South Beach, Brickell, Coral Gables, and Aventura.",
+        icon: "🌴",
+        hotelIds: [
+            "jw-marriott-brickell",
+            "intercontinental-miami",
+            "aloft-miami-brickell",
+            "four-seasons-brickell",
+            "biltmore",
+            "fontainebleau-miami",
+            "1-hotel-south-beach",
+            "the-miami-beach-edition",
+            "st-regis",
+            "the-betsy-hotel-south-beach",
+            "jw-marriott-turnberry"
+        ],
+        introParagraphs: [
+            "Miami and Miami Beach represent the high-energy epicenter of South Florida, blending spectacular ocean coastlines with glittering city skylines, historic Mediterranean charm, and world-renowned design. From the historic luxury of the Biltmore in Coral Gables to the trendy eco-luxury of 1 Hotel South Beach and the high-rise sophistication of Brickell’s financial district, the area offers some of the most iconic hotel experiences in the world.",
+            "To curate this selection, we evaluated properties based on their unique architecture, service excellence, on-site dining, and proximity to Miami's top cultural hotspots. Whether you want to relax at a beachfront beach club in South Beach or experience the rooftop lounge scene in Brickell, these hotels represent the absolute best of Miami.",
+            "These hotels are ideal for travelers seeking a vibrant, high-style vacation with world-class dining, upscale shopping, and spectacular views. For top local restaurant recommendations near each property, check out <a href=\"https://www.soflobites.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\">SoFlo Bites</a>, our sister site showcasing South Florida’s premier dining venues."
+        ],
+        experiences: [
+            {
+                title: "Miami Beach: Parasailing Boat Tour in South Beach",
+                location: "Miami Beach",
+                description: "Fly high over South Beach on a thrilling parasailing adventure.",
+                link: "https://gyg.me/BpbsaCSX"
+            },
+            {
+                title: "Jet ski Tour in Miami with Boat Ride",
+                location: "Miami",
+                description: "Experience a high-speed jet ski tour of Miami's waterways combined with a scenic boat ride.",
+                link: "https://www.viator.com/tours/Miami/Speed-and-Sun-Ultimate-Jetski-in-Miami/d662-118441P7?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Miami: Wynwood Walls Street Art and Food Walking Tour",
+                location: "Miami",
+                description: "Explore the vibrant murals of Wynwood and sample diverse culinary favorites on a guided walking tour.",
+                link: "https://gyg.me/SQm4zcAP"
+            },
+            {
+                title: "Little Havana Food and Walking Tour in Miami",
+                location: "Miami",
+                description: "Discover authentic Cuban cuisine, history, and culture in Miami's historic heart.",
+                link: "https://www.viator.com/tours/Miami/Little-Havana-Food-and-Walking-Tour-in-Miami/d662-5304HAVANA?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Award-winning Art Deco & History Walking Tour in Miami Beach",
+                location: "Miami Beach",
+                description: "Tour the world-famous Art Deco Historic District and learn the history of Versace Mansion.",
+                link: "https://www.viator.com/tours/Miami/Historic-Miami-Beach-and-Versace-Murder-Tour/d662-250325P1?pid=P00314010&mcid=42383&medium=link"
+            }
+        ]
+    },
+    {
+        id: "best-naples-marco-hotels",
+        name: "Best Hotels in Naples & Marco Island",
+        tag: "naples-marco",
+        description: "A curated collection of the finest hotels and resorts in Naples and Marco Island, showcasing Gulf Coast luxury.",
+        icon: "🌅",
+        hotelIds: [
+            "naples-grand",
+            "inn-on-fifth",
+            "la-playa-beach-resort",
+            "ritz-naples",
+            "the-ritz-naples",
+            "naples-four-seasons",
+            "ac-hotel-naples-5th-avenue",
+            "jw-marriott-marco-island"
+        ],
+        introParagraphs: [
+            "Southwest Florida’s Gulf Coast is famed for its calm, warm waters, pristine white-sand beaches, and legendary sunset views. Naples and Marco Island represent the crown jewels of this region, offering a sophisticated, relaxed coastal lifestyle characterized by world-class golf courses, high-end shopping avenues, and luxury beachfront sanctuaries that set the standard for hospitality.",
+            "To select these premier properties, we focused on beachfront access, pool amenities, golf course quality, and proximity to Naples' famous Fifth Avenue South shopping and dining. From the classic Polynesian-style paradise of the JW Marriott Marco Island to the chic, modern AC Hotel Naples 5th Avenue and the ultra-exclusive beachfront at LaPlaya, these resorts represent the finest Southwest Florida has to offer.",
+            "These properties are ideal for travelers seeking a peaceful, luxury-focused coastal getaway with exceptional dining, tennis, golf, and Gulf sunsets. To explore top local dining spots near each resort, visit <a href=\"https://www.soflobites.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\">SoFlo Bites</a>, our sister site showing the best restaurants across Naples and Marco Island."
+        ],
+        experiences: [
+            {
+                title: "Dolphin and Shelling Cruise for up to 12 people",
+                location: "Naples",
+                description: "Search for dolphins and collect pristine shells in the Ten Thousand Islands.",
+                link: "https://www.viator.com/tours/Naples/Ten-Thousand-Islands-Adventure-Boat-Tour/d22381-64741P1?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Marco Island Wildlife Sightseeing and Shelling Tour",
+                location: "Marco Island",
+                description: "Cruise through the mangrove forests of Marco Island to see wildlife and historic dome homes.",
+                link: "https://www.viator.com/tours/Naples/Cape-Romano-Shelling-and-Sightseeing-Tour/d22381-30481P3?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Manatees and Mangrove Tunnels Small Group Kayak Tour",
+                location: "Naples",
+                description: "Paddle through quiet mangrove forest tunnels and watch for wild Florida manatees.",
+                link: "https://www.viator.com/tours/Naples/Mangrove-Tunnels-and-Manatees-Tour/d22381-54503P1?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Sightseeing and Sunset Catamaran Sailing Excursion",
+                location: "Naples",
+                description: "A peaceful sailing cruise along the Naples coast to watch the sunset.",
+                link: "https://www.viator.com/tours/Naples/Sunset-and-Sightseeing-Day-Sail/d22381-188339P2?pid=P00314010&mcid=42383&medium=link"
+            }
+        ]
+    }
+];
+
+const EDITORIAL_GUIDES = [
+    {
+        id: "miami-neighborhood-guide",
+        name: "Where to Stay in Miami & Miami Beach: Neighborhood Guide",
+        description: "An expert neighborhood breakdown mapping out where to stay in Miami, from Brickell's high-rises to South Beach's iconic shores.",
+        icon: "🌴",
+        introParagraphs: [
+            "Miami and Miami Beach are composed of unique, culturally diverse neighborhoods, each offering a distinct vibe, architecture, and lifestyle. Choosing where to base your stay can make or break your trip. If you want walkability to high-end shopping and financial skyscrapers, you'll love Brickell. If historic European elegance is your preference, Coral Gables is unmatched. And for classic white sands and vibrant nightlife, South Beach and Mid-Beach remain the ultimate coastal playgrounds.",
+            "This guide breaks down Miami's top neighborhoods to help you find the perfect area for your vacation. Under each area, we have highlighted our top-recommended hotels with detailed breakdowns of their locations, highlights, and local settings.",
+            "For premier local dining recommendations in each of these neighborhoods, be sure to check out <a href=\"https://www.soflobites.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\">SoFlo Bites</a>, our sister dining guide showcasing the best restaurants across Miami."
+        ],
+        sections: [
+            {
+                title: "Brickell",
+                description: "Miami's sleek financial district, known for its glittering glass high-rises, upscale dining, and the high-end Brickell City Centre. Perfect for business travelers and those seeking an urban, high-style atmosphere.",
+                hotelIds: ["jw-marriott-brickell", "aloft-miami-brickell"]
+            },
+            {
+                title: "Downtown",
+                description: "A cultural hub featuring beautiful waterfront parks, Bayside Marketplace, and major venues like the Kaseya Center. Offers convenient transit access and spectacular views of Biscayne Bay.",
+                hotelIds: ["intercontinental-miami"]
+            },
+            {
+                title: "Coral Gables",
+                description: "Famous for its historic Mediterranean revival architecture, tree-lined avenues, ivy-covered plazas, and the famous Coral Gables Venetian Pool. Ideal for families and couples looking for a historic, peaceful stay.",
+                hotelIds: ["biltmore"]
+            },
+            {
+                title: "South Beach",
+                description: "The historic, high-energy heart of Miami Beach, renowned for its colorful Art Deco buildings, Lummus Park, world-class beach clubs, and iconic dining. Perfect for travelers seeking a lively coastal atmosphere.",
+                hotelIds: ["1-hotel-south-beach", "the-betsy-hotel-south-beach"]
+            },
+            {
+                title: "Mid-Beach",
+                description: "A more relaxed, upscale section of Miami Beach, offering wide sandy shores, scenic boardwalk walks, and sophisticated design hotels that feel separate from the high-energy rush of South Beach.",
+                hotelIds: ["the-miami-beach-edition"]
+            },
+            {
+                title: "North Beach / Bal Harbour",
+                description: "An exclusive beachfront enclave famous for Bal Harbour Shops, quiet residential beaches, and elite luxury resorts offering unmatched privacy and high-end services.",
+                hotelIds: ["st-regis", "fontainebleau-miami"]
+            }
+        ],
+        experiences: [
+            {
+                title: "Miami Beach: Parasailing Boat Tour in South Beach",
+                location: "Miami Beach",
+                description: "Fly high over South Beach on a thrilling parasailing adventure.",
+                link: "https://gyg.me/BpbsaCSX"
+            },
+            {
+                title: "Jet ski Tour in Miami with Boat Ride",
+                location: "Miami",
+                description: "Experience a high-speed jet ski tour of Miami's waterways combined with a scenic boat ride.",
+                link: "https://www.viator.com/tours/Miami/Speed-and-Sun-Ultimate-Jetski-in-Miami/d662-118441P7?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Miami: Wynwood Walls Street Art and Food Walking Tour",
+                location: "Miami",
+                description: "Explore the vibrant murals of Wynwood and sample diverse culinary favorites on a guided walking tour.",
+                link: "https://gyg.me/SQm4zcAP"
+            },
+            {
+                title: "Little Havana Food and Walking Tour in Miami",
+                location: "Miami",
+                description: "Discover authentic Cuban cuisine, history, and culture in Miami's historic heart.",
+                link: "https://www.viator.com/tours/Miami/Little-Havana-Food-and-Walking-Tour-in-Miami/d662-5304HAVANA?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Award-winning Art Deco & History Walking Tour in Miami Beach",
+                location: "Miami Beach",
+                description: "Tour the world-famous Art Deco Historic District and learn the history of Versace Mansion.",
+                link: "https://www.viator.com/tours/Miami/Historic-Miami-Beach-and-Versace-Murder-Tour/d662-250325P1?pid=P00314010&mcid=42383&medium=link"
+            }
+        ]
+    },
+    {
+        id: "palm-beach-breakers-guide",
+        name: "Palm Beach Hotel Guide: Staying at The Breakers",
+        description: "A dedicated guide to Palm Beach's most historic and legendary oceanfront resort, detailing the experience of staying at The Breakers.",
+        icon: "🏰",
+        introParagraphs: [
+            "Palm Beach is defined by its old-world, high-society luxury and pristine coastlines. At the center of this exclusive enclave sits The Breakers, an iconic oceanfront landmark originally founded by railroad tycoon Henry Flagler in 1896. Modeled after the majestic Villa Medici in Rome, this historic property represents the absolute pinnacle of luxury and hospitality in the United States.",
+            "This guide focuses on the unparalleled amenities, dining, and activities available when staying at The Breakers, along with nearby attractions on Palm Beach's historic Worth Avenue.",
+            "For recommendations on where to dine near the resort, visit our sister publication <a href=\"https://www.soflobites.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\">SoFlo Bites</a>, featuring the best culinary venues in Palm Beach."
+        ],
+        sections: [
+            {
+                title: "Palm Beach",
+                description: "The exclusive barrier island of Palm Beach features manicured streets, historic mansions, Worth Avenue shopping, and grand beachfront landmarks.",
+                hotelIds: ["the-breakers-palm-beach"]
+            }
+        ],
+        experiences: [
+            {
+                title: "Sightseeing Hakuna Matata Catamaran Cruise in Palm Beach",
+                location: "Palm Beach",
+                description: "Board the catamaran passenger ferry Hakuna Matata for a scenic sightseeing cruise around Palm Beach.",
+                link: "https://www.viator.com/tours/West-Palm-Beach/Sightseeing-Catamaran-Cruise/d24204-218537P2?pid=P00314010&mcid=42383&medium=link"
+            }
+        ]
+    },
+    {
+        id: "naples-areas-explained",
+        name: "Naples Hotel Areas Explained: Downtown vs Vanderbilt Beach/North Naples",
+        description: "Decide where to stay in Naples with our breakdown comparing historic Downtown Fifth Avenue dining to the tranquil beachfront at Vanderbilt Beach.",
+        icon: "🌅",
+        introParagraphs: [
+            "Naples is the crown jewel of Florida's Southwest Gulf Coast, famous for its sugary white-sand beaches, premier golf courses, and spectacular sunset views. When planning a trip to Naples, the biggest decision is deciding whether to stay in the historic Downtown area near Fifth Avenue South or along the beachfront at Vanderbilt Beach and North Naples.",
+            "This guide compares the walkable, dining-focused lifestyle of Downtown Naples against the tranquil beachfront resort vibes of Vanderbilt Beach and North Naples, highlighting our top hotel selections in each category.",
+            "To discover top local restaurants near your Naples hotel, check out <a href=\"https://www.soflobites.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\">SoFlo Bites</a> for expert restaurant recommendations."
+        ],
+        sections: [
+            {
+                title: "Downtown Naples",
+                description: "Walkable and sophisticated, Downtown Naples is centered around the historic Fifth Avenue South and Third Street South shopping and dining districts. Offers easy access to the Naples Pier, city parks, and theatrical venues.",
+                hotelIds: ["inn-on-fifth", "ac-hotel-naples-5th-avenue", "naples-four-seasons"]
+            },
+            {
+                title: "Vanderbilt Beach / North Naples",
+                description: "Tranquil beachfront resorts and upscale shopping centers like Mercato define North Naples. Home to beautiful state parks, championship golf courses (like Tiburón), and quiet, relaxing Gulf waters.",
+                hotelIds: ["la-playa-beach-resort", "ritz-naples", "the-ritz-naples", "naples-grand"]
+            }
+        ],
+        experiences: [
+            {
+                title: "Dolphin and Shelling Cruise for up to 12 people",
+                location: "Naples",
+                description: "Search for dolphins and collect pristine shells in the Ten Thousand Islands.",
+                link: "https://www.viator.com/tours/Naples/Ten-Thousand-Islands-Adventure-Boat-Tour/d22381-64741P1?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Marco Island Wildlife Sightseeing and Shelling Tour",
+                location: "Marco Island",
+                description: "Cruise through the mangrove forests of Marco Island to see wildlife and historic dome homes.",
+                link: "https://www.viator.com/tours/Naples/Cape-Romano-Shelling-and-Sightseeing-Tour/d22381-30481P3?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Manatees and Mangrove Tunnels Small Group Kayak Tour",
+                location: "Naples",
+                description: "Paddle through quiet mangrove forest tunnels and watch for wild Florida manatees.",
+                link: "https://www.viator.com/tours/Naples/Mangrove-Tunnels-and-Manatees-Tour/d22381-54503P1?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "Sightseeing and Sunset Catamaran Sailing Excursion",
+                location: "Naples",
+                description: "A peaceful sailing cruise along the Naples coast to watch the sunset.",
+                link: "https://www.viator.com/tours/Naples/Sunset-and-Sightseeing-Day-Sail/d22381-188339P2?pid=P00314010&mcid=42383&medium=link"
+            }
+        ]
+    },
+    {
+        id: "fort-lauderdale-areas-explained",
+        name: "Fort Lauderdale Hotel Areas Explained: Beachfront vs Downtown vs Sawgrass Mills",
+        description: "Compare Fort Lauderdale's distinct lodging hubs: the scenic beachfront boardwalk, walkable downtown Las Olas, or Sawgrass Mills shopping in Sunrise.",
+        icon: "⛵",
+        introParagraphs: [
+            "Fort Lauderdale offers a diverse range of vacation styles, transitioning from quiet coastal waterways to trendy downtown shopping streets and massive retail destinations. When booking a stay, understanding the geography of Fort Lauderdale's primary hotel districts is key to matching your travel goals.",
+            "This guide compares the beachfront boardwalk along A1A, the urban dining scene of Downtown Las Olas and the Riverwalk, and the retail hub of Sawgrass Mills in Sunrise to help you choose the best base.",
+            "For recommendations on the best local dining spots in Fort Lauderdale, head to <a href=\"https://www.soflobites.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\">SoFlo Bites</a>."
+        ],
+        sections: [
+            {
+                title: "Beachfront (A1A / Fort Lauderdale Beach)",
+                description: "Renowned for its scenic pedestrian beachfront boardwalk, pristine sand, and immediate access to the Atlantic. Perfect for traditional sun-and-sand beach vacations.",
+                hotelIds: ["pelican-grand-beach-resort", "courtyard-by-marriott", "the-westin-fort-lauderdale-beach"]
+            },
+            {
+                title: "Downtown (Las Olas / Riverwalk)",
+                description: "Fort Lauderdale's cultural and entertainment center, offering tree-lined sidewalks, historic brick Riverwalk parks, art galleries, and premier dining options.",
+                hotelIds: ["hyatt-centric-las-olas"]
+            },
+            {
+                title: "Sawgrass Mills / Sunrise",
+                description: "Located further inland, this hub centers around Sawgrass Mills Mall, one of the largest outlet malls in the world, and the Amerant Bank Arena. Ideal for shopping excursions and entertainment events.",
+                hotelIds: ["ac-hotel-sunrise"]
+            }
+        ],
+        experiences: [
+            {
+                title: "Fort Lauderdale: Millionaire's Row Cruise with Drinks",
+                location: "Fort Lauderdale",
+                description: "Glide past spectacular mansions and yachts along Millionaire's Row on a guided cruise with drinks included.",
+                link: "https://www.getyourguide.com/fort-lauderdale-l1392/fort-lauderdale-millionaire-s-row-cruise-with-drinks-t624460/?ranking_uuid=0f5612d9-9500-4a21-88b6-56646c7ff814&q=Fort+Lauderdale&date_from=2026-09-14&date_to=2026-09-14"
+            },
+            {
+                title: "Venice of America Fort Lauderdale Sightseeing Cruise",
+                location: "Fort Lauderdale",
+                description: "Experience the best of Fort Lauderdale's waterways on the largest, air-conditioned cruise boat in the city.",
+                link: "https://www.viator.com/tours/Fort-Lauderdale/Venice-of-America-Fort-Lauderdale-Cruise/d660-57834P1?pid=P00314010&mcid=42383&medium=link"
+            },
+            {
+                title: "The Escape Game Sunrise: 60-Minute Adventures at Sawgrass Mills",
+                location: "Sunrise",
+                description: "Team up to find clues and solve puzzles in highly immersive escape rooms located right inside Sawgrass Mills.",
+                link: "https://www.viator.com/tours/Fort-Lauderdale/The-Escape-Game-in-Sawgrass-Mills-60-Minute-Adventures/d660-454008P1?pid=P00314010&mcid=42383&medium=link"
+            }
+        ]
     }
 ];
 
@@ -2305,6 +2779,8 @@ function handleRoute() {
     const privacyTermsView = document.getElementById("privacy-terms-view");
     const bestOfView = document.getElementById("best-of-view");
     const bestOfListDetailView = document.getElementById("best-of-list-detail-view");
+    const editorialGuidesView = document.getElementById("editorial-guides-view");
+    const editorialGuideDetailView = document.getElementById("editorial-guide-detail-view");
     
     const bottomAdBanner = document.getElementById("bottom-ad-banner");
     
@@ -2314,7 +2790,7 @@ function handleRoute() {
     }
     
     // Hide all views by default
-    const views = [homeView, detailView, aboutView, privacyTermsView, bestOfView, bestOfListDetailView];
+    const views = [homeView, detailView, aboutView, privacyTermsView, bestOfView, bestOfListDetailView, editorialGuidesView, editorialGuideDetailView];
     views.forEach(v => { if (v) v.style.display = "none"; });
     if (bottomAdBanner) bottomAdBanner.style.display = "block";
     
@@ -2355,6 +2831,32 @@ function handleRoute() {
             }
             highlightNav("#best-of");
             updateMeta(`${cat.name} | SoFlo Stays`, cat.description);
+            window.scrollTo(0, 0);
+            return;
+        }
+    }
+    
+    if (hash === "#guides") {
+        if (editorialGuidesView) {
+            editorialGuidesView.style.display = "block";
+            renderEditorialGuides();
+        }
+        highlightNav("#guides");
+        updateMeta("Editorial Hotel Guides | SoFlo Stays", "Browse our neighborhood guides, area breakdowns, and expert hotel walkthroughs in South Florida.");
+        window.scrollTo(0, 0);
+        return;
+    }
+    
+    if (hash.startsWith("#guides/")) {
+        const guideId = hash.replace("#guides/", "");
+        const guide = EDITORIAL_GUIDES.find(g => g.id === guideId);
+        if (guide) {
+            if (editorialGuideDetailView) {
+                renderEditorialGuideDetailView(guideId);
+                editorialGuideDetailView.style.display = "block";
+            }
+            highlightNav("#guides");
+            updateMeta(`${guide.name} | SoFlo Stays`, guide.description);
             window.scrollTo(0, 0);
             return;
         }
@@ -2736,7 +3238,7 @@ function renderDetailedPageMarkup(hotel) {
                         <ul class="about-process-list" style="margin: 0;">
                             <li><strong>Signature Amenity:</strong> ${hotel.perk}</li>
                             <li><strong>Local Setting:</strong> Prime location in ${hotel.location} along South Florida's coastal hub.</li>
-                            <li><strong>Wellness &amp; Dining:</strong> Onsite dining and spa services available to guests (${hotel.offersSpa ? 'Spa available' : 'Day services nearby'}).</li>
+                            <li><strong>Wellness &amp; Dining:</strong> Onsite dining ${hotel.offersSpa ? 'and spa services' : ''} available to guests (${hotel.offersSpa ? 'Spa available' : 'No onsite spa'}).</li>
                         </ul>
                     </div>
 
@@ -2902,9 +3404,14 @@ function renderBestOfListDetailView(categoryId) {
     }
     
     // Find matching hotels
-    const matchingHotels = HOTEL_DATA.filter(hotel => 
-        hotel.tags.some(t => normalizeTag(t) === normalizeTag(cat.tag))
-    );
+    let matchingHotels;
+    if (cat.hotelIds) {
+        matchingHotels = cat.hotelIds.map(id => HOTEL_DATA.find(hotel => hotel.id === id)).filter(Boolean);
+    } else {
+        matchingHotels = HOTEL_DATA.filter(hotel => 
+            hotel.tags.some(t => normalizeTag(t) === normalizeTag(cat.tag))
+        );
+    }
     
     const hotelsListHtml = matchingHotels.map(hotel => {
         const tagsHtml = hotel.tags.map(t => `<span class="card-tag">${t}</span>`).join("");
@@ -3001,7 +3508,144 @@ function renderBestOfListDetailView(categoryId) {
     `;
 }
 
-// 10. Dynamic Booking Channels Affiliate Option Selector Modal
+// 10. Editorial Guides View Renderers
+function renderEditorialGuides() {
+    const container = document.getElementById("editorial-guides-list");
+    if (!container) return;
+    
+    container.innerHTML = EDITORIAL_GUIDES.map(guide => {
+        return `
+            <div class="best-of-category-card" onclick="window.location.hash = '#guides/${guide.id}'" style="cursor: pointer;">
+                <div class="best-of-card-header">
+                    <div class="best-of-header-left">
+                        <span class="best-of-cat-icon">${guide.icon}</span>
+                        <div>
+                            <h2 class="best-of-cat-name">${guide.name}</h2>
+                            <p class="best-of-cat-desc">${guide.description}</p>
+                        </div>
+                    </div>
+                    <span class="best-of-arrow">Explore &rarr;</span>
+                </div>
+            </div>
+        `;
+    }).join("");
+}
+
+function renderEditorialGuideDetailView(guideId) {
+    const view = document.getElementById("editorial-guide-detail-view");
+    if (!view) return;
+    
+    const guide = EDITORIAL_GUIDES.find(g => g.id === guideId);
+    if (!guide) {
+        view.innerHTML = `<div class="empty-state">Guide not found.</div>`;
+        return;
+    }
+    
+    // Build sections HTML
+    const sectionsHtml = guide.sections.map(section => {
+        // Map hotels for this section
+        const matchingHotels = section.hotelIds.map(id => HOTEL_DATA.find(hotel => hotel.id === id)).filter(Boolean);
+        
+        const hotelsListHtml = matchingHotels.map(hotel => {
+            const tagsHtml = hotel.tags.map(t => `<span class="card-tag">${t}</span>`).join("");
+            
+            return `
+                <div class="best-of-item-row">
+                    <div class="best-of-item-img-container">
+                        <img src="${hotel.image}" alt="${hotel.name}" class="best-of-item-img">
+                    </div>
+                    <div class="best-of-item-body">
+                        <span class="best-of-item-location">${hotel.location}</span>
+                        <div class="best-of-item-title-row">
+                            <h3 class="best-of-item-title">${hotel.name}</h3>
+                        </div>
+                        <div class="card-tags" style="margin-bottom: 0.75rem;">${tagsHtml}</div>
+                        <p class="best-of-item-desc">${hotel.longDescription}</p>
+                        
+                        <div class="best-of-item-actions">
+                            <button class="btn-secondary" onclick="openDetailsPage('${hotel.id}')">
+                                View Full Details
+                            </button>
+                            <button class="btn-primary" onclick="event.stopPropagation(); window.open('${hotel.bookingUrls.booking}', '_blank')">
+                                Book Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join("");
+        
+        return `
+            <div class="guide-section-block" style="margin-top: 3rem; border-top: 1px solid var(--border-color); padding-top: 2rem;">
+                <h2 class="guide-section-title" style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 800; color: var(--accent-primary); margin-bottom: 0.75rem; letter-spacing: -0.5px;">${section.title}</h2>
+                <p class="guide-section-desc" style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.5; margin-bottom: 2rem; max-width: 800px;">${section.description}</p>
+                <div class="best-of-items-list">
+                    ${hotelsListHtml}
+                </div>
+            </div>
+        `;
+    }).join("");
+    
+    view.innerHTML = `
+        <!-- Back Navigation -->
+        <div class="best-of-back-nav" style="margin-bottom: 2rem;">
+            <a href="#guides" class="back-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                Back to Travel Guides
+            </a>
+        </div>
+        
+        <!-- Header -->
+        <div class="best-of-detail-header">
+            <h1 class="best-of-detail-title" style="margin-bottom: 1.5rem;">${guide.name}</h1>
+            <div class="best-of-detail-description" style="margin-bottom: 2rem;">
+                ${guide.introParagraphs.map(p => `<p class="best-of-detail-desc" style="margin-bottom: 1rem; line-height: 1.6; font-size: 1.1rem; color: var(--text-secondary);">${p}</p>`).join("")}
+            </div>
+        </div>
+        
+        <!-- Guide Sections and Hotels -->
+        <div class="guide-sections-container" style="margin-bottom: 3rem;">
+            ${sectionsHtml}
+        </div>
+
+        <!-- Experiences Section -->
+        ${guide.experiences && guide.experiences.length > 0 ? `
+            <div class="best-of-experiences-section" style="margin-top: 2.5rem; border-top: 1px solid var(--border-color); padding-top: 2.5rem; margin-bottom: 2.5rem;">
+                <div class="best-of-header" style="margin-bottom: 2rem; text-align: left; display: flex; align-items: flex-start; gap: 1.25rem;">
+                    <div style="font-size: 2.2rem; line-height: 1; padding: 0.6rem; background: rgba(13, 148, 136, 0.08); border-radius: var(--border-radius-md); color: #0d9488; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(13, 148, 136, 0.18);">
+                        🧭
+                    </div>
+                    <div style="flex: 1;">
+                        <span class="best-of-tagline" style="color: #0d9488; font-size: 1.05rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px;">Complete Your Outing</span>
+                        <h2 class="best-of-section-title" style="font-family: var(--font-heading); font-size: 2.4rem; font-weight: 800; color: var(--text-primary); margin-top: 0.25rem; margin-bottom: 0.5rem; letter-spacing: -0.5px;">Great Experiences in South Florida</h2>
+                        <p style="color: var(--text-secondary); font-size: 1.1rem; margin: 0; line-height: 1.4;">Pair your stay with one of these highly rated local activities and tours.</p>
+                    </div>
+                </div>
+                <div class="experiences-list" style="display: flex; flex-direction: column; gap: 1.25rem;">
+                    ${guide.experiences.map(exp => `
+                        <a href="${exp.link}" target="_blank" rel="noopener noreferrer" class="experience-card horizontal">
+                            <div class="experience-content" style="flex: 1; display: flex; flex-direction: column; gap: 0.5rem; text-align: left;">
+                                <div style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;">
+                                    <div class="experience-badge" style="display: inline-block; background: rgba(13, 148, 136, 0.1); color: #0d9488; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 50px; text-transform: uppercase; letter-spacing: 0.5px;">
+                                        ${exp.location}
+                                    </div>
+                                    <h3 class="experience-title" style="font-family: var(--font-heading); font-size: 1.2rem; font-weight: 750; color: var(--text-primary); margin: 0; line-height: 1.3;">${exp.title}</h3>
+                                </div>
+                                <p class="experience-desc" style="color: var(--text-secondary); font-size: 0.95rem; margin: 0; line-height: 1.4;">${exp.description || ''}</p>
+                            </div>
+                            <div class="experience-footer">
+                                <span>Book Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </div>
+                        </a>
+                    `).join("")}
+                </div>
+            </div>
+        ` : ""}
+    `;
+}
+
+// 11. Dynamic Booking Channels Affiliate Option Selector Modal
 function openOptionSelector(id, action) {
     const hotel = HOTEL_DATA.find(h => h.id === id);
     if (!hotel) return;

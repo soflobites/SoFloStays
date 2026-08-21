@@ -64,6 +64,7 @@
                     <li class="nav-link active"><a href="#" id="nav-home">Home</a></li>
                     <li class="nav-link"><a href="#hotel-grid" id="nav-explore">Explore Stays</a></li>
                     <li class="nav-link"><a href="#best-of" id="nav-best-of">Best Of</a></li>
+                    <li class="nav-link"><a href="#guides" id="nav-guides">Guides</a></li>
                     <li class="nav-link"><a href="#about" id="nav-about">About</a></li>
                     <li class="nav-link"><a href="https://www.soflobites.com/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-primary); font-weight: 700;">🍽️ Food Guide</a></li>
                 </ul>
@@ -456,6 +457,36 @@
 
         <!-- Best Of List Detail View -->
         <div id="best-of-list-detail-view" class="best-of-list-detail-container" style="display: none;">
+            <!-- Populated dynamically via app.js -->
+        </div>
+
+        <!-- Editorial Guides View -->
+        <div id="editorial-guides-view" class="best-of-container" style="display: none;">
+            <div class="best-of-wrapper">
+                <!-- Back Navigation -->
+                <div class="best-of-back-nav">
+                    <a href="#" class="back-link" onclick="goBackToDirectory(event)">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                        Back to Stays Directory
+                    </a>
+                </div>
+
+                <!-- Header -->
+                <div class="best-of-header">
+                    <span class="best-of-tagline">Editorial Travel Guides</span>
+                    <h1 class="best-of-title">SoFlo Hotel Guides</h1>
+                    <p class="best-of-subtitle">In-depth neighborhood guides, area breakdowns, and expert hotel walkthroughs to help you choose the perfect location for your South Florida trip.</p>
+                </div>
+
+                <!-- Guides List -->
+                <div class="best-of-list" id="editorial-guides-list">
+                    <!-- Populated dynamically via app.js -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Editorial Guide Detail View -->
+        <div id="editorial-guide-detail-view" class="best-of-list-detail-container" style="display: none;">
             <!-- Populated dynamically via app.js -->
         </div>
     </main>
