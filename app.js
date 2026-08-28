@@ -4066,6 +4066,10 @@ function injectSchemaMarkup() {
 
 // 12. Application Initialization
 document.addEventListener("DOMContentLoaded", () => {
+    // Populate Best Stays and Guides list containers on load for SEO / crawlers
+    renderBestOfCategories();
+    renderEditorialGuides();
+
     // Run filtering and render initial listing
     filterAndRender();
     
