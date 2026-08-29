@@ -2753,8 +2753,10 @@ const STATE = {
     selectedPrice: "all",
     selectedTags: [],      // Filter by amenities
     searchQuery: "",
-    savedScrollPosition: 0,
-    shouldRestoreScroll: false
+    scrollPositions: {},   // Maps path to scrollY
+    historyCount: 0,
+    isForwardNavigation: false,
+    isRestoringScroll: false
 };
 
 // 5. Utility functions
@@ -2771,7 +2773,93 @@ function updateMeta(title, description) {
 }
 
 // 6. Router & Navigation logic
+function navigateTo(path) {
+    const parts = path.split("#");
+    const pathname = parts[0] || "/";
+    const hash = parts[1] ? "#" + parts[1] : "";
+    
+    const currentPath = window.location.pathname;
+    if (currentPath !== pathname) {
+        STATE.historyCount++;
+        STATE.isForwardNavigation = true;
+        history.pushState(null, "", pathname + hash);
+        handleRoute();
+    } else if (hash) {
+        if (window.location.hash !== hash) {
+            STATE.historyCount++;
+            history.pushState(null, "", pathname + hash);
+        }
+        const id = hash.substring(1);
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    } else {
+        if (currentPath !== "/") {
+            STATE.historyCount++;
+            STATE.isForwardNavigation = true;
+            history.pushState(null, "", pathname);
+            handleRoute();
+        } else {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    }
+}
+window.navigateTo = navigateTo;
+
+function afterRouteMatched() {
+    const pathname = window.location.pathname;
+    const hash = window.location.hash;
+    
+    if (STATE.isForwardNavigation) {
+        if (hash) {
+            const id = hash.substring(1);
+            const element = document.getElementById(id);
+            if (element) {
+                setTimeout(() => {
+                    element.scrollIntoView({ behavior: "smooth" });
+                }, 100);
+            } else {
+                window.scrollTo(0, 0);
+            }
+        } else {
+            window.scrollTo(0, 0);
+        }
+        STATE.isForwardNavigation = false;
+    } else {
+        const savedPos = STATE.scrollPositions[pathname];
+        if (savedPos !== undefined) {
+            STATE.isRestoringScroll = true;
+            window.scrollTo(0, savedPos);
+            setTimeout(() => {
+                STATE.isRestoringScroll = false;
+            }, 50);
+        } else {
+            if (hash) {
+                const id = hash.substring(1);
+                const element = document.getElementById(id);
+                if (element) {
+                    setTimeout(() => {
+                        element.scrollIntoView({ behavior: "smooth" });
+                    }, 100);
+                } else {
+                    window.scrollTo(0, 0);
+                }
+            } else {
+                window.scrollTo(0, 0);
+            }
+        }
+    }
+}
+
+window.addEventListener("scroll", () => {
+    if (!STATE.isRestoringScroll) {
+        STATE.scrollPositions[window.location.pathname] = window.scrollY;
+    }
+});
+
 function handleRoute() {
+    const pathname = window.location.pathname;
     const hash = window.location.hash;
     const homeView = document.getElementById("home-view");
     const detailView = document.getElementById("hotel-detail-view");
@@ -2784,86 +2872,96 @@ function handleRoute() {
     
     const bottomAdBanner = document.getElementById("bottom-ad-banner");
     
-    // Save scroll position when moving away from home
-    if (homeView && homeView.style.display !== "none" && hash !== "" && hash !== "#" && hash !== "#hotel-grid" && hash !== "#suggest-section") {
-        STATE.savedScrollPosition = window.scrollY;
+    // Determine which view the user came from
+    let currentActiveView = "home";
+    if (detailView && detailView.style.display !== "none") currentActiveView = "hotel-detail";
+    else if (aboutView && aboutView.style.display !== "none") currentActiveView = "about";
+    else if (privacyTermsView && privacyTermsView.style.display !== "none") currentActiveView = "privacy-terms";
+    else if (bestOfView && bestOfView.style.display !== "none") currentActiveView = "best-of";
+    else if (bestOfListDetailView && bestOfListDetailView.style.display !== "none") currentActiveView = "best-of-detail";
+    else if (editorialGuidesView && editorialGuidesView.style.display !== "none") currentActiveView = "guides";
+    else if (editorialGuideDetailView && editorialGuideDetailView.style.display !== "none") currentActiveView = "guides-detail";
+
+    // Track where we are coming from if we are navigating to a hotel details page
+    if (pathname.startsWith("/hotel/")) {
+        STATE.cameFromView = currentActiveView;
     }
-    
+
     // Hide all views by default
     const views = [homeView, detailView, aboutView, privacyTermsView, bestOfView, bestOfListDetailView, editorialGuidesView, editorialGuideDetailView];
     views.forEach(v => { if (v) v.style.display = "none"; });
     if (bottomAdBanner) bottomAdBanner.style.display = "block";
     
     // Route matching
-    if (hash === "#about") {
+    if (pathname === "/about") {
         if (aboutView) aboutView.style.display = "block";
         if (bottomAdBanner) bottomAdBanner.style.display = "none";
-        highlightNav("#about");
+        highlightNav("/about");
         updateMeta("About Us | SoFlo Stays", "Learn about SoFlo Stays, our hotel curation process, review criteria, and our local travel writing team.");
-        window.scrollTo(0, 0);
+        afterRouteMatched();
         return;
     }
     
-    if (hash === "#privacy-terms") {
+    if (pathname === "/privacy-terms") {
         if (privacyTermsView) privacyTermsView.style.display = "block";
-        highlightNav("#privacy-terms");
+        highlightNav("/privacy-terms");
         updateMeta("Privacy Policy & Terms | SoFlo Stays", "Read SoFlo Stays's privacy policy, cookie policy, Google AdSense regulations, and affiliate disclosure terms.");
-        window.scrollTo(0, 0);
+        afterRouteMatched();
         return;
     }
     
-    if (hash === "#best-of") {
+    if (pathname === "/best-of") {
         if (bestOfView) bestOfView.style.display = "block";
-        highlightNav("#best-of");
+        highlightNav("/best-of");
         renderBestOfCategories();
         updateMeta("Curated Best Stays | SoFlo Stays", "Browse our hand-picked compilations of South Florida's best beachfront resorts, historic boutique stays, and luxury escapes.");
-        window.scrollTo(0, 0);
+        afterRouteMatched();
         return;
     }
     
-    if (hash.startsWith("#best-of/")) {
-        const catId = hash.replace("#best-of/", "");
+    if (pathname.startsWith("/best-of/")) {
+        const catId = pathname.replace("/best-of/", "");
         const cat = BEST_OF_CATEGORIES.find(c => c.id === catId);
         if (cat) {
             if (bestOfListDetailView) {
                 renderBestOfListDetailView(catId);
                 bestOfListDetailView.style.display = "block";
             }
-            highlightNav("#best-of");
+            highlightNav("/best-of");
             updateMeta(`${cat.name} | SoFlo Stays`, cat.description);
-            window.scrollTo(0, 0);
+            afterRouteMatched();
             return;
         }
     }
     
-    if (hash === "#guides") {
+    if (pathname === "/guides") {
         if (editorialGuidesView) {
             editorialGuidesView.style.display = "block";
             renderEditorialGuides();
         }
-        highlightNav("#guides");
+        highlightNav("/guides");
         updateMeta("Editorial Hotel Guides | SoFlo Stays", "Browse our neighborhood guides, area breakdowns, and expert hotel walkthroughs in South Florida.");
-        window.scrollTo(0, 0);
+        afterRouteMatched();
         return;
     }
     
-    if (hash.startsWith("#guides/")) {
-        const guideId = hash.replace("#guides/", "");
+    if (pathname.startsWith("/guides/")) {
+        const guideId = pathname.replace("/guides/", "");
         const guide = EDITORIAL_GUIDES.find(g => g.id === guideId);
         if (guide) {
             if (editorialGuideDetailView) {
                 renderEditorialGuideDetailView(guideId);
                 editorialGuideDetailView.style.display = "block";
             }
-            highlightNav("#guides");
+            highlightNav("/guides");
             updateMeta(`${guide.name} | SoFlo Stays`, guide.description);
-            window.scrollTo(0, 0);
+            afterRouteMatched();
             return;
         }
     }
     
-    if (hash.startsWith("#hotel/")) {
-        const id = hash.replace("#hotel/", "");
+    if (pathname.startsWith("/hotel/")) {
+        const id = pathname.replace("/hotel/", "");
         const hotel = HOTEL_DATA.find(h => h.id === id);
         if (hotel) {
             if (detailView) {
@@ -2872,9 +2970,9 @@ function handleRoute() {
             }
             // Trigger AdSense inside detail view if script loaded
             try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {}
-            highlightNav("#hotel-grid");
+            highlightNav("/#hotel-grid");
             updateMeta(`${hotel.name} - ${hotel.location} | SoFlo Stays`, hotel.description);
-            window.scrollTo(0, 0);
+            afterRouteMatched();
             return;
         }
     }
@@ -2882,12 +2980,12 @@ function handleRoute() {
     // Default Route: Home / Listing directory
     if (homeView) homeView.style.display = "block";
     
-    if (hash === "" || hash === "#") {
-        highlightNav("#");
-    } else if (hash === "#hotel-grid") {
-        highlightNav("#hotel-grid");
+    if (hash === "#hotel-grid") {
+        highlightNav("/#hotel-grid");
     } else if (hash === "#suggest-section") {
-        highlightNav("#suggest-section");
+        highlightNav("/#suggest-section");
+    } else {
+        highlightNav("/");
     }
     
     updateMeta(
@@ -2895,21 +2993,7 @@ function handleRoute() {
         "Explore South Florida's finest hotels, beachfront resorts, and boutique hideaways. Filter by location, vibe, and pricing, with direct affiliate booking and nearby dining guides."
     );
     
-    // Restore scroll position or scroll to elements
-    if (STATE.shouldRestoreScroll) {
-        window.scrollTo(0, STATE.savedScrollPosition);
-        STATE.shouldRestoreScroll = false;
-    } else {
-        if (hash === "#hotel-grid") {
-            const gridEl = document.getElementById("hotel-grid");
-            if (gridEl) gridEl.scrollIntoView({ behavior: "smooth" });
-        } else if (hash === "#suggest-section") {
-            const suggestEl = document.getElementById("suggest-section");
-            if (suggestEl) suggestEl.scrollIntoView({ behavior: "smooth" });
-        } else if (hash === "" || hash === "#") {
-            window.scrollTo(0, 0);
-        }
-    }
+    afterRouteMatched();
 }
 
 function highlightNav(currentId) {
@@ -2919,9 +3003,7 @@ function highlightNav(currentId) {
         const a = li.querySelector("a");
         if (a) {
             const href = a.getAttribute("href");
-            if (currentId === "#" && href === "#") {
-                li.classList.add("active");
-            } else if (currentId !== "#" && href === currentId) {
+            if (href === currentId) {
                 li.classList.add("active");
             }
         }
@@ -2930,8 +3012,11 @@ function highlightNav(currentId) {
 
 function goBackToDirectory(event) {
     if (event) event.preventDefault();
-    STATE.shouldRestoreScroll = true;
-    window.location.hash = "#hotel-grid";
+    if (STATE.historyCount > 0) {
+        window.history.back();
+    } else {
+        navigateTo("/#hotel-grid");
+    }
 }
 
 // 7. Filtering & Rendering Logic
@@ -3051,9 +3136,9 @@ function renderHotelCardMarkup(hotel) {
             </div>
             
             <div class="card-actions">
-                <button class="btn-secondary" onclick="openDetailsPage('${hotel.id}')" style="width: 100%;">
+                <a href="/hotel/${hotel.id}" class="btn-secondary" style="width: 100%; display: block; text-align: center; text-decoration: none; box-sizing: border-box;">
                     Details &amp; Perks
-                </button>
+                </a>
                 <button class="btn-primary" onclick="event.stopPropagation(); window.open('${hotel.bookingUrls.booking}', '_blank')" style="width: 100%;">
                     Book Stay
                 </button>
@@ -3063,11 +3148,18 @@ function renderHotelCardMarkup(hotel) {
 }
 
 function openDetailsPage(id) {
-    window.location.hash = `#hotel/${id}`;
+    navigateTo(`/hotel/${id}`);
 }
 
 // 8. Detailed Hotel View Renderer
 function renderDetailedPageMarkup(hotel) {
+    let backLabel = "Back to Explore Directory";
+    if (STATE.cameFromView === "best-of-detail") {
+        backLabel = "Back to Best Of List";
+    } else if (STATE.cameFromView === "guides-detail") {
+        backLabel = "Back to Guide";
+    }
+
     // Dynamic hotel features checkboxes
     const featuresHtml = hotel.tags.map(t => `
         <span class="feature-indicator active">
@@ -3199,9 +3291,9 @@ function renderDetailedPageMarkup(hotel) {
         <div class="detail-page-wrapper">
             <!-- Back Navigation -->
             <div class="detail-back-nav">
-                <a href="#" class="back-link" onclick="goBackToDirectory(event)">
+                <a href="/" class="back-link" onclick="goBackToDirectory(event)">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
-                    Back to Explore Stays
+                    ${backLabel}
                 </a>
             </div>
             
@@ -3377,7 +3469,7 @@ function renderBestOfCategories() {
     
     container.innerHTML = BEST_OF_CATEGORIES.map(cat => {
         return `
-            <div class="best-of-category-card" onclick="window.location.hash = '#best-of/${cat.id}'" style="cursor: pointer;">
+            <a href="/best-of/${cat.id}" class="best-of-category-card" style="cursor: pointer; text-decoration: none; display: block;">
                 <div class="best-of-card-header">
                     <div class="best-of-header-left">
                         <span class="best-of-cat-icon">${cat.icon}</span>
@@ -3388,7 +3480,7 @@ function renderBestOfCategories() {
                     </div>
                     <span class="best-of-arrow">Explore &rarr;</span>
                 </div>
-            </div>
+            </a>
         `;
     }).join("");
 }
@@ -3430,9 +3522,9 @@ function renderBestOfListDetailView(categoryId) {
                     <p class="best-of-item-desc">${hotel.longDescription}</p>
                     
                     <div class="best-of-item-actions">
-                        <button class="btn-secondary" onclick="openDetailsPage('${hotel.id}')">
+                        <a href="/hotel/${hotel.id}" class="btn-secondary" style="display: inline-block; text-align: center; text-decoration: none;">
                             View Full Details
-                        </button>
+                        </a>
                         <button class="btn-primary" onclick="event.stopPropagation(); window.open('${hotel.bookingUrls.booking}', '_blank')">
                             Book Now
                         </button>
@@ -3445,7 +3537,7 @@ function renderBestOfListDetailView(categoryId) {
     view.innerHTML = `
         <!-- Back Navigation -->
         <div class="best-of-back-nav" style="margin-bottom: 2rem;">
-            <a href="#best-of" class="back-link">
+            <a href="/best-of" class="back-link" onclick="if (STATE.historyCount > 0) { window.history.back(); event.preventDefault(); }">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
                 Back to Best Stays Curations
             </a>
@@ -3515,7 +3607,7 @@ function renderEditorialGuides() {
     
     container.innerHTML = EDITORIAL_GUIDES.map(guide => {
         return `
-            <div class="best-of-category-card" onclick="window.location.hash = '#guides/${guide.id}'" style="cursor: pointer;">
+            <a href="/guides/${guide.id}" class="best-of-category-card" style="cursor: pointer; text-decoration: none; display: block;">
                 <div class="best-of-card-header">
                     <div class="best-of-header-left">
                         <span class="best-of-cat-icon">${guide.icon}</span>
@@ -3526,7 +3618,7 @@ function renderEditorialGuides() {
                     </div>
                     <span class="best-of-arrow">Explore &rarr;</span>
                 </div>
-            </div>
+            </a>
         `;
     }).join("");
 }
@@ -3563,9 +3655,9 @@ function renderEditorialGuideDetailView(guideId) {
                         <p class="best-of-item-desc">${hotel.longDescription}</p>
                         
                         <div class="best-of-item-actions">
-                            <button class="btn-secondary" onclick="openDetailsPage('${hotel.id}')">
+                            <a href="/hotel/${hotel.id}" class="btn-secondary" style="display: inline-block; text-align: center; text-decoration: none;">
                                 View Full Details
-                            </button>
+                            </a>
                             <button class="btn-primary" onclick="event.stopPropagation(); window.open('${hotel.bookingUrls.booking}', '_blank')">
                                 Book Now
                             </button>
@@ -3589,7 +3681,7 @@ function renderEditorialGuideDetailView(guideId) {
     view.innerHTML = `
         <!-- Back Navigation -->
         <div class="best-of-back-nav" style="margin-bottom: 2rem;">
-            <a href="#guides" class="back-link">
+            <a href="/guides" class="back-link" onclick="if (STATE.historyCount > 0) { window.history.back(); event.preventDefault(); }">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
                 Back to Travel Guides
             </a>
@@ -4079,8 +4171,41 @@ document.addEventListener("DOMContentLoaded", () => {
     // Inject Schema.org dynamic markup
     injectSchemaMarkup();
     
-    // Routing listeners
-    window.addEventListener("hashchange", handleRoute);
+    window.addEventListener("popstate", () => {
+        if (STATE.historyCount > 0) {
+            STATE.historyCount--;
+        }
+        handleRoute();
+    });
+    
+    // Intercept relative link clicks to route them with History API instead of page reload
+    document.addEventListener("click", (e) => {
+        const link = e.target.closest("a");
+        if (!link) return;
+        
+        const href = link.getAttribute("href");
+        if (href && (href.startsWith("/") || href.startsWith("#") || href === "")) {
+            if (link.target === "_blank") return;
+            if (link.hasAttribute("download") || href.includes("://") || href.startsWith("tel:") || href.startsWith("mailto:")) return;
+            
+            e.preventDefault();
+            
+            // If it's a page anchor scroll target
+            if (href.startsWith("#") && !href.startsWith("#hotel/") && !href.startsWith("#best-of") && !href.startsWith("#guides") && !href.startsWith("#about") && !href.startsWith("#privacy-terms")) {
+                const targetId = href.substring(1);
+                if (targetId) {
+                    const el = document.getElementById(targetId);
+                    if (el) el.scrollIntoView({ behavior: "smooth" });
+                } else {
+                    navigateTo("/");
+                }
+                return;
+            }
+            
+            navigateTo(href);
+        }
+    });
+
     handleRoute();
 
     // Form toggle for general comments or hotel suggestions
