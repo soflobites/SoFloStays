@@ -2755,6 +2755,13 @@ const STATE = {
     searchQuery: "",
     scrollPositions: {},   // Maps path to scrollY
     historyCount: 0,
+    currentPath: "/",
+    activeView: "home",
+    activePath: "/#hotel-grid",
+    cameFromPath: "/#hotel-grid",
+    cameFromView: "home",
+    currentBestOfCatId: null,
+    currentGuideId: null,
     isForwardNavigation: false,
     isRestoringScroll: false
 };
@@ -2778,16 +2785,25 @@ function navigateTo(path) {
     const pathname = parts[0] || "/";
     const hash = parts[1] ? "#" + parts[1] : "";
     
-    const currentPath = window.location.pathname;
+    const isFile = window.location.protocol === "file:";
+    const currentPath = (isFile && STATE.currentPath) ? STATE.currentPath : window.location.pathname;
+    
     if (currentPath !== pathname) {
         STATE.historyCount++;
         STATE.isForwardNavigation = true;
-        history.pushState(null, "", pathname + hash);
+        STATE.currentPath = pathname;
+        if (!isFile) {
+            try {
+                history.pushState(null, "", pathname + hash);
+            } catch (e) {}
+        }
         handleRoute();
     } else if (hash) {
-        if (window.location.hash !== hash) {
+        if (!isFile && window.location.hash !== hash) {
             STATE.historyCount++;
-            history.pushState(null, "", pathname + hash);
+            try {
+                history.pushState(null, "", pathname + hash);
+            } catch (e) {}
         }
         const id = hash.substring(1);
         const element = document.getElementById(id);
@@ -2798,7 +2814,12 @@ function navigateTo(path) {
         if (currentPath !== "/") {
             STATE.historyCount++;
             STATE.isForwardNavigation = true;
-            history.pushState(null, "", pathname);
+            STATE.currentPath = "/";
+            if (!isFile) {
+                try {
+                    history.pushState(null, "", pathname);
+                } catch (e) {}
+            }
             handleRoute();
         } else {
             window.scrollTo({ top: 0, behavior: "smooth" });
@@ -2808,7 +2829,8 @@ function navigateTo(path) {
 window.navigateTo = navigateTo;
 
 function afterRouteMatched() {
-    const pathname = window.location.pathname;
+    const isFile = window.location.protocol === "file:";
+    const pathname = (isFile && STATE.currentPath) ? STATE.currentPath : window.location.pathname;
     const hash = window.location.hash;
     
     if (STATE.isForwardNavigation) {
@@ -2854,12 +2876,15 @@ function afterRouteMatched() {
 
 window.addEventListener("scroll", () => {
     if (!STATE.isRestoringScroll) {
-        STATE.scrollPositions[window.location.pathname] = window.scrollY;
+        const isFile = window.location.protocol === "file:";
+        const currentPath = (isFile && STATE.currentPath) ? STATE.currentPath : window.location.pathname;
+        STATE.scrollPositions[currentPath] = window.scrollY;
     }
 });
 
 function handleRoute() {
-    const pathname = window.location.pathname;
+    const isFile = window.location.protocol === "file:";
+    const pathname = (isFile && STATE.currentPath) ? STATE.currentPath : window.location.pathname;
     const hash = window.location.hash;
     const homeView = document.getElementById("home-view");
     const detailView = document.getElementById("hotel-detail-view");
@@ -2872,21 +2897,6 @@ function handleRoute() {
     
     const bottomAdBanner = document.getElementById("bottom-ad-banner");
     
-    // Determine which view the user came from
-    let currentActiveView = "home";
-    if (detailView && detailView.style.display !== "none") currentActiveView = "hotel-detail";
-    else if (aboutView && aboutView.style.display !== "none") currentActiveView = "about";
-    else if (privacyTermsView && privacyTermsView.style.display !== "none") currentActiveView = "privacy-terms";
-    else if (bestOfView && bestOfView.style.display !== "none") currentActiveView = "best-of";
-    else if (bestOfListDetailView && bestOfListDetailView.style.display !== "none") currentActiveView = "best-of-detail";
-    else if (editorialGuidesView && editorialGuidesView.style.display !== "none") currentActiveView = "guides";
-    else if (editorialGuideDetailView && editorialGuideDetailView.style.display !== "none") currentActiveView = "guides-detail";
-
-    // Track where we are coming from if we are navigating to a hotel details page
-    if (pathname.startsWith("/hotel/")) {
-        STATE.cameFromView = currentActiveView;
-    }
-
     // Hide all views by default
     const views = [homeView, detailView, aboutView, privacyTermsView, bestOfView, bestOfListDetailView, editorialGuidesView, editorialGuideDetailView];
     views.forEach(v => { if (v) v.style.display = "none"; });
@@ -2894,6 +2904,8 @@ function handleRoute() {
     
     // Route matching
     if (pathname === "/about") {
+        STATE.activeView = "about";
+        STATE.activePath = "/about";
         if (aboutView) aboutView.style.display = "block";
         if (bottomAdBanner) bottomAdBanner.style.display = "none";
         highlightNav("/about");
@@ -2903,6 +2915,8 @@ function handleRoute() {
     }
     
     if (pathname === "/privacy-terms") {
+        STATE.activeView = "privacy-terms";
+        STATE.activePath = "/privacy-terms";
         if (privacyTermsView) privacyTermsView.style.display = "block";
         highlightNav("/privacy-terms");
         updateMeta("Privacy Policy & Terms | SoFlo Stays", "Read SoFlo Stays's privacy policy, cookie policy, Google AdSense regulations, and affiliate disclosure terms.");
@@ -2911,6 +2925,8 @@ function handleRoute() {
     }
     
     if (pathname === "/best-of") {
+        STATE.activeView = "best-of";
+        STATE.activePath = "/best-of";
         if (bestOfView) bestOfView.style.display = "block";
         highlightNav("/best-of");
         renderBestOfCategories();
@@ -2923,6 +2939,9 @@ function handleRoute() {
         const catId = pathname.replace("/best-of/", "");
         const cat = BEST_OF_CATEGORIES.find(c => c.id === catId);
         if (cat) {
+            STATE.currentBestOfCatId = catId;
+            STATE.activeView = "best-of-detail";
+            STATE.activePath = `/best-of/${catId}`;
             if (bestOfListDetailView) {
                 renderBestOfListDetailView(catId);
                 bestOfListDetailView.style.display = "block";
@@ -2935,6 +2954,8 @@ function handleRoute() {
     }
     
     if (pathname === "/guides") {
+        STATE.activeView = "guides";
+        STATE.activePath = "/guides";
         if (editorialGuidesView) {
             editorialGuidesView.style.display = "block";
             renderEditorialGuides();
@@ -2949,6 +2970,9 @@ function handleRoute() {
         const guideId = pathname.replace("/guides/", "");
         const guide = EDITORIAL_GUIDES.find(g => g.id === guideId);
         if (guide) {
+            STATE.currentGuideId = guideId;
+            STATE.activeView = "guides-detail";
+            STATE.activePath = `/guides/${guideId}`;
             if (editorialGuideDetailView) {
                 renderEditorialGuideDetailView(guideId);
                 editorialGuideDetailView.style.display = "block";
@@ -2964,6 +2988,23 @@ function handleRoute() {
         const id = pathname.replace("/hotel/", "");
         const hotel = HOTEL_DATA.find(h => h.id === id);
         if (hotel) {
+            STATE.cameFromView = STATE.activeView || "home";
+            if (STATE.activeView === "best-of-detail") {
+                STATE.cameFromPath = STATE.activePath || (STATE.currentBestOfCatId ? `/best-of/${STATE.currentBestOfCatId}` : "/best-of");
+            } else if (STATE.activeView === "guides-detail") {
+                STATE.cameFromPath = STATE.activePath || (STATE.currentGuideId ? `/guides/${STATE.currentGuideId}` : "/guides");
+            } else if (STATE.activeView === "best-of") {
+                STATE.cameFromPath = "/best-of";
+            } else if (STATE.activeView === "guides") {
+                STATE.cameFromPath = "/guides";
+            } else if (STATE.activeView === "about") {
+                STATE.cameFromPath = "/about";
+            } else if (STATE.activeView === "privacy-terms") {
+                STATE.cameFromPath = "/privacy-terms";
+            } else {
+                STATE.cameFromPath = "/#hotel-grid";
+            }
+            
             if (detailView) {
                 detailView.innerHTML = renderDetailedPageMarkup(hotel);
                 detailView.style.display = "block";
@@ -2978,6 +3019,8 @@ function handleRoute() {
     }
     
     // Default Route: Home / Listing directory
+    STATE.activeView = "home";
+    STATE.activePath = "/#hotel-grid";
     if (homeView) homeView.style.display = "block";
     
     if (hash === "#hotel-grid") {
@@ -3010,9 +3053,33 @@ function highlightNav(currentId) {
     });
 }
 
+function goBackFromHotel(event) {
+    if (event) event.preventDefault();
+    
+    let targetPath = "/#hotel-grid";
+    if (STATE.cameFromView === "best-of-detail") {
+        targetPath = (STATE.cameFromPath && STATE.cameFromPath.startsWith("/best-of/")) 
+            ? STATE.cameFromPath 
+            : (STATE.currentBestOfCatId ? `/best-of/${STATE.currentBestOfCatId}` : "/best-of");
+    } else if (STATE.cameFromView === "guides-detail") {
+        targetPath = (STATE.cameFromPath && STATE.cameFromPath.startsWith("/guides/")) 
+            ? STATE.cameFromPath 
+            : (STATE.currentGuideId ? `/guides/${STATE.currentGuideId}` : "/guides");
+    } else if (STATE.cameFromPath && !STATE.cameFromPath.startsWith("/hotel/")) {
+        targetPath = STATE.cameFromPath;
+    }
+    
+    if (window.location.protocol !== "file:" && STATE.historyCount > 0) {
+        window.history.back();
+    } else {
+        navigateTo(targetPath);
+    }
+}
+window.goBackFromHotel = goBackFromHotel;
+
 function goBackToDirectory(event) {
     if (event) event.preventDefault();
-    if (STATE.historyCount > 0) {
+    if (window.location.protocol !== "file:" && STATE.historyCount > 0) {
         window.history.back();
     } else {
         navigateTo("/#hotel-grid");
@@ -3034,24 +3101,29 @@ function filterAndRender() {
             hotel.perk.toLowerCase().includes(query) ||
             hotel.tags.some(t => normalizeTag(t).includes(query));
             
-        // Check active sidebar filters
+        // 1. Location filter (takes priority - only hotels in selected location appear)
         const hasLocs = STATE.selectedLocations.length > 0;
-        const hasPrice = STATE.selectedPrice !== "all";
-        const hasTags = STATE.selectedTags.length > 0;
-        const hasAnyFilter = hasLocs || hasPrice || hasTags;
-        
-        let matchesFilters = true;
-        if (hasAnyFilter) {
-            const matchesLoc = hasLocs && STATE.selectedLocations.includes(hotel.location.toLowerCase());
-            const matchesPrice = hasPrice && hotel.priceRange === STATE.selectedPrice;
-            const matchesTags = hasTags && STATE.selectedTags.some(t => 
-                hotel.tags.some(ht => normalizeTag(ht) === normalizeTag(t))
-            );
-            
-            matchesFilters = matchesLoc || matchesPrice || matchesTags;
+        if (hasLocs) {
+            const matchesLoc = STATE.selectedLocations.includes(hotel.location.toLowerCase());
+            if (!matchesLoc) return false;
         }
         
-        return matchesSearch && matchesFilters;
+        // 2. Price filter
+        const hasPrice = STATE.selectedPrice !== "all";
+        if (hasPrice) {
+            if (hotel.priceRange !== STATE.selectedPrice) return false;
+        }
+        
+        // 3. Tags / Amenities filter
+        const hasTags = STATE.selectedTags.length > 0;
+        if (hasTags) {
+            const matchesTags = STATE.selectedTags.some(t => 
+                hotel.tags.some(ht => normalizeTag(ht) === normalizeTag(t))
+            );
+            if (!matchesTags) return false;
+        }
+        
+        return matchesSearch;
     });
     
     // Display matches count
@@ -3126,7 +3198,7 @@ function renderHotelCardMarkup(hotel) {
             <span class="card-price-badge" title="Price Category: ${hotel.priceRange}">${hotel.priceRange}</span>
         </div>
         <div class="card-body">
-            <h3 class="card-title">${hotel.name}</h3>
+            <h3 class="card-title"><a href="/hotel/${hotel.id}">${hotel.name}</a></h3>
             <div class="card-tags">${tagsHtml}</div>
             <p class="card-description">${hotel.description}</p>
             
@@ -3137,7 +3209,7 @@ function renderHotelCardMarkup(hotel) {
             
             <div class="card-actions">
                 <a href="/hotel/${hotel.id}" class="btn-secondary" style="width: 100%; display: block; text-align: center; text-decoration: none; box-sizing: border-box;">
-                    Details &amp; Perks
+                    Explore Hotel
                 </a>
                 <button class="btn-primary" onclick="event.stopPropagation(); window.open('${hotel.bookingUrls.booking}', '_blank')" style="width: 100%;">
                     Book Stay
@@ -3154,10 +3226,17 @@ function openDetailsPage(id) {
 // 8. Detailed Hotel View Renderer
 function renderDetailedPageMarkup(hotel) {
     let backLabel = "Back to Explore Directory";
+    let backHref = "/#hotel-grid";
     if (STATE.cameFromView === "best-of-detail") {
         backLabel = "Back to Best Of List";
+        backHref = (STATE.cameFromPath && STATE.cameFromPath.startsWith("/best-of/"))
+            ? STATE.cameFromPath
+            : (STATE.currentBestOfCatId ? `/best-of/${STATE.currentBestOfCatId}` : "/best-of");
     } else if (STATE.cameFromView === "guides-detail") {
         backLabel = "Back to Guide";
+        backHref = (STATE.cameFromPath && STATE.cameFromPath.startsWith("/guides/"))
+            ? STATE.cameFromPath
+            : (STATE.currentGuideId ? `/guides/${STATE.currentGuideId}` : "/guides");
     }
 
     // Dynamic hotel features checkboxes
@@ -3281,9 +3360,9 @@ function renderDetailedPageMarkup(hotel) {
     const relatedButtonsHtml = hotel.tags.map(t => {
         const norm = normalizeTag(t);
         return `
-            <button class="detail-related-btn" onclick="filterByTagAndGoHome('${norm}')">
-                See more ${t} spots
-            </button>
+            <a href="/#hotel-grid" class="detail-related-btn" onclick="filterByTagAndGoHome('${norm}'); event.preventDefault();">
+                Explore ${t} Stays
+            </a>
         `;
     }).join("");
 
@@ -3291,7 +3370,7 @@ function renderDetailedPageMarkup(hotel) {
         <div class="detail-page-wrapper">
             <!-- Back Navigation -->
             <div class="detail-back-nav">
-                <a href="/" class="back-link" onclick="goBackToDirectory(event)">
+                <a href="${backHref}" class="back-link" onclick="goBackFromHotel(event)">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
                     ${backLabel}
                 </a>
@@ -3303,7 +3382,7 @@ function renderDetailedPageMarkup(hotel) {
                 <div class="detail-title-info">
                     <h1 class="detail-title">${hotel.name}</h1>
                     <div class="detail-tags-list">
-                        ${hotel.tags.map(t => `<span class="detail-tag">${t}</span>`).join("")}
+                        ${hotel.tags.map(t => `<span class="detail-tag" onclick="filterByTagAndGoHome('${normalizeTag(t)}')" style="cursor: pointer;" title="Explore ${t} Stays">${t}</span>`).join("")}
                     </div>
                     
                     <p class="detail-long-desc">${hotel.longDescription}</p>
@@ -3516,7 +3595,7 @@ function renderBestOfListDetailView(categoryId) {
                 <div class="best-of-item-body">
                     <span class="best-of-item-location">${hotel.location}</span>
                     <div class="best-of-item-title-row">
-                        <h3 class="best-of-item-title">${hotel.name}</h3>
+                        <h3 class="best-of-item-title"><a href="/hotel/${hotel.id}">${hotel.name}</a></h3>
                     </div>
                     <div class="card-tags" style="margin-bottom: 0.75rem;">${tagsHtml}</div>
                     <p class="best-of-item-desc">${hotel.longDescription}</p>
@@ -3537,7 +3616,7 @@ function renderBestOfListDetailView(categoryId) {
     view.innerHTML = `
         <!-- Back Navigation -->
         <div class="best-of-back-nav" style="margin-bottom: 2rem;">
-            <a href="/best-of" class="back-link" onclick="if (STATE.historyCount > 0) { window.history.back(); event.preventDefault(); }">
+            <a href="/best-of" class="back-link" onclick="if (window.location.protocol !== 'file:' && STATE.historyCount > 0) { window.history.back(); event.preventDefault(); }">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
                 Back to Best Stays Curations
             </a>
@@ -3649,7 +3728,7 @@ function renderEditorialGuideDetailView(guideId) {
                     <div class="best-of-item-body">
                         <span class="best-of-item-location">${hotel.location}</span>
                         <div class="best-of-item-title-row">
-                            <h3 class="best-of-item-title">${hotel.name}</h3>
+                            <h3 class="best-of-item-title"><a href="/hotel/${hotel.id}">${hotel.name}</a></h3>
                         </div>
                         <div class="card-tags" style="margin-bottom: 0.75rem;">${tagsHtml}</div>
                         <p class="best-of-item-desc">${hotel.longDescription}</p>
@@ -3681,7 +3760,7 @@ function renderEditorialGuideDetailView(guideId) {
     view.innerHTML = `
         <!-- Back Navigation -->
         <div class="best-of-back-nav" style="margin-bottom: 2rem;">
-            <a href="/guides" class="back-link" onclick="if (STATE.historyCount > 0) { window.history.back(); event.preventDefault(); }">
+            <a href="/guides" class="back-link" onclick="if (window.location.protocol !== 'file:' && STATE.historyCount > 0) { window.history.back(); event.preventDefault(); }">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
                 Back to Travel Guides
             </a>
@@ -3853,6 +3932,7 @@ function changeCardImage(hotelId, direction) {
 window.openOptionSelector = openOptionSelector;
 window.closeOptionsModal = closeOptionsModal;
 window.openDetailsPage = openDetailsPage;
+window.goBackFromHotel = goBackFromHotel;
 window.goBackToDirectory = goBackToDirectory;
 window.changeCardImage = changeCardImage;
 
@@ -3865,9 +3945,9 @@ function filterByTagAndGoHome(tag) {
     
     // Update active UI elements
     updateFilterUI();
-    
-    window.location.hash = "#hotel-grid";
     filterAndRender();
+    
+    navigateTo("/#hotel-grid");
 }
 window.filterByTagAndGoHome = filterByTagAndGoHome;
 

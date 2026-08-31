@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <base href="/">
+    <script>
+        if (window.location.protocol !== 'file:') {
+            document.write('<base href="/">');
+        }
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5SDET15BY1"></script>
     <script>
