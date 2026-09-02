@@ -4049,7 +4049,75 @@ function renderActiveFilterBadges() {
     }
     
     if (label) label.style.display = hasFilters ? "inline" : "none";
+
+    // Update Mobile Filter Count Badge
+    let activeCount = STATE.selectedLocations.length + STATE.selectedTags.length;
+    if (STATE.selectedPrice !== "all") activeCount++;
+    if (STATE.searchQuery.trim() !== "") activeCount++;
+
+    const mobileBadge = document.getElementById("mobile-filter-count-badge");
+    if (mobileBadge) {
+        if (activeCount > 0) {
+            mobileBadge.textContent = activeCount;
+            mobileBadge.style.display = "inline-flex";
+        } else {
+            mobileBadge.style.display = "none";
+        }
+    }
 }
+
+// Mobile Filter Window Handlers
+function openMobileFilters() {
+    const sidebar = document.getElementById("filter-sidebar");
+    const backdrop = document.getElementById("sidebar-backdrop");
+    if (sidebar) sidebar.classList.add("active");
+    if (backdrop) backdrop.classList.add("active");
+    document.body.style.overflow = "hidden";
+}
+window.openMobileFilters = openMobileFilters;
+
+function closeMobileFilters() {
+    const sidebar = document.getElementById("filter-sidebar");
+    const backdrop = document.getElementById("sidebar-backdrop");
+    if (sidebar) sidebar.classList.remove("active");
+    if (backdrop) backdrop.classList.remove("active");
+    document.body.style.overflow = "";
+}
+window.closeMobileFilters = closeMobileFilters;
+
+function applyMobileFilters() {
+    closeMobileFilters();
+    const gridEl = document.getElementById("hotel-grid");
+    if (gridEl) {
+        gridEl.scrollIntoView({ behavior: "smooth" });
+    }
+}
+window.applyMobileFilters = applyMobileFilters;
+
+function toggleMobileAccordion(titleEl) {
+    if (window.innerWidth > 768) return;
+    const section = titleEl.closest(".filter-section");
+    if (section) {
+        section.classList.toggle("is-expanded");
+    }
+}
+window.toggleMobileAccordion = toggleMobileAccordion;
+
+function resetAllFilters() {
+    STATE.selectedLocations = [];
+    STATE.selectedPrice = "all";
+    STATE.selectedTags = [];
+    STATE.searchQuery = "";
+    updateFilterUI();
+    filterAndRender();
+}
+window.resetAllFilters = resetAllFilters;
+
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+        closeMobileFilters();
+    }
+});
 
 // Filter removal bindings
 function removeLocationFilter(loc) {
@@ -4143,12 +4211,7 @@ function setupFilterEvents() {
     const resetBtn = document.getElementById("reset-filters");
     if (resetBtn) {
         resetBtn.addEventListener("click", () => {
-            STATE.selectedLocations = [];
-            STATE.selectedPrice = "all";
-            STATE.selectedTags = [];
-            STATE.searchQuery = "";
-            updateFilterUI();
-            filterAndRender();
+            resetAllFilters();
         });
     }
 }

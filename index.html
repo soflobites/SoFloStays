@@ -101,113 +101,178 @@
             </div>
         </section>
 
+        <!-- Mobile Filter Trigger Bar (Visible only on <= 768px) -->
+        <div class="mobile-filter-trigger-bar">
+            <button type="button" class="mobile-filter-btn" id="mobile-filter-btn" onclick="openMobileFilters()" aria-label="Open filter options">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="4" y1="21" x2="4" y2="14"></line>
+                    <line x1="4" y1="10" x2="4" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12" y2="3"></line>
+                    <line x1="20" y1="21" x2="20" y2="16"></line>
+                    <line x1="20" y1="12" x2="20" y2="3"></line>
+                    <line x1="1" y1="14" x2="7" y2="14"></line>
+                    <line x1="9" y1="8" x2="15" y2="8"></line>
+                    <line x1="17" y1="16" x2="23" y2="16"></line>
+                </svg>
+                <span>Filters</span>
+                <span id="mobile-filter-count-badge" class="mobile-filter-count-badge" style="display: none;">0</span>
+            </button>
+        </div>
+
+        <!-- Sidebar Backdrop for Mobile -->
+        <div id="sidebar-backdrop" class="sidebar-backdrop" onclick="closeMobileFilters()" aria-hidden="true"></div>
+
         <!-- Main Listing and Filters -->
         <div class="main-layout">
 
             <!-- Sidebar Filters Column -->
-            <aside class="sidebar" aria-label="Filters">
+            <aside class="sidebar" id="filter-sidebar" aria-label="Filters">
                 
-                <!-- Search input block -->
-                <section class="filter-section search-section">
-                    <h2 class="filter-section-title">Search <span>Stays</span></h2>
-                    <div class="search-wrapper">
-                        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="11" cy="11" r="8"></circle>
-                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                        </svg>
-                        <input type="text" id="search-input" class="search-input" placeholder="Search hotel name, location, amenity..." aria-label="Search hotel name, description, or amenities">
+                <!-- Mobile Drawer Header (Pinned Top) -->
+                <div class="mobile-drawer-header">
+                    <div class="mobile-drawer-drag-handle"></div>
+                    <div class="mobile-drawer-title-row">
+                        <div style="display: flex; align-items: center; gap: 0.5rem;">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent-primary);">
+                                <line x1="4" y1="21" x2="4" y2="14"></line>
+                                <line x1="4" y1="10" x2="4" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12" y2="3"></line>
+                                <line x1="20" y1="21" x2="20" y2="16"></line>
+                                <line x1="20" y1="12" x2="20" y2="3"></line>
+                                <line x1="1" y1="14" x2="7" y2="14"></line>
+                                <line x1="9" y1="8" x2="15" y2="8"></line>
+                                <line x1="17" y1="16" x2="23" y2="16"></line>
+                            </svg>
+                            <h2 class="mobile-drawer-title">Filters</h2>
+                        </div>
+                        <button type="button" class="mobile-drawer-close-btn" onclick="closeMobileFilters()" aria-label="Close filters">✕</button>
                     </div>
-                </section>
+                </div>
 
-                <!-- Location Selector block -->
-                <section class="filter-section">
-                    <h2 class="filter-section-title">Location <span>Area</span></h2>
-                    <div class="filter-list" role="group" aria-label="Filter by location">
-                        <button class="filter-item-btn active" data-location="all">
-                            <span class="filter-name">All Locations</span>
-                        </button>
-                        <button class="filter-item-btn" data-location="Miami Beach">
-                            <span class="filter-name">Miami Beach</span>
-                        </button>
-                        <button class="filter-item-btn" data-location="Brickell">
-                            <span class="filter-name">Brickell</span>
-                        </button>
-                        <button class="filter-item-btn" data-location="Fort Lauderdale">
-                            <span class="filter-name">Fort Lauderdale</span>
-                        </button>
-                        <button class="filter-item-btn" data-location="Palm Beach">
-                            <span class="filter-name">Palm Beach</span>
-                        </button>
-                        <button class="filter-item-btn" data-location="Naples">
-                            <span class="filter-name">Naples</span>
-                        </button>
-                        <button class="filter-item-btn" data-location="Vero Beach">
-                            <span class="filter-name">Vero Beach</span>
-                        </button>
-                        <button class="filter-item-btn" data-location="Marco Island">
-                            <span class="filter-name">Marco Island</span>
-                        </button>
-                        <button class="filter-item-btn" data-location="Aventura">
-                            <span class="filter-name">Aventura</span>
-                        </button>
-                        <button class="filter-item-btn" data-location="Coral Gables">
-                            <span class="filter-name">Coral Gables</span>
-                        </button>
-                        <button class="filter-item-btn" data-location="Sunrise">
-                            <span class="filter-name">Sunrise</span>
-                        </button>
-                    </div>
-                </section>
+                <!-- Scrollable Filter Sections Area (Middle) -->
+                <div class="mobile-drawer-scroll-area">
+                    <!-- Search input block -->
+                    <section class="filter-section search-section">
+                        <h2 class="filter-section-title" onclick="toggleMobileAccordion(this)">
+                            <span>Search <span>Stays</span></span>
+                            <svg class="accordion-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </h2>
+                        <div class="search-wrapper">
+                            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                            <input type="text" id="search-input" class="search-input" placeholder="Search hotel name, location, amenity..." aria-label="Search hotel name, description, or amenities">
+                        </div>
+                    </section>
 
-                <!-- Tags / Vibes block -->
-                <section class="filter-section">
-                    <h2 class="filter-section-title">Vibe &amp; <span>Amenities</span></h2>
-                    <div class="filter-list" role="group" aria-label="Filter by amenities">
-                        <button class="filter-item-btn" data-tag="beachfront">
-                            <span class="filter-name">Beachfront</span>
-                        </button>
-                        <button class="filter-item-btn" data-tag="luxury">
-                            <span class="filter-name">Luxury Resorts</span>
-                        </button>
-                        <button class="filter-item-btn" data-tag="boutique">
-                            <span class="filter-name">Boutique Stays</span>
-                        </button>
-                        <button class="filter-item-btn" data-tag="historic">
-                            <span class="filter-name">Historic Charm</span>
-                        </button>
-                        <button class="filter-item-btn" data-tag="family-friendly">
-                            <span class="filter-name">Family-friendly</span>
-                        </button>
-                        <button class="filter-item-btn" data-tag="spa">
-                            <span class="filter-name">Spa &amp; Wellness</span>
-                        </button>
-                        <button class="filter-item-btn" data-tag="rooftop pool">
-                            <span class="filter-name">Rooftop Pool</span>
-                        </button>
-                        <button class="filter-item-btn" data-tag="pet-friendly">
-                            <span class="filter-name">Pet-friendly</span>
-                        </button>
-                    </div>
-                </section>
+                    <!-- Location Selector block -->
+                    <section class="filter-section">
+                        <h2 class="filter-section-title" onclick="toggleMobileAccordion(this)">
+                            <span>Location <span>Area</span></span>
+                            <svg class="accordion-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </h2>
+                        <div class="filter-list" role="group" aria-label="Filter by location">
+                            <button class="filter-item-btn active" data-location="all">
+                                <span class="filter-name">All Locations</span>
+                            </button>
+                            <button class="filter-item-btn" data-location="Miami Beach">
+                                <span class="filter-name">Miami Beach</span>
+                            </button>
+                            <button class="filter-item-btn" data-location="Brickell">
+                                <span class="filter-name">Brickell</span>
+                            </button>
+                            <button class="filter-item-btn" data-location="Fort Lauderdale">
+                                <span class="filter-name">Fort Lauderdale</span>
+                            </button>
+                            <button class="filter-item-btn" data-location="Palm Beach">
+                                <span class="filter-name">Palm Beach</span>
+                            </button>
+                            <button class="filter-item-btn" data-location="Naples">
+                                <span class="filter-name">Naples</span>
+                            </button>
+                            <button class="filter-item-btn" data-location="Vero Beach">
+                                <span class="filter-name">Vero Beach</span>
+                            </button>
+                            <button class="filter-item-btn" data-location="Marco Island">
+                                <span class="filter-name">Marco Island</span>
+                            </button>
+                            <button class="filter-item-btn" data-location="Aventura">
+                                <span class="filter-name">Aventura</span>
+                            </button>
+                            <button class="filter-item-btn" data-location="Coral Gables">
+                                <span class="filter-name">Coral Gables</span>
+                            </button>
+                            <button class="filter-item-btn" data-location="Sunrise">
+                                <span class="filter-name">Sunrise</span>
+                            </button>
+                        </div>
+                    </section>
 
-                <!-- Price Block -->
-                <section class="filter-section">
-                    <h2 class="filter-section-title">Price <span>Range</span></h2>
-                    <div class="filter-list" role="group" aria-label="Filter by price level">
-                        <button class="filter-item-btn active" data-price="all">
-                            <span class="filter-name">All Budgets</span>
-                        </button>
-                        <button class="filter-item-btn" data-price="$$">
-                            <span class="filter-name">$$ - Affordable Comfort</span>
-                        </button>
-                        <button class="filter-item-btn" data-price="$$$">
-                            <span class="filter-name">$$$ - Premium Stay</span>
-                        </button>
-                        <button class="filter-item-btn" data-price="$$$$">
-                            <span class="filter-name">$$$$ - Luxury / Ultra</span>
-                        </button>
-                    </div>
-                </section>
+                    <!-- Tags / Vibes block -->
+                    <section class="filter-section">
+                        <h2 class="filter-section-title" onclick="toggleMobileAccordion(this)">
+                            <span>Vibe &amp; <span>Amenities</span></span>
+                            <svg class="accordion-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </h2>
+                        <div class="filter-list" role="group" aria-label="Filter by amenities">
+                            <button class="filter-item-btn" data-tag="beachfront">
+                                <span class="filter-name">Beachfront</span>
+                            </button>
+                            <button class="filter-item-btn" data-tag="luxury">
+                                <span class="filter-name">Luxury Resorts</span>
+                            </button>
+                            <button class="filter-item-btn" data-tag="boutique">
+                                <span class="filter-name">Boutique Stays</span>
+                            </button>
+                            <button class="filter-item-btn" data-tag="historic">
+                                <span class="filter-name">Historic Charm</span>
+                            </button>
+                            <button class="filter-item-btn" data-tag="family-friendly">
+                                <span class="filter-name">Family-friendly</span>
+                            </button>
+                            <button class="filter-item-btn" data-tag="spa">
+                                <span class="filter-name">Spa &amp; Wellness</span>
+                            </button>
+                            <button class="filter-item-btn" data-tag="rooftop pool">
+                                <span class="filter-name">Rooftop Pool</span>
+                            </button>
+                            <button class="filter-item-btn" data-tag="pet-friendly">
+                                <span class="filter-name">Pet-friendly</span>
+                            </button>
+                        </div>
+                    </section>
+
+                    <!-- Price Block -->
+                    <section class="filter-section">
+                        <h2 class="filter-section-title" onclick="toggleMobileAccordion(this)">
+                            <span>Price <span>Range</span></span>
+                            <svg class="accordion-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </h2>
+                        <div class="filter-list" role="group" aria-label="Filter by price level">
+                            <button class="filter-item-btn active" data-price="all">
+                                <span class="filter-name">All Budgets</span>
+                            </button>
+                            <button class="filter-item-btn" data-price="$$">
+                                <span class="filter-name">$$ - Affordable Comfort</span>
+                            </button>
+                            <button class="filter-item-btn" data-price="$$$">
+                                <span class="filter-name">$$$ - Premium Stay</span>
+                            </button>
+                            <button class="filter-item-btn" data-price="$$$$">
+                                <span class="filter-name">$$$$ - Luxury / Ultra</span>
+                            </button>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Mobile Drawer Pinned Action Footer (Fixed Bottom) -->
+                <div class="mobile-drawer-footer">
+                    <button type="button" class="mobile-drawer-reset-btn" onclick="resetAllFilters()">Clear All</button>
+                    <button type="button" class="mobile-drawer-apply-btn" onclick="applyMobileFilters()">Apply Filters</button>
+                </div>
 
             </aside>
 
