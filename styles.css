@@ -267,6 +267,17 @@ header {
     gap: 2.5rem;
 }
 
+/* Directory Scroll Anchors */
+.explore-directory-anchor {
+    display: block;
+    position: relative;
+    scroll-margin-top: 90px;
+}
+
+#hotel-grid {
+    scroll-margin-top: 140px;
+}
+
 /* Mobile filter elements hidden by default on desktop/laptop */
 .mobile-filter-trigger-bar,
 .sidebar-backdrop,
@@ -2147,7 +2158,9 @@ footer {
         top: auto !important;
         width: 100% !important;
         max-height: 85vh !important;
+        max-height: 85dvh !important;
         height: 85vh !important;
+        height: 85dvh !important;
         background: var(--bg-card, #ffffff) !important;
         border-radius: 20px 20px 0 0 !important;
         border: 1px solid var(--border-color) !important;
@@ -2312,11 +2325,16 @@ footer {
         font-weight: 700;
     }
 
+    .explore-directory-anchor,
+    .mobile-filter-trigger-bar {
+        scroll-margin-top: 20px;
+    }
+
     .mobile-drawer-footer {
         display: flex !important;
         align-items: center;
         gap: 0.75rem;
-        padding: 0.85rem 1.25rem calc(0.85rem + env(safe-area-inset-bottom, 12px)) 1.25rem;
+        padding: 1rem 1.25rem calc(2.75rem + env(safe-area-inset-bottom, 24px)) 1.25rem !important;
         border-top: 1px solid var(--border-color);
         background: var(--bg-card);
         box-shadow: 0 -4px 15px rgba(15, 23, 42, 0.08);
@@ -2326,16 +2344,18 @@ footer {
 
     .mobile-drawer-reset-btn {
         flex: 1;
-        padding: 0.85rem 1rem;
+        padding: 0.95rem 1rem;
         background: var(--bg-main, #f8fafc);
         color: var(--text-secondary, #64748b);
         border: 1px solid var(--border-color, #e2e8f0);
         border-radius: var(--border-radius-sm, 8px);
         font-family: var(--font-heading);
-        font-size: 0.9rem;
+        font-size: 0.95rem;
         font-weight: 600;
         cursor: pointer;
         transition: var(--transition-smooth);
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .mobile-drawer-reset-btn:hover,
@@ -2346,17 +2366,19 @@ footer {
 
     .mobile-drawer-apply-btn {
         flex: 2;
-        padding: 0.85rem 1.25rem;
+        padding: 0.95rem 1.25rem;
         background: var(--accent-gradient);
         color: #ffffff;
         border: none;
         border-radius: var(--border-radius-sm, 8px);
         font-family: var(--font-heading);
-        font-size: 0.95rem;
+        font-size: 1rem;
         font-weight: 700;
         cursor: pointer;
         box-shadow: 0 4px 14px rgba(13, 148, 136, 0.25);
         transition: var(--transition-smooth);
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .mobile-drawer-apply-btn:hover,
