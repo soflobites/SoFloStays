@@ -2757,8 +2757,8 @@ const STATE = {
     historyCount: 0,
     currentPath: "/",
     activeView: "home",
-    activePath: "/#hotel-grid",
-    cameFromPath: "/#hotel-grid",
+    activePath: "/#explore-directory",
+    cameFromPath: "/#explore-directory",
     cameFromView: "home",
     currentBestOfCatId: null,
     currentGuideId: null,
@@ -2805,8 +2805,11 @@ function navigateTo(path) {
                 history.pushState(null, "", pathname + hash);
             } catch (e) {}
         }
-        const id = hash.substring(1);
-        const element = document.getElementById(id);
+        let id = hash.substring(1);
+        if (id === "hotel-grid" || id === "explore-directory") {
+            id = "explore-directory";
+        }
+        const element = document.getElementById(id) || document.getElementById("mobile-filter-trigger-bar") || document.getElementById("hotel-grid");
         if (element) {
             element.scrollIntoView({ behavior: "smooth" });
         }
@@ -2835,8 +2838,11 @@ function afterRouteMatched() {
     
     if (STATE.isForwardNavigation) {
         if (hash) {
-            const id = hash.substring(1);
-            const element = document.getElementById(id);
+            let id = hash.substring(1);
+            if (id === "hotel-grid" || id === "explore-directory") {
+                id = "explore-directory";
+            }
+            const element = document.getElementById(id) || document.getElementById("mobile-filter-trigger-bar") || document.getElementById("hotel-grid");
             if (element) {
                 setTimeout(() => {
                     element.scrollIntoView({ behavior: "smooth" });
@@ -2858,8 +2864,11 @@ function afterRouteMatched() {
             }, 50);
         } else {
             if (hash) {
-                const id = hash.substring(1);
-                const element = document.getElementById(id);
+                let id = hash.substring(1);
+                if (id === "hotel-grid" || id === "explore-directory") {
+                    id = "explore-directory";
+                }
+                const element = document.getElementById(id) || document.getElementById("mobile-filter-trigger-bar") || document.getElementById("hotel-grid");
                 if (element) {
                     setTimeout(() => {
                         element.scrollIntoView({ behavior: "smooth" });
@@ -3002,7 +3011,7 @@ function handleRoute() {
             } else if (STATE.activeView === "privacy-terms") {
                 STATE.cameFromPath = "/privacy-terms";
             } else {
-                STATE.cameFromPath = "/#hotel-grid";
+                STATE.cameFromPath = "/#explore-directory";
             }
             
             if (detailView) {
@@ -3011,7 +3020,7 @@ function handleRoute() {
             }
             // Trigger AdSense inside detail view if script loaded
             try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {}
-            highlightNav("/#hotel-grid");
+            highlightNav("/#explore-directory");
             updateMeta(`${hotel.name} - ${hotel.location} | SoFlo Stays`, hotel.description);
             afterRouteMatched();
             return;
@@ -3020,11 +3029,11 @@ function handleRoute() {
     
     // Default Route: Home / Listing directory
     STATE.activeView = "home";
-    STATE.activePath = "/#hotel-grid";
+    STATE.activePath = "/#explore-directory";
     if (homeView) homeView.style.display = "block";
     
-    if (hash === "#hotel-grid") {
-        highlightNav("/#hotel-grid");
+    if (hash === "#hotel-grid" || hash === "#explore-directory") {
+        highlightNav("/#explore-directory");
     } else if (hash === "#suggest-section") {
         highlightNav("/#suggest-section");
     } else {
@@ -3046,7 +3055,7 @@ function highlightNav(currentId) {
         const a = li.querySelector("a");
         if (a) {
             const href = a.getAttribute("href");
-            if (href === currentId) {
+            if (href === currentId || ((currentId === "/#explore-directory" || currentId === "/#hotel-grid") && (href === "/#explore-directory" || href === "/#hotel-grid"))) {
                 li.classList.add("active");
             }
         }
@@ -3056,7 +3065,7 @@ function highlightNav(currentId) {
 function goBackFromHotel(event) {
     if (event) event.preventDefault();
     
-    let targetPath = "/#hotel-grid";
+    let targetPath = "/#explore-directory";
     if (STATE.cameFromView === "best-of-detail") {
         targetPath = (STATE.cameFromPath && STATE.cameFromPath.startsWith("/best-of/")) 
             ? STATE.cameFromPath 
@@ -3067,6 +3076,7 @@ function goBackFromHotel(event) {
             : (STATE.currentGuideId ? `/guides/${STATE.currentGuideId}` : "/guides");
     } else if (STATE.cameFromPath && !STATE.cameFromPath.startsWith("/hotel/")) {
         targetPath = STATE.cameFromPath;
+        if (targetPath === "/#hotel-grid") targetPath = "/#explore-directory";
     }
     
     if (window.location.protocol !== "file:" && STATE.historyCount > 0) {
@@ -3082,7 +3092,7 @@ function goBackToDirectory(event) {
     if (window.location.protocol !== "file:" && STATE.historyCount > 0) {
         window.history.back();
     } else {
-        navigateTo("/#hotel-grid");
+        navigateTo("/#explore-directory");
     }
 }
 
@@ -3226,7 +3236,7 @@ function openDetailsPage(id) {
 // 8. Detailed Hotel View Renderer
 function renderDetailedPageMarkup(hotel) {
     let backLabel = "Back to Explore Directory";
-    let backHref = "/#hotel-grid";
+    let backHref = "/#explore-directory";
     if (STATE.cameFromView === "best-of-detail") {
         backLabel = "Back to Best Of List";
         backHref = (STATE.cameFromPath && STATE.cameFromPath.startsWith("/best-of/"))
@@ -3360,7 +3370,7 @@ function renderDetailedPageMarkup(hotel) {
     const relatedButtonsHtml = hotel.tags.map(t => {
         const norm = normalizeTag(t);
         return `
-            <a href="/#hotel-grid" class="detail-related-btn" onclick="filterByTagAndGoHome('${norm}'); event.preventDefault();">
+            <a href="/#explore-directory" class="detail-related-btn" onclick="filterByTagAndGoHome('${norm}'); event.preventDefault();">
                 Explore ${t} Stays
             </a>
         `;
@@ -3947,7 +3957,7 @@ function filterByTagAndGoHome(tag) {
     updateFilterUI();
     filterAndRender();
     
-    navigateTo("/#hotel-grid");
+    navigateTo("/#explore-directory");
 }
 window.filterByTagAndGoHome = filterByTagAndGoHome;
 
@@ -4085,14 +4095,35 @@ function closeMobileFilters() {
 }
 window.closeMobileFilters = closeMobileFilters;
 
+let lastActionTime = 0;
 function applyMobileFilters() {
+    const now = Date.now();
+    if (now - lastActionTime < 300) return;
+    lastActionTime = now;
     closeMobileFilters();
-    const gridEl = document.getElementById("hotel-grid");
-    if (gridEl) {
-        gridEl.scrollIntoView({ behavior: "smooth" });
+    const target = document.getElementById("explore-directory") || document.getElementById("mobile-filter-trigger-bar") || document.getElementById("hotel-grid");
+    if (target) {
+        target.scrollIntoView({ behavior: "smooth" });
     }
 }
 window.applyMobileFilters = applyMobileFilters;
+
+function setupMobileDrawerEvents() {
+    const applyBtn = document.querySelector(".mobile-drawer-apply-btn");
+    if (applyBtn) {
+        applyBtn.addEventListener("touchend", (e) => {
+            e.preventDefault();
+            applyMobileFilters();
+        }, { passive: false });
+    }
+    const resetBtn = document.querySelector(".mobile-drawer-reset-btn");
+    if (resetBtn) {
+        resetBtn.addEventListener("touchend", (e) => {
+            e.preventDefault();
+            resetAllFilters();
+        }, { passive: false });
+    }
+}
 
 function toggleMobileAccordion(titleEl) {
     if (window.innerWidth > 768) return;
@@ -4335,10 +4366,13 @@ document.addEventListener("DOMContentLoaded", () => {
             
             // If it's a page anchor scroll target
             if (href.startsWith("#") && !href.startsWith("#hotel/") && !href.startsWith("#best-of") && !href.startsWith("#guides") && !href.startsWith("#about") && !href.startsWith("#privacy-terms")) {
-                const targetId = href.substring(1);
-                if (targetId) {
-                    const el = document.getElementById(targetId);
-                    if (el) el.scrollIntoView({ behavior: "smooth" });
+                let targetId = href.substring(1);
+                if (targetId === "hotel-grid" || targetId === "explore-directory") {
+                    targetId = "explore-directory";
+                }
+                const el = document.getElementById(targetId) || document.getElementById("mobile-filter-trigger-bar") || document.getElementById("hotel-grid");
+                if (el) {
+                    el.scrollIntoView({ behavior: "smooth" });
                 } else {
                     navigateTo("/");
                 }
@@ -4350,6 +4384,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     handleRoute();
+    setupMobileDrawerEvents();
 
     // Form toggle for general comments or hotel suggestions
     const feedbackTypeSelect = document.getElementById("feedback-type");
